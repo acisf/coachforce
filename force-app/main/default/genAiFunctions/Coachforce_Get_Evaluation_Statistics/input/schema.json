@@ -1,0 +1,20 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "agentId" : {
+      "title" : "agentId",
+      "description" : "Salesforce user id",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "daysBack" : {
+      "title" : "daysBack",
+      "description" : "The number of days of recent evaluations to include. Use 30 unless the user asks for a different time period.",
+      "lightning:type" : "lightning__numberType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

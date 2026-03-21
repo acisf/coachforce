@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Retrieves the most recent Coaching Session for the logged-in agent and marks it complete by updating rehearsal completion and status. Used by the Coachforce Employee Agent after a successful coaching practice session.</description>
+    <developerName>Coachforce_Mark_Coaching_Session_Complete</developerName>
+    <invocationTarget>CF_Mark_Coaching_Session_Complete</invocationTarget>
+    <invocationTargetType>flow</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+    <localDeveloperName>Coachforce_Mark_Coaching_Session_Complete</localDeveloperName>
+    <masterLabel>Coachforce - Mark Coaching Session Complete</masterLabel>
+    <progressIndicatorMessage>Marketing coaching session complete...</progressIndicatorMessage>
+</GenAiFunction>

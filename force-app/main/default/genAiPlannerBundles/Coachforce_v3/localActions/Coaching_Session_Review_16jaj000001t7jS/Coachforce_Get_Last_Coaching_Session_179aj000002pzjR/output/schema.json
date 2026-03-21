@@ -1,0 +1,70 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "coachingTopic" : {
+      "title" : "coachingTopic",
+      "description" : "The main focus of the coaching session. Use this to introduce the coaching conversation and name the skill or behavior the agent is improving.\n",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "hasCoaching" : {
+      "title" : "hasCoaching",
+      "description" : "Indicates whether a coaching session exists. If false, inform the agent they have no coaching sessions available.\n",
+      "lightning:type" : "lightning__booleanType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : false,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "improvedScript" : {
+      "title" : "improvedScript",
+      "description" : "The recommended way the agent should respond in similar situations. Present this as a clear example the agent can follow.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "improvementArea" : {
+      "title" : "improvementArea",
+      "description" : "The recommended response the agent should use in a similar situation. Present it clearly as a model script, separated from the rest of the summary.\n",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "rehearsalScenario" : {
+      "title" : "rehearsalScenario",
+      "description" : "A practice scenario based on the coaching session. Use it to invite the agent into a short rehearsal or roleplay exercise.\n",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "status" : {
+      "title" : "status",
+      "description" : "The current status of the coaching session. Use this to determine whether the agent has already completed or still needs to review the coaching.\n",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : false,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "whatWentWell" : {
+      "title" : "whatWentWell",
+      "description" : "Positive feedback from the call. Present this first to reinforce strengths before discussing improvement areas.\n",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType",
+  "lightning:textIndexed" : true
+}

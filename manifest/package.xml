@@ -30,6 +30,8 @@
         <members>CF_Voice_Call__c</members>
         <members>CF_Call_Transcript__c</members>
         <members>CF_Call_Evaluation__c</members>
+        <members>CF_Evaluation_Result__c</members>
+        <members>CF_Evaluation_Template__c</members>
         <members>CF_Coaching_Session__c</members>
         <members>CF_Trend_Detection__c</members>
         <name>CustomTab</name>
@@ -72,6 +74,17 @@
         <members>CF_Coaching_Session</members>
         <members>CF_Transcript_Evaluation</members>
         <name>GenAiPromptTemplateActv</name>
+    </types>
+
+    <!-- GenAI Functions and Bundles -->
+        <types>
+        <members>*</members>
+        <name>GenAiFunction</name>
+    </types>
+    
+    <types>
+        <members>*</members>
+        <name>GenAiPlannerBundle</name>
     </types>
 
     <version>66.0</version>

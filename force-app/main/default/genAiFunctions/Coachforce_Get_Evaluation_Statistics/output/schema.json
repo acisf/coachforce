@@ -1,0 +1,33 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "averageScore" : {
+      "title" : "averageScore",
+      "description" : "The average overall evaluation score for the selected time period. Use this to summarize the agent’s performance.",
+      "lightning:type" : "lightning__numberType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : false,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "hasStatistics" : {
+      "title" : "hasStatistics",
+      "description" : "Indicates whether any evaluation statistics were found.",
+      "lightning:type" : "lightning__booleanType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : false,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "totalEvaluations" : {
+      "title" : "totalEvaluations",
+      "description" : "The number of call evaluations found for the selected time period. Use this to tell the agent how many evaluations were included.",
+      "lightning:type" : "lightning__numberType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}
