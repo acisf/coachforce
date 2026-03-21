@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CF_Category__c</fullName>
+    <label>Category</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Call Opening</fullName>
+                <default>false</default>
+                <label>Call Opening</label>
+            </value>
+            <value>
+                <fullName>Understanding and Confirming Patient Needs</fullName>
+                <default>false</default>
+                <label>Understanding and Confirming Patient Needs</label>
+            </value>
+            <value>
+                <fullName>Brief Caller on Active Practice Messages/Promotions When Appropriate</fullName>
+                <default>false</default>
+                <label>Brief Caller on Active Practice Messages/Promotions When Appropriate</label>
+            </value>
+            <value>
+                <fullName>Responding to Patient Needs and Preferences - Resolution</fullName>
+                <default>false</default>
+                <label>Responding to Patient Needs and Preferences - Resolution</label>
+            </value>
+            <value>
+                <fullName>Collecting Appropriate Data for Appointment Scheduling</fullName>
+                <default>false</default>
+                <label>Collecting Appropriate Data for Appointment Scheduling</label>
+            </value>
+            <value>
+                <fullName>Accurately Completed Transaction and Confirming Details</fullName>
+                <default>false</default>
+                <label>Accurately Completed Transaction and Confirming Details</label>
+            </value>
+            <value>
+                <fullName>Closing Call</fullName>
+                <default>false</default>
+                <label>Closing Call</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

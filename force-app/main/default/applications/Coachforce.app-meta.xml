@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>cficon</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <description>Autonomous call center supervisor and coaching agent.</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Coachforce</label>
+    <navType>Standard</navType>
+    <tabs>CF_Evaluation_Template__c</tabs>
+    <tabs>CF_Evaluation_Criteria__c</tabs>
+    <tabs>CF_Voice_Call__c</tabs>
+    <tabs>CF_Call_Transcript__c</tabs>
+    <tabs>CF_Call_Evaluation__c</tabs>
+    <tabs>CF_Evaluation_Result__c</tabs>
+    <tabs>CF_Coaching_Session__c</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Coachforce_UtilityBar</utilityBar>
+</CustomApplication>

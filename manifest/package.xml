@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <!-- Apex -->
+    <types>
+        <members>CF_AgentTrendAnalysisAction</members>
+        <members>CF_CreateCoachingSessionAction</members>
+        <members>CF_CreateEvaluationResultsAction</members>
+        <members>CF_AgentTrendAnalysisActionTest</members>
+        <members>CF_CreateCoachingSessionActionTest</members>
+        <members>CF_CreateEvaluationResultsActionTest</members>
+        <name>ApexClass</name>
+    </types>
+
+    <!-- Flows -->
+    <types>
+        <members>CoachForce_Supervisor_Onboarding</members>
+        <members>Coachforce_Get_Last_Coaching_Session</members>
+        <name>Flow</name>
+    </types>
+
+    <!-- Custom App -->
+    <types>
+        <members>Coachforce</members>
+        <name>CustomApplication</name>
+    </types>
+
+    <!-- Custom Tabs -->
+    <types>
+        <members>CF_Voice_Call__c</members>
+        <members>CF_Call_Transcript__c</members>
+        <members>CF_Call_Evaluation__c</members>
+        <members>CF_Coaching_Session__c</members>
+        <members>CF_Trend_Detection__c</members>
+        <name>CustomTab</name>
+    </types>
+
+    <!-- Custom Objects -->
+    <types>
+        <members>CF_Voice_Call__c</members>
+        <members>CF_Call_Transcript__c</members>
+        <members>CF_Call_Evaluation__c</members>
+        <members>CF_Evaluation_Result__c</members>
+        <members>CF_Evaluation_Template__c</members>
+        <members>CF_Evaluation_Criteria__c</members>
+        <members>CF_Coaching_Session__c</members>
+        <members>CF_Trend_Detection__c</members>
+        <name>CustomObject</name>
+    </types>
+
+    <!-- Permission Sets -->
+    <types>
+        <members>CoachForce_Admin</members>
+        <members>Coachforce_User</members>
+        <name>PermissionSet</name>
+    </types>
+
+    <!-- Report Types -->
+    <types>
+        <members>*</members>
+        <name>ReportType</name>
+    </types>
+
+    <!-- Prompt Builder Templates -->
+    <types>
+        <members>CF_Coaching_Session</members>
+        <members>CF_Transcript_Evaluation</members>
+        <name>GenAiPromptTemplate</name>
+    </types>
+
+    <types>
+        <members>CF_Coaching_Session</members>
+        <members>CF_Transcript_Evaluation</members>
+        <name>GenAiPromptTemplateActv</name>
+    </types>
+
+    <version>66.0</version>
+</Package>

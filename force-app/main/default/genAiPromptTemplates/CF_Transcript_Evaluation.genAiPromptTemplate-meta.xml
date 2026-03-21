@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionIdentifier>tJBtsqr2jauiFny75bA2QBUlv7DLfIqEHneaRelq24M=_1</activeVersionIdentifier>
+    <description>Evaluate the call transcript using the provided evaluation criteria.</description>
+    <developerName>CF_Transcript_Evaluation</developerName>
+    <masterLabel>Coachforce Transcript Evaluation</masterLabel>
+    <overridable>false</overridable>
+    <templateVersions>
+        <content>You are a call center quality assurance evaluator.
+Evaluate the call transcript using the provided evaluation criteria. 
+TRANSCRIPT:
+{!$Input:CF_Transcript}
+
+CRITERIA:
+{!$Input:CF_EvaluationCriteria}
+
+Return JSON in this format:
+
+{
+  &quot;evaluationtemplate&quot;: &quot;{!$Input:CF_EvaluationTemplate}&quot;,
+  &quot;agentUserId&quot;: &quot;{!$Input:CF_AgentUserId}&quot;,
+  &quot;overallScore&quot;: number,
+  &quot;summary&quot;: &quot;string&quot;,
+  &quot;primaryCoachingTopic&quot;: &quot;string&quot;,
+  &quot;results&quot;: [
+    {
+      &quot;category&quot;: &quot;string&quot;,
+      &quot;criteria&quot;: &quot;string&quot;,
+      &quot;score&quot;: number,
+      &quot;passed&quot;: true/false,
+      &quot;feedback&quot;: &quot;string&quot;
+    }
+  ]
+}
+
+</content>
+        <inputs>
+            <apiName>CF_Transcript</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>Transcript</masterLabel>
+            <referenceName>Input:CF_Transcript</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>CF_CallResult</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>CallResult</masterLabel>
+            <referenceName>Input:CF_CallResult</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>CF_EvaluationTemplate</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>EvaluationTemplate</masterLabel>
+            <referenceName>Input:CF_EvaluationTemplate</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>CF_EvaluationCriteria</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>EvaluationCriteria</masterLabel>
+            <referenceName>Input:CF_EvaluationCriteria</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>CF_AgentUserId</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>AgentUserId</masterLabel>
+            <referenceName>Input:CF_AgentUserId</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <responseFormat>JSON</responseFormat>
+        <status>Published</status>
+        <versionIdentifier>tJBtsqr2jauiFny75bA2QBUlv7DLfIqEHneaRelq24M=_1</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>You are a call center quality assurance evaluator at {!$Organization.Name}
+Evaluate the call transcript using the provided evaluation criteria. 
+TRANSCRIPT:
+{!$Input:CF_Transcript}
+
+CRITERIA:
+{!$Input:CF_EvaluationCriteria}
+
+Return JSON in this format:
+
+{
+  &quot;evaluationtemplate&quot;: &quot;{!$Input:CF_EvaluationTemplate}&quot;,
+  &quot;agentUserId&quot;: &quot;{!$Input:CF_AgentUserId}&quot;,
+  &quot;overallScore&quot;: number,
+  &quot;summary&quot;: &quot;string&quot;,
+  &quot;primaryCoachingTopic&quot;: &quot;string&quot;,
+  &quot;results&quot;: [
+    {
+      &quot;category&quot;: &quot;string&quot;,
+      &quot;criteria&quot;: &quot;string&quot;,
+      &quot;score&quot;: number,
+      &quot;passed&quot;: true/false,
+      &quot;feedback&quot;: &quot;string&quot;
+    }
+  ]
+}
+
+</content>
+        <inputs>
+            <apiName>CF_Transcript</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>Transcript</masterLabel>
+            <referenceName>Input:CF_Transcript</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>CF_CallResult</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>CallResult</masterLabel>
+            <referenceName>Input:CF_CallResult</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>CF_EvaluationTemplate</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>EvaluationTemplate</masterLabel>
+            <referenceName>Input:CF_EvaluationTemplate</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>CF_EvaluationCriteria</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>EvaluationCriteria</masterLabel>
+            <referenceName>Input:CF_EvaluationCriteria</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>CF_AgentUserId</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>AgentUserId</masterLabel>
+            <referenceName>Input:CF_AgentUserId</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <responseFormat>JSON</responseFormat>
+        <status>Draft</status>
+        <versionIdentifier>tJBtsqr2jauiFny75bA2QBUlv7DLfIqEHneaRelq24M=_3</versionIdentifier>
+    </templateVersions>
+    <type>einstein_gpt__flex</type>
+    <visibility>Global</visibility>
+</GenAiPromptTemplate>

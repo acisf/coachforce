@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionIdentifier>tJBtsqr2jauiFny75bA2QBUlv7DLfIqEHneaRelq24M=_5</activeVersionIdentifier>
+    <developerName>CF_Coaching_Session</developerName>
+    <masterLabel>Coachforce Coaching Generation</masterLabel>
+    <overridable>false</overridable>
+    <templateVersions>
+        <content>You are a call center coach for a new hire.
+
+Generate coaching feedback including:
+- What the agent did well
+- What needs improvement
+- One improved script example
+- One rehearsal scenario
+
+Return JSON:
+
+{
+  &quot;coachingTopic&quot;: &quot;&quot;,
+  &quot;whatWentWell&quot;: &quot;&quot;,
+  &quot;improvementArea&quot;: &quot;&quot;,
+  &quot;improvedScript&quot;: &quot;&quot;,
+  &quot;rehearsalScenario&quot;: &quot;&quot;
+}
+
+</content>
+        <inputs>
+            <apiName>CF_Transcript</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>Transcript</masterLabel>
+            <referenceName>Input:CF_Transcript</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>CF_EvaluationSummary</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>EvaluationSummary</masterLabel>
+            <referenceName>Input:CF_EvaluationSummary</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>CFPrimaryCoachingTopic</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>PrimaryCoachingTopic</masterLabel>
+            <referenceName>Input:CFPrimaryCoachingTopic</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <responseFormat>JSON</responseFormat>
+        <status>Published</status>
+        <versionIdentifier>tJBtsqr2jauiFny75bA2QBUlv7DLfIqEHneaRelq24M=_1</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>You are a call center coach for a new hire.
+
+Using the call transcript and the evaluation JSON output when the call was evaluated, generate coaching feedback including:
+- Coaching topic
+- What the agent did well
+- What needs improvement
+- One improved script example
+- One rehearsal scenario
+
+CALL TRANSCRIPT:
+{!$Input:CF_Transcript}
+
+EvaluationJSON:
+{!$Input:CF_EvaluationSummary}
+
+Return JSON:
+
+{
+  &quot;coachingTopic&quot;: &quot;&quot;,
+  &quot;whatWentWell&quot;: &quot;&quot;,
+  &quot;improvementArea&quot;: &quot;&quot;,
+  &quot;improvedScript&quot;: &quot;&quot;,
+  &quot;rehearsalScenario&quot;: &quot;&quot;
+}
+
+</content>
+        <inputs>
+            <apiName>CF_Transcript</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>Transcript</masterLabel>
+            <referenceName>Input:CF_Transcript</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>CF_EvaluationSummary</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>EvaluationJSON</masterLabel>
+            <referenceName>Input:CF_EvaluationSummary</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <responseFormat>JSON</responseFormat>
+        <status>Published</status>
+        <versionIdentifier>tJBtsqr2jauiFny75bA2QBUlv7DLfIqEHneaRelq24M=_2</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>You are a call center coach working with a new hire.
+
+Your goal is to provide clear, supportive, and actionable coaching based on the call transcript and evaluation insights.
+
+Focus primarily on the PRIMARY COACHING TOPIC and the listed IMPROVEMENT AREAS. Use STRENGTHS to reinforce positive behaviors.
+
+Keep the tone encouraging, specific, and practical — like a real supervisor coaching an agent after a call.
+
+CALL TRANSCRIPT:
+{!$Input:CF_Transcript}
+
+CALL SUMMARY:
+{!$Input:Summary}
+
+PRIMARY COACHING TOPIC:
+{!$Input:PrimaryCoachingTopic}
+
+STRENGTHS:
+{!$Input:StengthsText}
+
+IMPROVEMENT AREAS:
+{!$Input:ImprovementAreasText}
+
+Instructions:
+- Prioritize the PRIMARY COACHING TOPIC when generating coaching
+- Reference specific behaviors from the transcript when possible
+- Keep feedback concise but specific
+- The improved script should sound natural and usable in a real call
+- The rehearsal scenario should be simple, realistic and based on the transcript
+
+Return JSON:
+
+{
+ &quot;coachingTopic&quot;: &quot;&quot;,
+ &quot;whatWentWell&quot;: &quot;&quot;,
+ &quot;improvementArea&quot;: &quot;&quot;,
+ &quot;improvedScript&quot;: &quot;&quot;,
+ &quot;rehearsalScenario&quot;: &quot;&quot;
+}
+</content>
+        <inputs>
+            <apiName>CF_Transcript</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>Transcript</masterLabel>
+            <referenceName>Input:CF_Transcript</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>Summary</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>Summary</masterLabel>
+            <referenceName>Input:Summary</referenceName>
+            <required>false</required>
+        </inputs>
+        <inputs>
+            <apiName>PrimaryCoachingTopic</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>PrimaryCoachingTopic</masterLabel>
+            <referenceName>Input:PrimaryCoachingTopic</referenceName>
+            <required>false</required>
+        </inputs>
+        <inputs>
+            <apiName>StengthsText</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>StengthsText</masterLabel>
+            <referenceName>Input:StengthsText</referenceName>
+            <required>false</required>
+        </inputs>
+        <inputs>
+            <apiName>ImprovementAreasText</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>ImprovementAreasText</masterLabel>
+            <referenceName>Input:ImprovementAreasText</referenceName>
+            <required>false</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <responseFormat>JSON</responseFormat>
+        <status>Published</status>
+        <versionIdentifier>tJBtsqr2jauiFny75bA2QBUlv7DLfIqEHneaRelq24M=_3</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>You are a call center coach working with a new hire.
+
+Your goal is to provide clear, supportive, and actionable coaching based on the call transcript and evaluation insights.
+
+Focus primarily on the PRIMARY COACHING TOPIC and the listed IMPROVEMENT AREAS. Use STRENGTHS to reinforce positive behaviors.
+
+Keep the tone encouraging, specific, and practical — like a real supervisor coaching an agent after a call.
+
+CALL TRANSCRIPT:
+{!$Input:CF_Transcript}
+
+CALL SUMMARY:
+{!$Input:Summary}
+
+PRIMARY COACHING TOPIC:
+{!$Input:PrimaryCoachingTopic}
+
+IMPROVEMENT AREAS:
+{!$Input:ImprovementAreasText}
+
+Instructions:
+- Prioritize the PRIMARY COACHING TOPIC when generating coaching
+- Reference specific behaviors from the transcript when possible
+- Keep feedback concise but specific
+- The improved script should sound natural and usable in a real call
+- The rehearsal scenario should be simple, realistic and based on the transcript
+
+Return JSON:
+
+{
+ &quot;coachingTopic&quot;: &quot;&quot;,
+ &quot;whatWentWell&quot;: &quot;&quot;,
+ &quot;improvementArea&quot;: &quot;&quot;,
+ &quot;improvedScript&quot;: &quot;&quot;,
+ &quot;rehearsalScenario&quot;: &quot;&quot;
+}
+</content>
+        <inputs>
+            <apiName>ImprovementAreasText</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>ImprovementAreasText</masterLabel>
+            <referenceName>Input:ImprovementAreasText</referenceName>
+            <required>false</required>
+        </inputs>
+        <inputs>
+            <apiName>PrimaryCoachingTopic</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>PrimaryCoachingTopic</masterLabel>
+            <referenceName>Input:PrimaryCoachingTopic</referenceName>
+            <required>false</required>
+        </inputs>
+        <inputs>
+            <apiName>Summary</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>Summary</masterLabel>
+            <referenceName>Input:Summary</referenceName>
+            <required>false</required>
+        </inputs>
+        <inputs>
+            <apiName>CF_Transcript</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>Transcript</masterLabel>
+            <referenceName>Input:CF_Transcript</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <responseFormat>JSON</responseFormat>
+        <status>Published</status>
+        <versionIdentifier>tJBtsqr2jauiFny75bA2QBUlv7DLfIqEHneaRelq24M=_4</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>You are a call center coach working with a new hire.
+
+Your goal is to provide clear, supportive, and actionable coaching based on the call transcript and evaluation insights.
+
+Focus primarily on the PRIMARY COACHING TOPIC and the listed IMPROVEMENT AREAS.  Reinforce positive behaviors mentioned in CALL SUMMARY.
+
+Keep the tone encouraging, specific, and practical — like a real supervisor coaching an agent after a call.
+
+CALL TRANSCRIPT:
+{!$Input:CF_Transcript}
+
+CALL SUMMARY:
+{!$Input:Summary}
+
+PRIMARY COACHING TOPIC:
+{!$Input:PrimaryCoachingTopic}
+
+IMPROVEMENT AREAS:
+{!$Input:ImprovementAreasText}
+
+Instructions:
+- Prioritize the PRIMARY COACHING TOPIC when generating coaching
+- Reference specific behaviors from the transcript when possible
+- Keep feedback concise but specific
+- The improved script should sound natural and usable in a real call
+- The rehearsal scenario should be simple, realistic and based on the transcript
+
+Return JSON:
+
+{
+ &quot;coachingTopic&quot;: &quot;&quot;,
+ &quot;whatWentWell&quot;: &quot;&quot;,
+ &quot;improvementArea&quot;: &quot;&quot;,
+ &quot;improvedScript&quot;: &quot;&quot;,
+ &quot;rehearsalScenario&quot;: &quot;&quot;
+}
+</content>
+        <inputs>
+            <apiName>CF_Transcript</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>Transcript</masterLabel>
+            <referenceName>Input:CF_Transcript</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>Summary</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>Summary</masterLabel>
+            <referenceName>Input:Summary</referenceName>
+            <required>false</required>
+        </inputs>
+        <inputs>
+            <apiName>PrimaryCoachingTopic</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>PrimaryCoachingTopic</masterLabel>
+            <referenceName>Input:PrimaryCoachingTopic</referenceName>
+            <required>false</required>
+        </inputs>
+        <inputs>
+            <apiName>ImprovementAreasText</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>ImprovementAreasText</masterLabel>
+            <referenceName>Input:ImprovementAreasText</referenceName>
+            <required>false</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <responseFormat>JSON</responseFormat>
+        <status>Published</status>
+        <versionIdentifier>tJBtsqr2jauiFny75bA2QBUlv7DLfIqEHneaRelq24M=_5</versionIdentifier>
+    </templateVersions>
+    <type>einstein_gpt__flex</type>
+    <visibility>Global</visibility>
+</GenAiPromptTemplate>
