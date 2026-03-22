@@ -222,7 +222,7 @@
         <locationX>0</locationX>
         <locationY>0</locationY>
         <defaultConnector>
-            <targetReference>Update_Triggering_Record</targetReference>
+            <targetReference>Has_Eval</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>No</defaultConnectorLabel>
         <rules>
@@ -269,7 +269,7 @@
         <locationX>0</locationX>
         <locationY>0</locationY>
         <defaultConnector>
-            <targetReference>Update_Triggering_Record</targetReference>
+            <targetReference>Has_Eval</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>No</defaultConnectorLabel>
         <rules>
@@ -294,7 +294,7 @@
         <locationX>0</locationX>
         <locationY>0</locationY>
         <defaultConnector>
-            <targetReference>Update_Triggering_Record</targetReference>
+            <targetReference>Has_Eval</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>No</defaultConnectorLabel>
         <rules>
@@ -309,6 +309,28 @@
             </conditions>
             <connector>
                 <targetReference>Get_Trend_Detection</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Has_Eval</name>
+        <label>Has Eval?</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>evaluationId</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Triggering_Record</targetReference>
             </connector>
             <label>Yes</label>
         </rules>
@@ -496,18 +518,12 @@
         <locationX>0</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Update_Triggering_Record</targetReference>
+            <targetReference>Has_Eval</targetReference>
         </connector>
         <inputAssignments>
             <field>CF_Agent__c</field>
             <value>
                 <elementReference>CF_Get_Agent_Record.Id</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>CF_Coaching_Session__c</field>
-            <value>
-                <elementReference>coachingSessionId</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -748,7 +764,7 @@
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <textTemplates>
         <name>ttCriteria</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>

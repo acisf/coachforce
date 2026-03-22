@@ -113,7 +113,7 @@
         <actionName>CF_CreateCoachingSessionAction</actionName>
         <actionType>apex</actionType>
         <connector>
-            <targetReference>Update_Triggering_Record</targetReference>
+            <targetReference>Have_Eval</targetReference>
         </connector>
         <flowTransactionModel>Automatic</flowTransactionModel>
         <inputParameters>
@@ -196,6 +196,28 @@
                 <targetReference>CF_Transcript</targetReference>
             </connector>
             <label>True</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Have_Eval</name>
+        <label>Has Eval?</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes_HasEval</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>evaluationId</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Triggering_Record</targetReference>
+            </connector>
+            <label>Yes</label>
         </rules>
     </decisions>
     <description>Provides structured coaching support for new agents by automatically generating feedback from each evaluated call. Coaching sessions are created using the call transcript, evaluation summary, and identified improvement areas, helping accelerate onboarding and ensure consistent training without requiring manual review.</description>
@@ -514,7 +536,7 @@
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
     <textTemplates>
         <name>ttCriteria</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>
