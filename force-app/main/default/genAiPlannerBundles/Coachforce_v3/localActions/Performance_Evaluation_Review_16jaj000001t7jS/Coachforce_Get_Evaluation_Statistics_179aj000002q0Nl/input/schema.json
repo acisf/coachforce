@@ -1,4 +1,5 @@
 {
+  "required" : [ "agentId" ],
   "unevaluatedProperties" : false,
   "properties" : {
     "agentId" : {

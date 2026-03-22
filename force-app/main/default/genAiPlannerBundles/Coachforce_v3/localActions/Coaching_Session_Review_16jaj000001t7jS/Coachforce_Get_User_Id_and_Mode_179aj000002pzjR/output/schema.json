@@ -1,0 +1,24 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "agentId" : {
+      "title" : "agentId",
+      "description" : "The Salesforce User Id of the currently logged-in agent.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "mode" : {
+      "title" : "mode",
+      "description" : "The coaching mode for the agent based on tenure.\n\nOnboarding: New agents receive coaching after each evaluated call.\nCruise Control: Calls are evaluated continuously, but coaching is generated only when recurring trends are detected.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

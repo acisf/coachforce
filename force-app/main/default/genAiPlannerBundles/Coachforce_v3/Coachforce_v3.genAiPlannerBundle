@@ -1,5 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenAiPlannerBundle xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <attributeMappings>
+        <attributeName>Coaching_Session_Review_16jaj000001t7jS.Coachforce_Get_Last_Coaching_Session_179aj000002pzjR.output_coachingSessionId</attributeName>
+        <attributeType>CustomPluginFunctionAttribute</attributeType>
+        <mappingTargetName>coachingSessionId</mappingTargetName>
+        <mappingType>Variable</mappingType>
+    </attributeMappings>
+    <attributeMappings>
+        <attributeName>Coaching_Session_Review_16jaj000001t7jS.Coachforce_Mark_Coaching_Session_Complete_179aj000002pzjR.input_coachingSessionId</attributeName>
+        <attributeType>CustomPluginFunctionAttribute</attributeType>
+        <mappingTargetName>coachingSessionId</mappingTargetName>
+        <mappingType>Variable</mappingType>
+    </attributeMappings>
+    <attributeMappings>
+        <attributeName>Coaching_Session_Review_16jaj000001t7jS.Coachforce_Get_User_Id_and_Mode_179aj000002pzjR.output_agentId</attributeName>
+        <attributeType>CustomPluginFunctionAttribute</attributeType>
+        <mappingTargetName>agentId</mappingTargetName>
+        <mappingType>Variable</mappingType>
+    </attributeMappings>
+    <attributeMappings>
+        <attributeName>Coaching_Session_Review_16jaj000001t7jS.Coachforce_Get_User_Id_and_Mode_179aj000002pzjR.output_mode</attributeName>
+        <attributeType>CustomPluginFunctionAttribute</attributeType>
+        <mappingTargetName>mode</mappingTargetName>
+        <mappingType>Variable</mappingType>
+    </attributeMappings>
+    <attributeMappings>
+        <attributeName>Performance_Evaluation_Review_16jaj000001t7jS.Coachforce_Get_User_Id_and_Mode_179aj000002q0Nl.output_agentId</attributeName>
+        <attributeType>CustomPluginFunctionAttribute</attributeType>
+        <mappingTargetName>agentId</mappingTargetName>
+        <mappingType>Variable</mappingType>
+    </attributeMappings>
+    <attributeMappings>
+        <attributeName>Performance_Evaluation_Review_16jaj000001t7jS.Coachforce_Get_User_Id_and_Mode_179aj000002q0Nl.output_mode</attributeName>
+        <attributeType>CustomPluginFunctionAttribute</attributeType>
+        <mappingTargetName>mode</mappingTargetName>
+        <mappingType>Variable</mappingType>
+    </attributeMappings>
+    <attributeMappings>
+        <attributeName>Performance_Evaluation_Review_16jaj000001t7jS.Coachforce_Get_Evaluation_Statistics_179aj000002q0Nl.input_agentId</attributeName>
+        <attributeType>CustomPluginFunctionAttribute</attributeType>
+        <mappingTargetName>agentId</mappingTargetName>
+        <mappingType>Variable</mappingType>
+    </attributeMappings>
     <description>Help the user review their latest coaching session, understand feedback, see an improved script, and practice a better response.</description>
     <localActionLinks>
         <genAiFunctionName>AnswerQuestionsWithKnowledge_16jf04c391c216c</genAiFunctionName>
@@ -27,15 +69,25 @@ Review my performance statistics</utterance>
         <description>Helps the agent review recent evaluation statistics, including total evaluations and average score, and explains performance in a coaching-oriented way.</description>
         <developerName>Performance_Evaluation_Review_16jaj000001t7jS</developerName>
         <genAiPluginInstructions>
-            <description>When the user asks about evaluation statistics, recent performance, or overall scores, call the “Get Evaluation Statistics” action first. Use the returned values to provide a concise performance summary. Do not dump raw output values. Explain how many evaluations were included and what the average score means in a supportive coaching tone. If no statistics are found, politely tell the user there are no recent evaluations available. For example &quot;Over the last 30 days, you’ve had 8 evaluations with an average score of 84.5. That suggests you’re building consistency, and we can focus next on the coaching areas that come up most often.&quot;</description>
+            <description>Start by calling ‘Coachforce: Get User Id and Mode’ to establish agentId and coaching mode.</description>
             <developerName>instruction_1</developerName>
             <language xsi:nil="true"/>
             <masterLabel>Instruction 1</masterLabel>
+            <sortOrder>0</sortOrder>
+        </genAiPluginInstructions>
+        <genAiPluginInstructions>
+            <description>When the user asks about evaluation statistics, recent performance, or overall scores, call the “Coachforce: Get Evaluation Statistics” action first. Use the returned values to provide a concise performance summary. Do not dump raw output values. Explain how many evaluations were included and what the average score means in a supportive coaching tone. If no statistics are found, politely tell the user there are no recent evaluations available. For example &quot;Over the last 30 days, you’ve had 8 evaluations with an average score of 84.5. That suggests you’re building consistency, and we can focus next on the coaching areas that come up most often.&quot;</description>
+            <developerName>instructions_0_1774206320821</developerName>
+            <language>en_US</language>
+            <masterLabel>instructions_0_1774206320821</masterLabel>
             <sortOrder>1</sortOrder>
         </genAiPluginInstructions>
         <language>en_US</language>
         <localActionLinks>
             <functionName>Coachforce_Get_Evaluation_Statistics_179aj000002q0Nl</functionName>
+        </localActionLinks>
+        <localActionLinks>
+            <functionName>Coachforce_Get_User_Id_and_Mode_179aj000002q0Nl</functionName>
         </localActionLinks>
         <localActions>
             <fullName>Coachforce_Get_Evaluation_Statistics_179aj000002q0Nl</fullName>
@@ -46,9 +98,40 @@ Review my performance statistics</utterance>
             <isConfirmationRequired>false</isConfirmationRequired>
             <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
             <localDeveloperName>Coachforce_Get_Evaluation_Statistics</localDeveloperName>
-            <masterLabel>Coachforce - Get Evaluation Statistics</masterLabel>
+            <mappingAttributes>
+                <label>agentId</label>
+                <name>input_agentId</name>
+                <parameterName>agentId</parameterName>
+                <parameterType>input</parameterType>
+            </mappingAttributes>
+            <masterLabel>Coachforce: Get Evaluation Statistics</masterLabel>
             <progressIndicatorMessage>Loading evaluations...</progressIndicatorMessage>
             <source>Coachforce_Get_Evaluation_Statistics</source>
+        </localActions>
+        <localActions>
+            <fullName>Coachforce_Get_User_Id_and_Mode_179aj000002q0Nl</fullName>
+            <description>Establishes the coaching context for the current user by identifying the logged-in agent and determining whether they are in Onboarding or Cruise Control mode based on tenure. This enables Coachforce to dynamically adapt coaching behavior—providing structured guidance for new agents and trend-based coaching for experienced agents—while simplifying integration with Agentforce actions.</description>
+            <developerName>Coachforce_Get_User_Id_and_Mode_179aj000002q0Nl</developerName>
+            <invocationTarget>CF_Get_User_Id_and_Mode</invocationTarget>
+            <invocationTargetType>flow</invocationTargetType>
+            <isConfirmationRequired>false</isConfirmationRequired>
+            <isIncludeInProgressIndicator>false</isIncludeInProgressIndicator>
+            <localDeveloperName>Coachforce_Get_User_Id_and_Mode</localDeveloperName>
+            <mappingAttributes>
+                <label>agentId</label>
+                <name>output_agentId</name>
+                <parameterName>agentId</parameterName>
+                <parameterType>output</parameterType>
+            </mappingAttributes>
+            <mappingAttributes>
+                <label>mode</label>
+                <name>output_mode</name>
+                <parameterName>mode</parameterName>
+                <parameterType>output</parameterType>
+            </mappingAttributes>
+            <masterLabel>Coachforce: Get User Id and Mode</masterLabel>
+            <progressIndicatorMessage>Loading user mode...</progressIndicatorMessage>
+            <source>Coachforce_Get_User_Id_and_Mode</source>
         </localActions>
         <localDeveloperName>Performance_Evaluation_Review</localDeveloperName>
         <masterLabel>Performance Evaluation Review</masterLabel>
@@ -61,38 +144,46 @@ Review my performance statistics</utterance>
             <developerName>utterance_1</developerName>
             <language xsi:nil="true"/>
             <masterLabel>Utterance 1</masterLabel>
-            <utterance>get coaching session</utterance>
+            <utterance>get coaching session
+coaching session for last call</utterance>
         </aiPluginUtterances>
         <canEscalate>false</canEscalate>
         <description>Help the user review their latest coaching session, understand feedback, see an improved script, and practice a better response.</description>
         <developerName>Coaching_Session_Review_16jaj000001t7jS</developerName>
         <genAiPluginInstructions>
-            <description>When the user asks about coaching, feedback, recent evaluations, or practice, always call the “Coachforce - Get Last Coaching Session” action first. After retrieving the coaching session, you must present the response as a structured coaching conversation. Do not list or dump raw field values. Always organize your response in this exact order: Start with a brief introduction that names the coaching topic. Clearly explain what the agent did well. Clearly explain the primary improvement area and why it matters. Present the improved script as a clean example. Introduce the rehearsal scenario and offer to practice. Keep the tone supportive, concise, and practical, like a real call center supervisor. Do not output raw field values or unformatted lists. Always explain and guide. If no coaching session is found, politely inform the user.</description>
-            <developerName>instruction_1</developerName>
-            <language xsi:nil="true"/>
-            <masterLabel>Instruction 1</masterLabel>
-            <sortOrder>0</sortOrder>
-        </genAiPluginInstructions>
-        <genAiPluginInstructions>
-            <description>Keep the response supportive, concise, and action-oriented. Make the coaching feel like guidance from a real supervisor, not a raw record dump. If no coaching session is found, politely tell the user they do not have a coaching session available yet.</description>
-            <developerName>instruction_2</developerName>
-            <language xsi:nil="true"/>
-            <masterLabel>Instruction 2</masterLabel>
-            <sortOrder>1</sortOrder>
-        </genAiPluginInstructions>
-        <genAiPluginInstructions>
-            <description>Always organize coaching responses in this order: Coaching topic What went well What to improve Improved script Practice scenario or offer to rehearse</description>
-            <developerName>instruction_3</developerName>
-            <language xsi:nil="true"/>
-            <masterLabel>Instruction 3</masterLabel>
-            <sortOrder>2</sortOrder>
-        </genAiPluginInstructions>
-        <genAiPluginInstructions>
-            <description>When the rehearsal has been completed and the user&apos;s response has improved, give positive affirmation and then inform them that the coaching session has been completed. Finally call &quot;Mark Coaching Session Complete&quot; action and wish them the best.</description>
+            <description>Start by calling ‘Coachforce: Get User Id and Mode’ to establish agentId and coaching mode.</description>
             <developerName>instructions_0_1774131299782</developerName>
             <language>en_US</language>
             <masterLabel>instructions_0_1774131299782</masterLabel>
+            <sortOrder>0</sortOrder>
+        </genAiPluginInstructions>
+        <genAiPluginInstructions>
+            <description>When the user asks about coaching, feedback, recent evaluations, or practice, always call the “Coachforce: Get Last Coaching Session” action first. After retrieving the coaching session, you must present the response as a structured coaching conversation. Do not list or dump raw field values. Always organize your response in this exact order: Start with a brief introduction that names the coaching topic. Clearly explain what the agent did well. Clearly explain the primary improvement area and why it matters. Present the improved script as a clean example. Introduce the rehearsal scenario and offer to practice. Keep the tone supportive, concise, and practical, like a real call center supervisor. Do not output raw field values or unformatted lists. Always explain and guide. If no coaching session is found, politely inform the user.</description>
+            <developerName>instructions_0_1774206242694</developerName>
+            <language>en_US</language>
+            <masterLabel>instructions_0_1774206242694</masterLabel>
+            <sortOrder>1</sortOrder>
+        </genAiPluginInstructions>
+        <genAiPluginInstructions>
+            <description>Keep the response supportive, concise, and action-oriented. Make the coaching feel like guidance from a real supervisor, not a raw record dump. If no coaching session is found, politely tell the user they do not have a coaching session available yet.</description>
+            <developerName>instruction_1</developerName>
+            <language xsi:nil="true"/>
+            <masterLabel>Instruction 1</masterLabel>
+            <sortOrder>2</sortOrder>
+        </genAiPluginInstructions>
+        <genAiPluginInstructions>
+            <description>Always organize coaching responses in this order: Coaching topic What went well What to improve Improved script Practice scenario or offer to rehearse</description>
+            <developerName>instruction_2</developerName>
+            <language xsi:nil="true"/>
+            <masterLabel>Instruction 2</masterLabel>
             <sortOrder>3</sortOrder>
+        </genAiPluginInstructions>
+        <genAiPluginInstructions>
+            <description>When the rehearsal has been completed and the user&apos;s response has improved, give positive affirmation and then inform them that the coaching session has been completed. Finally call &quot;Mark Coaching Session Complete&quot; action and wish them the best.</description>
+            <developerName>instruction_3</developerName>
+            <language xsi:nil="true"/>
+            <masterLabel>Instruction 3</masterLabel>
+            <sortOrder>4</sortOrder>
         </genAiPluginInstructions>
         <language>en_US</language>
         <localActionLinks>
@@ -100,6 +191,9 @@ Review my performance statistics</utterance>
         </localActionLinks>
         <localActionLinks>
             <functionName>Coachforce_Mark_Coaching_Session_Complete_179aj000002pzjR</functionName>
+        </localActionLinks>
+        <localActionLinks>
+            <functionName>Coachforce_Get_User_Id_and_Mode_179aj000002pzjR</functionName>
         </localActionLinks>
         <localActions>
             <fullName>Coachforce_Get_Last_Coaching_Session_179aj000002pzjR</fullName>
@@ -110,9 +204,40 @@ Review my performance statistics</utterance>
             <isConfirmationRequired>false</isConfirmationRequired>
             <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
             <localDeveloperName>Coachforce_Get_Last_Coaching_Session</localDeveloperName>
-            <masterLabel>Coachforce - Get Last Coaching Session</masterLabel>
-            <progressIndicatorMessage>Starting Coachforce coaching session...</progressIndicatorMessage>
+            <mappingAttributes>
+                <label>coachingSessionId</label>
+                <name>output_coachingSessionId</name>
+                <parameterName>coachingSessionId</parameterName>
+                <parameterType>output</parameterType>
+            </mappingAttributes>
+            <masterLabel>Coachforce: Get Last Coaching Session</masterLabel>
+            <progressIndicatorMessage>Loading coaching session...</progressIndicatorMessage>
             <source>Coachforce_Get_Last_Coaching_Session</source>
+        </localActions>
+        <localActions>
+            <fullName>Coachforce_Get_User_Id_and_Mode_179aj000002pzjR</fullName>
+            <description>Establishes the coaching context for the current user by identifying the logged-in agent and determining whether they are in Onboarding or Cruise Control mode based on tenure. This enables Coachforce to dynamically adapt coaching behavior—providing structured guidance for new agents and trend-based coaching for experienced agents—while simplifying integration with Agentforce actions.</description>
+            <developerName>Coachforce_Get_User_Id_and_Mode_179aj000002pzjR</developerName>
+            <invocationTarget>CF_Get_User_Id_and_Mode</invocationTarget>
+            <invocationTargetType>flow</invocationTargetType>
+            <isConfirmationRequired>false</isConfirmationRequired>
+            <isIncludeInProgressIndicator>false</isIncludeInProgressIndicator>
+            <localDeveloperName>Coachforce_Get_User_Id_and_Mode</localDeveloperName>
+            <mappingAttributes>
+                <label>agentId</label>
+                <name>output_agentId</name>
+                <parameterName>agentId</parameterName>
+                <parameterType>output</parameterType>
+            </mappingAttributes>
+            <mappingAttributes>
+                <label>mode</label>
+                <name>output_mode</name>
+                <parameterName>mode</parameterName>
+                <parameterType>output</parameterType>
+            </mappingAttributes>
+            <masterLabel>Coachforce: Get User Id and Mode</masterLabel>
+            <progressIndicatorMessage>Loading user mode...</progressIndicatorMessage>
+            <source>Coachforce_Get_User_Id_and_Mode</source>
         </localActions>
         <localActions>
             <fullName>Coachforce_Mark_Coaching_Session_Complete_179aj000002pzjR</fullName>
@@ -123,8 +248,14 @@ Review my performance statistics</utterance>
             <isConfirmationRequired>false</isConfirmationRequired>
             <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
             <localDeveloperName>Coachforce_Mark_Coaching_Session_Complete</localDeveloperName>
-            <masterLabel>Coachforce - Mark Coaching Session Complete</masterLabel>
-            <progressIndicatorMessage>Marketing coaching session complete...</progressIndicatorMessage>
+            <mappingAttributes>
+                <label>coachingSessionId</label>
+                <name>input_coachingSessionId</name>
+                <parameterName>coachingSessionId</parameterName>
+                <parameterType>input</parameterType>
+            </mappingAttributes>
+            <masterLabel>Coachforce: Mark Coaching Session Complete</masterLabel>
+            <progressIndicatorMessage>Marking coaching session complete...</progressIndicatorMessage>
             <source>Coachforce_Mark_Coaching_Session_Complete</source>
         </localActions>
         <localDeveloperName>Coaching_Session_Review</localDeveloperName>

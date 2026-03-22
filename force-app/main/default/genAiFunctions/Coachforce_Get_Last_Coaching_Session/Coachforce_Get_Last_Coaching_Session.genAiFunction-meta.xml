@@ -7,6 +7,6 @@
     <isConfirmationRequired>false</isConfirmationRequired>
     <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
     <localDeveloperName>Coachforce_Get_Last_Coaching_Session</localDeveloperName>
-    <masterLabel>Coachforce - Get Last Coaching Session</masterLabel>
-    <progressIndicatorMessage>Starting Coachforce coaching session...</progressIndicatorMessage>
+    <masterLabel>Coachforce: Get Last Coaching Session</masterLabel>
+    <progressIndicatorMessage>Loading coaching session...</progressIndicatorMessage>
 </GenAiFunction>

@@ -7,7 +7,7 @@
       "lightning:type" : "lightning__numberType",
       "lightning:isPII" : false,
       "copilotAction:isDisplayable" : false,
-      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:isUsedByPlanner" : false,
       "copilotAction:useHydratedPrompt" : false
     },
     "hasStatistics" : {
@@ -16,7 +16,7 @@
       "lightning:type" : "lightning__booleanType",
       "lightning:isPII" : false,
       "copilotAction:isDisplayable" : false,
-      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:isUsedByPlanner" : false,
       "copilotAction:useHydratedPrompt" : false
     },
     "totalEvaluations" : {

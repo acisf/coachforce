@@ -3,7 +3,7 @@
   "properties" : {
     "agentId" : {
       "title" : "agentId",
-      "description" : "The Salesforce User Id of the current agent. Always use the logged-in user's Id when calling this action.\n",
+      "description" : "Salesforce user id",
       "lightning:type" : "lightning__textType",
       "lightning:isPII" : false,
       "copilotAction:isUserInput" : false

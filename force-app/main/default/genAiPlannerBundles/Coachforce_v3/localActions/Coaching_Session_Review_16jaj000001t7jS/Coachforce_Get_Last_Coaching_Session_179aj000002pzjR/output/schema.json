@@ -1,6 +1,15 @@
 {
   "unevaluatedProperties" : false,
   "properties" : {
+    "coachingSessionId" : {
+      "title" : "coachingSessionId",
+      "description" : "Unique id of the coaching session returned by Salesforce",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
     "coachingTopic" : {
       "title" : "coachingTopic",
       "description" : "The main focus of the coaching session. Use this to introduce the coaching conversation and name the skill or behavior the agent is improving.\n",
@@ -16,12 +25,12 @@
       "lightning:type" : "lightning__booleanType",
       "lightning:isPII" : false,
       "copilotAction:isDisplayable" : false,
-      "copilotAction:isUsedByPlanner" : false,
+      "copilotAction:isUsedByPlanner" : true,
       "copilotAction:useHydratedPrompt" : false
     },
     "improvedScript" : {
       "title" : "improvedScript",
-      "description" : "The recommended way the agent should respond in similar situations. Present this as a clear example the agent can follow.",
+      "description" : "The recommended way the agent should respond in similar situations. Present this as a clear example the agent can follow.\n",
       "lightning:type" : "lightning__textType",
       "lightning:isPII" : false,
       "copilotAction:isDisplayable" : false,
@@ -52,7 +61,7 @@
       "lightning:type" : "lightning__textType",
       "lightning:isPII" : false,
       "copilotAction:isDisplayable" : false,
-      "copilotAction:isUsedByPlanner" : false,
+      "copilotAction:isUsedByPlanner" : true,
       "copilotAction:useHydratedPrompt" : false
     },
     "whatWentWell" : {

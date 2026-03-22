@@ -139,7 +139,7 @@
             <field>CF_Agent__c</field>
             <operator>EqualTo</operator>
             <value>
-                <elementReference>$User.Id</elementReference>
+                <elementReference>agentId</elementReference>
             </value>
         </filters>
         <filters>

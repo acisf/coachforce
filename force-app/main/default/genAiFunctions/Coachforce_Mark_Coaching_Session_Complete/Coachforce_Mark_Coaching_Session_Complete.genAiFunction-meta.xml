@@ -7,6 +7,6 @@
     <isConfirmationRequired>false</isConfirmationRequired>
     <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
     <localDeveloperName>Coachforce_Mark_Coaching_Session_Complete</localDeveloperName>
-    <masterLabel>Coachforce - Mark Coaching Session Complete</masterLabel>
-    <progressIndicatorMessage>Marketing coaching session complete...</progressIndicatorMessage>
+    <masterLabel>Coachforce: Mark Coaching Session Complete</masterLabel>
+    <progressIndicatorMessage>Marking coaching session complete...</progressIndicatorMessage>
 </GenAiFunction>

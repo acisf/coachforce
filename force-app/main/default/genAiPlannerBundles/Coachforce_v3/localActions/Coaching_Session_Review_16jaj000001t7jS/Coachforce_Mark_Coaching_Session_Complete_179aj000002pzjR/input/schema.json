@@ -1,14 +1,14 @@
 {
+  "required" : [ "coachingSessionId" ],
   "unevaluatedProperties" : false,
   "properties" : {
-    "agentId" : {
-      "title" : "agentId",
-      "description" : "The Salesforce User Id of the current agent. Always use the logged-in user's Id when calling this action.",
+    "coachingSessionId" : {
+      "title" : "coachingSessionId",
+      "description" : "Unique Salesforce Id of the coaching session record.",
       "lightning:type" : "lightning__textType",
       "lightning:isPII" : false,
       "copilotAction:isUserInput" : false
     }
   },
-  "lightning:type" : "lightning__objectType",
-  "lightning:textIndexed" : true
+  "lightning:type" : "lightning__objectType"
 }

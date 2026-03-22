@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>2</activeVersionNumber>
+    <description>Establishes the coaching context for the current user by identifying the logged-in agent and determining whether they are in Onboarding or Cruise Control mode based on tenure. This enables Coachforce to dynamically adapt coaching behavior—providing structured guidance for new agents and trend-based coaching for experienced agents—while simplifying integration with Agentforce actions.</description>
+    <masterLabel>Coachforce: Get User Id and Mode</masterLabel>
+</FlowDefinition>

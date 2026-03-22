@@ -7,6 +7,6 @@
     <isConfirmationRequired>false</isConfirmationRequired>
     <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
     <localDeveloperName>Coachforce_Get_Evaluation_Statistics</localDeveloperName>
-    <masterLabel>Coachforce - Get Evaluation Statistics</masterLabel>
+    <masterLabel>Coachforce: Get Evaluation Statistics</masterLabel>
     <progressIndicatorMessage>Loading evaluations...</progressIndicatorMessage>
 </GenAiFunction>
