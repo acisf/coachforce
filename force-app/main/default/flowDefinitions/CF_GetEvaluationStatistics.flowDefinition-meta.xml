@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>2</activeVersionNumber>
+    <description>Retrieves recent call evaluation statistics for the specified agent, including total evaluations and average overall score within a defined time period. This autolaunched flow is used by the Coachforce Employee Agent to provide agents with a concise summary of their recent performance and coaching trends.</description>
+    <masterLabel>Coachforce: Get Evaluation Statistics</masterLabel>
+</FlowDefinition>

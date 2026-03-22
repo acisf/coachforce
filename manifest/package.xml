@@ -14,8 +14,11 @@
 
     <!-- Flows -->
     <types>
+        <members>Coachforce_GetEvaluationStatistics</members>        
+        <members>Coachforce_Mark_Coaching_Session_Complete</members>
         <members>CoachForce_Supervisor_Onboarding</members>
-        <members>Coachforce_Get_Last_Coaching_Session</members>
+        <members>CoachForce_Supervisor_Cruise_Control</members>
+        <members>Coachforce_Get_Last_Coaching_Session</members>        
         <name>Flow</name>
     </types>
 

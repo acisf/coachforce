@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionCalls>
+        <name>Analyze_Agent_Trends</name>
+        <label>Analyze Agent Trends</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <actionName>CF_AgentTrendAnalysisAction</actionName>
+        <actionType>apex</actionType>
+        <connector>
+            <targetReference>Found_trend</targetReference>
+        </connector>
+        <flowTransactionModel>Automatic</flowTransactionModel>
+        <inputParameters>
+            <name>agentId</name>
+            <value>
+                <elementReference>CF_Get_Agent_Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>lookbackEvaluations</name>
+            <value>
+                <numberValue>10.0</numberValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>thresholdPercent</name>
+            <value>
+                <numberValue>70.0</numberValue>
+            </value>
+        </inputParameters>
+        <nameSegment>CF_AgentTrendAnalysisAction</nameSegment>
+        <offset>0</offset>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <actionCalls>
         <name>Coaching_Generation</name>
         <label>Coaching Generation</label>
         <locationX>0</locationX>
@@ -47,7 +80,7 @@
         <actionName>CF_CreateEvaluationResultsAction</actionName>
         <actionType>apex</actionType>
         <connector>
-            <targetReference>Find_Improvement_Areas</targetReference>
+            <targetReference>Analyze_Agent_Trends</targetReference>
         </connector>
         <flowTransactionModel>Automatic</flowTransactionModel>
         <inputParameters>
@@ -113,7 +146,7 @@
         <actionName>CF_CreateCoachingSessionAction</actionName>
         <actionType>apex</actionType>
         <connector>
-            <targetReference>Update_Triggering_Record</targetReference>
+            <targetReference>Create_Trend_Detection_Record</targetReference>
         </connector>
         <flowTransactionModel>Automatic</flowTransactionModel>
         <inputParameters>
@@ -145,8 +178,8 @@
         </connector>
     </assignments>
     <assignments>
-        <name>Build_Improvement_Areas_Text_Block</name>
-        <label>Build Improvement Areas Text Block</label>
+        <name>AssignTrend</name>
+        <label>Assign Trend</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
         <assignmentItems>
@@ -156,8 +189,15 @@
                 <elementReference>ttImprovementAreas</elementReference>
             </value>
         </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varCreateCoachingSession</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </assignmentItems>
         <connector>
-            <targetReference>Loop_Improvement_Areas</targetReference>
+            <targetReference>Loop_Evaluation_Results</targetReference>
         </connector>
     </assignments>
     <assignments>
@@ -177,8 +217,33 @@
         </connector>
     </assignments>
     <decisions>
-        <name>CF_Onboarding_Agent</name>
-        <label>Onboarding?</label>
+        <name>CF_Create_Coaching_Session</name>
+        <label>Create Coaching Session?</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>Update_Triggering_Record</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes_CreateCoachingSession</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>varCreateCoachingSession</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Coaching_Generation</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>CF_Tenured_Employee</name>
+        <label>Tenured Employee?</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
         <defaultConnectorLabel>False</defaultConnectorLabel>
@@ -187,7 +252,7 @@
             <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>CF_Get_Agent_Record.CF_Hire_Date__c</leftValueReference>
-                <operator>GreaterThanOrEqualTo</operator>
+                <operator>LessThan</operator>
                 <rightValue>
                     <elementReference>TodayMinusFourteen</elementReference>
                 </rightValue>
@@ -198,7 +263,82 @@
             <label>True</label>
         </rules>
     </decisions>
-    <description>Provides structured coaching support for new agents by automatically generating feedback from each evaluated call. Coaching sessions are created using the call transcript, evaluation summary, and identified improvement areas, helping accelerate onboarding and ensure consistent training without requiring manual review.</description>
+    <decisions>
+        <name>Create_Trend_Detection</name>
+        <label>Create Trend Detection?</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>Update_Triggering_Record</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes_active_trend</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Trend_Detection</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Evaluation_Results</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Found_trend</name>
+        <label>Found trend?</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>Update_Triggering_Record</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes_found_trend</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Analyze_Agent_Trends.foundTrend</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Trend_Detection</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Matches_trend</name>
+        <label>Matches trend?</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>Loop_Evaluation_Results</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes_a_trend</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Loop_Evaluation_Results.CF_Evaluation_Criteria__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>Analyze_Agent_Trends.criterionText</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>AssignTrend</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <description>Automatically monitors call evaluation trends for tenured agents and creates targeted coaching sessions when a recurring performance issue is detected. Coaching is generated from the current call’s transcript, evaluation summary, and failed criteria, ensuring timely and relevant feedback without manual supervisor review.</description>
     <environments>Default</environments>
     <formulas>
         <name>linebreakString</name>
@@ -210,8 +350,8 @@
         <dataType>Date</dataType>
         <expression> TODAY() - 14</expression>
     </formulas>
-    <interviewLabel>CoachForce - Supervisor - Onboarding {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>CoachForce - Supervisor - Onboarding</label>
+    <interviewLabel>Coachforce: Supervisor - Cruise Control {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Coachforce: Supervisor - Cruise Control</label>
     <loops>
         <name>Loop_Criteria</name>
         <label>Loop Criteria</label>
@@ -227,17 +367,17 @@
         </noMoreValuesConnector>
     </loops>
     <loops>
-        <name>Loop_Improvement_Areas</name>
-        <label>Loop Improvement  Areas</label>
+        <name>Loop_Evaluation_Results</name>
+        <label>Loop Evaluation Results</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
-        <collectionReference>Find_Improvement_Areas</collectionReference>
+        <collectionReference>Get_Evaluation_Results</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
-            <targetReference>Build_Improvement_Areas_Text_Block</targetReference>
+            <targetReference>Matches_trend</targetReference>
         </nextValueConnector>
         <noMoreValuesConnector>
-            <targetReference>Coaching_Generation</targetReference>
+            <targetReference>CF_Create_Coaching_Session</targetReference>
         </noMoreValuesConnector>
     </loops>
     <processMetadataValues>
@@ -350,6 +490,59 @@
         </inputAssignments>
         <object>CF_Coaching_Session__c</object>
     </recordCreates>
+    <recordCreates>
+        <name>Create_Trend_Detection_Record</name>
+        <label>Create Trend Detection Record</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Update_Triggering_Record</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>CF_Agent__c</field>
+            <value>
+                <elementReference>CF_Get_Agent_Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>CF_Criterion__c</field>
+            <value>
+                <elementReference>Analyze_Agent_Trends.criterionText</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>CF_Failed_Count__c</field>
+            <value>
+                <elementReference>Analyze_Agent_Trends.failedCount</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>CF_Pass_Percent__c</field>
+            <value>
+                <elementReference>Analyze_Agent_Trends.passPercent</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>CF_Status__c</field>
+            <value>
+                <stringValue>Needs Coaching</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>CF_Summary__c</field>
+            <value>
+                <elementReference>Analyze_Agent_Trends.summaryMessage</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>CF_Total_Count__c</field>
+            <value>
+                <elementReference>Analyze_Agent_Trends.totalCount</elementReference>
+            </value>
+        </inputAssignments>
+        <object>CF_Trend_Detection__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
     <recordLookups>
         <name>CF_Evaluation_Criteria</name>
         <label>Evaluation Criteria</label>
@@ -399,7 +592,7 @@
         <locationY>0</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>CF_Onboarding_Agent</targetReference>
+            <targetReference>CF_Tenured_Employee</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -435,13 +628,13 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordLookups>
-        <name>Find_Improvement_Areas</name>
-        <label>Find Improvement Areas</label>
+        <name>Get_Evaluation_Results</name>
+        <label>Get Evaluation Results</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Loop_Improvement_Areas</targetReference>
+            <targetReference>Loop_Evaluation_Results</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -460,6 +653,41 @@
         </filters>
         <getFirstRecordOnly>false</getFirstRecordOnly>
         <object>CF_Evaluation_Result__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Trend_Detection</name>
+        <label>Get Trend Detection</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Create_Trend_Detection</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>CF_Agent__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>CF_Get_Agent_Record.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>CF_Criterion__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Analyze_Agent_Trends.criterionText</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>CF_Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Needs Coaching</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>CF_Trend_Detection__c</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordUpdates>
@@ -514,7 +742,7 @@
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
     <textTemplates>
         <name>ttCriteria</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>
@@ -525,7 +753,7 @@ MAX SCORE: {!Loop_Criteria.CF_Score__c}</text>
     <textTemplates>
         <name>ttImprovementAreas</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>
-        <text>{!Loop_Improvement_Areas.CF_Evaluation_Criteria__c}</text>
+        <text>{!Loop_Evaluation_Results.CF_Evaluation_Criteria__c}</text>
     </textTemplates>
     <variables>
         <name>brString</name>
@@ -624,6 +852,16 @@ MAX SCORE: {!Loop_Criteria.CF_Score__c}</text>
         <isOutput>false</isOutput>
         <value>
             <stringValue>&quot; TOPIC: &quot;</stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>varCreateCoachingSession</name>
+        <dataType>Boolean</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <booleanValue>false</booleanValue>
         </value>
     </variables>
 </Flow>
