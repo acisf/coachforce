@@ -8,17 +8,24 @@
         <locationX>0</locationX>
         <locationY>0</locationY>
         <assignmentItems>
-            <assignToReference>Get_Latest_Coaching_Session.CF_Status__c</assignToReference>
+            <assignToReference>Get_Coaching_Session.CF_Status__c</assignToReference>
             <operator>Assign</operator>
             <value>
                 <stringValue>Complete</stringValue>
             </value>
         </assignmentItems>
         <assignmentItems>
-            <assignToReference>Get_Latest_Coaching_Session.CF_Rehearsal_Completed__c</assignToReference>
+            <assignToReference>Get_Coaching_Session.CF_Rehearsal_Completed__c</assignToReference>
             <operator>Assign</operator>
             <value>
                 <booleanValue>true</booleanValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Get_Coaching_Session.CF_Completion_Date__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
             </value>
         </assignmentItems>
         <connector>
@@ -71,13 +78,6 @@
                 <stringValue>The coaching session has been marked as complete.</stringValue>
             </value>
         </assignmentItems>
-        <assignmentItems>
-            <assignToReference>coachingSessionId</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>Get_Latest_Coaching_Session.Id</elementReference>
-            </value>
-        </assignmentItems>
     </assignments>
     <decisions>
         <name>Has_Coaching_Session</name>
@@ -92,7 +92,7 @@
             <name>Yes</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>Get_Latest_Coaching_Session</leftValueReference>
+                <leftValueReference>Get_Coaching_Session</leftValueReference>
                 <operator>IsNull</operator>
                 <rightValue>
                     <booleanValue>false</booleanValue>
@@ -128,8 +128,8 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <recordLookups>
-        <name>Get_Latest_Coaching_Session</name>
-        <label>Get Latest Coaching Session</label>
+        <name>Get_Coaching_Session</name>
+        <label>Get Coaching Session</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
@@ -138,10 +138,10 @@
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
-            <field>CF_Agent__c</field>
+            <field>Id</field>
             <operator>EqualTo</operator>
             <value>
-                <elementReference>$User.Id</elementReference>
+                <elementReference>coachingSessionId</elementReference>
             </value>
         </filters>
         <filters>
@@ -163,15 +163,39 @@
         <locationX>0</locationX>
         <locationY>0</locationY>
         <connector>
+            <targetReference>Update_Trend_Detection</targetReference>
+        </connector>
+        <inputReference>Get_Coaching_Session</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Trend_Detection</name>
+        <label>Update Trend Detection</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
             <targetReference>Assign_Output_Variables</targetReference>
         </connector>
-        <inputReference>Get_Latest_Coaching_Session</inputReference>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>CF_Coaching_Session__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Coaching_Session.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>CF_Status__c</field>
+            <value>
+                <stringValue>Coached</stringValue>
+            </value>
+        </inputAssignments>
+        <object>CF_Trend_Detection__c</object>
     </recordUpdates>
     <start>
         <locationX>0</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Get_Latest_Coaching_Session</targetReference>
+            <targetReference>Get_Coaching_Session</targetReference>
         </connector>
     </start>
     <status>Active</status>
@@ -179,7 +203,7 @@
         <name>agentId</name>
         <dataType>String</dataType>
         <isCollection>false</isCollection>
-        <isInput>true</isInput>
+        <isInput>false</isInput>
         <isOutput>false</isOutput>
         <value>
             <elementReference>$User.Id</elementReference>
@@ -189,8 +213,8 @@
         <name>coachingSessionId</name>
         <dataType>String</dataType>
         <isCollection>false</isCollection>
-        <isInput>false</isInput>
-        <isOutput>true</isOutput>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
     </variables>
     <variables>
         <name>hasCoaching</name>

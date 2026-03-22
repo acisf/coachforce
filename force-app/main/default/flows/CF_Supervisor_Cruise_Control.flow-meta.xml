@@ -479,7 +479,7 @@
         <inputAssignments>
             <field>CF_Mode__c</field>
             <value>
-                <stringValue>Onboarding</stringValue>
+                <stringValue>Cruise Control</stringValue>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -502,6 +502,12 @@
             <field>CF_Agent__c</field>
             <value>
                 <elementReference>CF_Get_Agent_Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>CF_Coaching_Session__c</field>
+            <value>
+                <elementReference>coachingSessionId</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
