@@ -536,7 +536,7 @@
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <textTemplates>
         <name>ttCriteria</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>

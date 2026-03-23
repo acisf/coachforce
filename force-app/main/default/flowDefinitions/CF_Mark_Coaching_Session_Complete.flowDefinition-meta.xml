@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
-    <activeVersionNumber>1</activeVersionNumber>
+    <activeVersionNumber>4</activeVersionNumber>
     <description>Retrieves the most recent Coaching Session for the logged-in agent and marks it complete by updating rehearsal completion and status. Used by the Coachforce Employee Agent after a successful coaching practice session.</description>
     <masterLabel>Coachforce: Mark Coaching Session Complete</masterLabel>
 </FlowDefinition>
