@@ -61,6 +61,47 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </actionCalls>
     <actionCalls>
+        <name>Send_Coachforce_Notification</name>
+        <label>Send Coachforce Notification</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <actionName>customNotificationAction</actionName>
+        <actionType>customNotificationAction</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>customNotifTypeId</name>
+            <value>
+                <stringValue>0MLaj000001mbuLGAQ</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientIds</name>
+            <value>
+                <elementReference>recipientIds</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>title</name>
+            <value>
+                <stringValue>Your coaching session is ready</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>body</name>
+            <value>
+                <elementReference>notificationBody</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>targetId</name>
+            <value>
+                <elementReference>coachingSessionId</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>customNotificationAction</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <actionCalls>
         <name>Transcript_Evaluation</name>
         <label>Transcript Evaluation</label>
         <locationX>0</locationX>
@@ -128,6 +169,36 @@
     </actionCalls>
     <apiVersion>66.0</apiVersion>
     <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Assign_Notification_Variables</name>
+        <label>Assign Notification Variables</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>notificationBody</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>You have a new coaching topic:</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>notificationBody</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Create_Evaluation_Results_from_JSON.primaryCoachingTopic</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>recipientIds</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>CF_Get_Agent_Record.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Send_Coachforce_Notification</targetReference>
+        </connector>
+    </assignments>
     <assignments>
         <name>Assign_Transcript_Status</name>
         <label>Assign Transcript Status</label>
@@ -489,6 +560,9 @@
         <label>Update Call Transcript Status</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
+        <connector>
+            <targetReference>Assign_Notification_Variables</targetReference>
+        </connector>
         <inputReference>CF_Transcript</inputReference>
     </recordUpdates>
     <recordUpdates>
@@ -541,8 +615,11 @@
         <name>ttCriteria</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>
         <text>CATEGORY: {!Loop_Criteria.CF_Category__c}
-CRITERION: {!Loop_Criteria.CF_Criteria__c}
-MAX SCORE: {!Loop_Criteria.CF_Score__c}</text>
+CRITERIA: {!Loop_Criteria.CF_Criteria__c}
+MAX_SCORE: {!Loop_Criteria.CF_Score__c}
+NOT_APPLICABLE_WHEN: {!Loop_Criteria.Not_Applicable_When__c}
+
+---</text>
     </textTemplates>
     <textTemplates>
         <name>ttImprovementAreas</name>
@@ -627,6 +704,20 @@ MAX SCORE: {!Loop_Criteria.CF_Score__c}</text>
         <value>
             <stringValue>&quot;MAX SCORE: &quot;</stringValue>
         </value>
+    </variables>
+    <variables>
+        <name>notificationBody</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>recipientIds</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
     </variables>
     <variables>
         <name>spaceString</name>

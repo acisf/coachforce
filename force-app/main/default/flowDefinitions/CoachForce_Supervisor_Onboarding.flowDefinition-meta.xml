@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
-    <activeVersionNumber>5</activeVersionNumber>
+    <activeVersionNumber>8</activeVersionNumber>
     <description>Provides structured coaching support for new agents by automatically generating feedback from each evaluated call. Coaching sessions are created using the call transcript, evaluation summary, and identified improvement areas, helping accelerate onboarding and ensure consistent training without requiring manual review.</description>
     <masterLabel>Coachforce: Supervisor - Onboarding</masterLabel>
 </FlowDefinition>

@@ -95,7 +95,7 @@
             <assignToReference>varScoreSum</assignToReference>
             <operator>Add</operator>
             <value>
-                <elementReference>Loop_Evals.CF_Overall_Score__c</elementReference>
+                <elementReference>Loop_Evals.CF_Score__c</elementReference>
             </value>
         </assignmentItems>
         <connector>
