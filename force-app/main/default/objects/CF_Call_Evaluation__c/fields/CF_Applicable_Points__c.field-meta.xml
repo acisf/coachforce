@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CF_Applicable_Points__c</fullName>
+    <description>Total possible points from applicable criteria only.</description>
+    <label>Applicable Points</label>
+    <summarizedField>CF_Evaluation_Result__c.CF_Possible_Points__c</summarizedField>
+    <summaryFilterItems>
+        <field>CF_Evaluation_Result__c.CF_Applicable__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>CF_Evaluation_Result__c.CF_Call_Evaluation__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

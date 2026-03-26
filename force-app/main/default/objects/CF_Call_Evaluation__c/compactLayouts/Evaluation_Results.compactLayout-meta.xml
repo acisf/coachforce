@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Evaluation_Results</fullName>
+    <fields>Name</fields>
+    <fields>CF_Agent__c</fields>
+    <fields>CF_Transcript__c</fields>
+    <fields>CF_Evaluation_Template__c</fields>
+    <fields>CF_Score__c</fields>
+    <fields>CF_Applicable_Points__c</fields>
+    <fields>CF_Percent_Score__c</fields>
+    <fields>CF_Evaluation_Date__c</fields>
+    <label>Evaluation Results</label>
+</CompactLayout>

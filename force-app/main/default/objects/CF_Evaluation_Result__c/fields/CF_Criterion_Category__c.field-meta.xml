@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>CF_Agent_Id__c</fullName>
-    <description>Call Center agent Id</description>
+    <fullName>CF_Criterion_Category__c</fullName>
+    <description>Snapshot of the criterion category, such as Call Opening or Needs Assessment.</description>
     <externalId>false</externalId>
-    <formula>CF_Call_Evaluation__r.CF_Agent__r.Id</formula>
-    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Agent Id</label>
+    <label>Criterion Category</label>
+    <length>255</length>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Text</type>

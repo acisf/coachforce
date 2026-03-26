@@ -48,7 +48,7 @@ public with sharing class CF_AgentTrendAnalysisAction {
 
     @InvocableMethod(
         label='Analyze Agent Trends'
-        description='Returns the lowest-performing evaluation criterion for an agent below a threshold.'
+        description='Returns the lowest-performing applicable evaluation criterion for an agent below a threshold.'
     )
     public static List<Response> analyzeAgentTrends(List<Request> requests) {
         List<Response> responses = new List<Response>();
@@ -99,6 +99,7 @@ public with sharing class CF_AgentTrendAnalysisAction {
             SELECT Id,
                    CF_Call_Evaluation__c,
                    CF_Passed__c,
+                   CF_Applicable__c,
                    CF_Evaluation_Criteria__c
             FROM CF_Evaluation_Result__c
             WHERE CF_Call_Evaluation__c IN :evaluationIds
@@ -119,6 +120,13 @@ public with sharing class CF_AgentTrendAnalysisAction {
                 continue;
             }
 
+            Boolean isApplicable = (row.CF_Applicable__c == null) ? true : row.CF_Applicable__c;
+
+            // Skip non-applicable rows entirely so they do not affect trend math.
+            if (!isApplicable) {
+                continue;
+            }
+
             if (!statsByCriterion.containsKey(criterionText)) {
                 TrendStats stat = new TrendStats();
                 stat.criterionText = criterionText;
@@ -131,6 +139,11 @@ public with sharing class CF_AgentTrendAnalysisAction {
             if (row.CF_Passed__c == false) {
                 stat.failedCount++;
             }
+        }
+
+        if (statsByCriterion.isEmpty()) {
+            res.summaryMessage = 'No applicable evaluation results were found for the recent call evaluations.';
+            return res;
         }
 
         TrendStats worstStat;
@@ -148,7 +161,7 @@ public with sharing class CF_AgentTrendAnalysisAction {
         }
 
         if (worstStat == null) {
-            res.summaryMessage = 'No criterion fell below the threshold of ' + thresholdPercent + '%.';
+            res.summaryMessage = 'No applicable criterion fell below the threshold of ' + thresholdPercent + '%.';
             return res;
         }
 
@@ -158,7 +171,7 @@ public with sharing class CF_AgentTrendAnalysisAction {
         res.failedCount = worstStat.failedCount;
         res.passPercent = worstStat.getPassPercent();
         res.summaryMessage =
-            'Lowest-performing criterion is "' + res.criterionText +
+            'Lowest-performing applicable criterion is "' + res.criterionText +
             '" with pass rate ' + res.passPercent +
             '% (' + res.failedCount + ' failed out of ' + res.totalCount + ').';
 

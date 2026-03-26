@@ -37,14 +37,16 @@ public with sharing class CF_CreateEvaluationResultsAction {
     private class EvaluationResultItem {
         public String category;
         public String criteria;
+        public Boolean applicable;
         public Decimal score;
+        public Decimal maxScore;
         public Boolean passed;
         public String feedback;
     }
 
     @InvocableMethod(
         label='Create Evaluation Results from JSON'
-        description='Parses CF_Evaluation_JSON__c from CF_Call_Evaluation__c, updates AI summary, and creates CF_Evaluation_Result__c records.'
+        description='Parses CF_Evaluation_JSON__c from CF_Call_Evaluation__c, updates evaluation fields, and creates CF_Evaluation_Result__c records.'
     )
     public static List<Result> run(List<Request> requests) {
         List<Result> output = new List<Result>();
@@ -117,10 +119,11 @@ public with sharing class CF_CreateEvaluationResultsAction {
                     resultsToDelete.addAll(existingResultsByEvalId.get(evalId));
                 }
 
-                evalsToUpdate.add(new CF_Call_Evaluation__c(
+                CF_Call_Evaluation__c evalToUpdate = new CF_Call_Evaluation__c(
                     Id = evalId,
                     CF_AI_Summary__c = payload.summary
-                ));
+                );
+                evalsToUpdate.add(evalToUpdate);
 
                 Integer createdCount = 0;
 
@@ -128,10 +131,13 @@ public with sharing class CF_CreateEvaluationResultsAction {
                     for (EvaluationResultItem item : payload.results) {
                         CF_Evaluation_Result__c detail = new CF_Evaluation_Result__c();
                         detail.CF_Call_Evaluation__c = evalId;
-                        detail.CF_Score__c = item.score;
-                        detail.CF_Passed__c = item.passed;
-                        detail.CF_Feedback__c = item.feedback;
+                        detail.CF_Criterion_Category__c = item.category;
                         detail.CF_Evaluation_Criteria__c = item.criteria;
+                        detail.CF_Applicable__c = item.applicable == null ? true : item.applicable;
+                        detail.CF_Score__c = item.score == null ? 0 : item.score;
+                        detail.CF_Possible_Points__c = item.maxScore == null ? 0 : item.maxScore;
+                        detail.CF_Passed__c = item.passed == null ? false : item.passed;
+                        detail.CF_Feedback__c = item.feedback;
 
                         resultsToInsert.add(detail);
                         createdCount++;

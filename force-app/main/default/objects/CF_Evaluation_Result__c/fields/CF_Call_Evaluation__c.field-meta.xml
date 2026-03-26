@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>CF_Call_Evaluation__c</fullName>
+    <description>Parent evaluation record this criterion result belongs to.</description>
     <label>Call Evaluation</label>
     <referenceTo>CF_Call_Evaluation__c</referenceTo>
     <relationshipLabel>Evaluation Results</relationshipLabel>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>CF_Feedback__c</fullName>
-    <description>AI-generated explanation of what was done well or what missed the mark for this criterion.</description>
-    <label>Feedback</label>
+    <fullName>CF_Applicability_Reason__c</fullName>
+    <description>Brief explanation of why the criterion was marked not applicable, or notes on applicability determination.</description>
+    <label>Applicability Reason</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>
     <type>LongTextArea</type>
