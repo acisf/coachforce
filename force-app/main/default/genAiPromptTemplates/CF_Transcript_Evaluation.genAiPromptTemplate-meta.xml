@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
-    <activeVersionIdentifier>tJBtsqr2jauiFny75bA2QBUlv7DLfIqEHneaRelq24M=_1</activeVersionIdentifier>
+    <activeVersionIdentifier>tJBtsqr2jauiFny75bA2QBUlv7DLfIqEHneaRelq24M=_3</activeVersionIdentifier>
     <description>Evaluate the call transcript using the provided evaluation criteria.</description>
     <developerName>CF_Transcript_Evaluation</developerName>
     <masterLabel>Coachforce Transcript Evaluation</masterLabel>
@@ -75,33 +75,76 @@ Return JSON in this format:
         <versionIdentifier>tJBtsqr2jauiFny75bA2QBUlv7DLfIqEHneaRelq24M=_1</versionIdentifier>
     </templateVersions>
     <templateVersions>
-        <content>You are a call center quality assurance evaluator at {!$Organization.Name}
-Evaluate the call transcript using the provided evaluation criteria. 
+        <content>You are a call center quality assurance evaluator at {!$Organization.Name}.
+
+Evaluate the call transcript using the provided evaluation criteria. Be consistent, objective, and base all judgments strictly on the transcript.
+
 TRANSCRIPT:
 {!$Input:CF_Transcript}
 
 CRITERIA:
 {!$Input:CF_EvaluationCriteria}
 
-Return JSON in this format:
+Each criterion includes:
+- category
+- criteria
+- maxScore
+- notApplicableWhen (optional)
+
+EVALUATION RULES:
+
+1. Default to Applicable
+Assume every criterion is applicable unless a notApplicableWhen rule is provided and clearly met.
+
+2. Determine Not Applicable
+Only mark &quot;applicable&quot;: false if:
+- a notApplicableWhen rule is provided, AND
+- the transcript clearly satisfies that condition.
+If no notApplicableWhen rule exists, the criterion MUST remain applicable.
+
+3. If Not Applicable
+- Set &quot;applicable&quot;: false
+- Set &quot;score&quot;: 0
+- Set &quot;passed&quot;: false
+- Provide a brief explanation in &quot;feedback&quot; describing why it was not applicable
+
+4. If Applicable
+- Set &quot;applicable&quot;: true
+- Assign &quot;score&quot; from 0 up to maxScore
+- A score equal to maxScore represents perfect execution
+- Set &quot;passed&quot; to true if expectations are met, otherwise false
+- Provide clear, specific feedback based on the transcript
+
+5. Do Not Assume Missing Events
+Only evaluate what is present in the transcript. Do not infer behaviors that are not clearly shown.
+
+6. Be Consistent
+Apply the same scoring standard across all criteria. Do not inflate or deflate scores arbitrarily.
+
+7. Handle Missing Required Actions
+If a required behavior is missing entirely from the transcript, assign a score of 0 and explain the gap clearly in the feedback.
+
+OUTPUT FORMAT (JSON ONLY):
 
 {
-  &quot;evaluationtemplate&quot;: &quot;{!$Input:CF_EvaluationTemplate}&quot;,
-  &quot;agentUserId&quot;: &quot;{!$Input:CF_AgentUserId}&quot;,
-  &quot;overallScore&quot;: number,
-  &quot;summary&quot;: &quot;string&quot;,
-  &quot;primaryCoachingTopic&quot;: &quot;string&quot;,
-  &quot;results&quot;: [
-    {
-      &quot;category&quot;: &quot;string&quot;,
-      &quot;criteria&quot;: &quot;string&quot;,
-      &quot;score&quot;: number,
-      &quot;passed&quot;: true/false,
-      &quot;feedback&quot;: &quot;string&quot;
-    }
-  ]
+ &quot;evaluationtemplate&quot;: &quot;{!$Input:CF_EvaluationTemplate}&quot;,
+ &quot;agentUserId&quot;: &quot;{!$Input:CF_AgentUserId}&quot;,
+ &quot;summary&quot;: &quot;string&quot;,
+ &quot;primaryCoachingTopic&quot;: &quot;string&quot;,
+ &quot;results&quot;: [
+  {
+   &quot;category&quot;: &quot;string&quot;,
+   &quot;criteria&quot;: &quot;string&quot;,
+   &quot;applicable&quot;: true,
+   &quot;score&quot;: number,
+   &quot;maxScore&quot;: number,
+   &quot;passed&quot;: true,
+   &quot;feedback&quot;: &quot;string&quot;
+  }
+ ]
 }
 
+Return only valid JSON. Do not include any additional text outside of the JSON response.
 </content>
         <inputs>
             <apiName>CF_Transcript</apiName>
@@ -140,7 +183,7 @@ Return JSON in this format:
         </inputs>
         <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
         <responseFormat>JSON</responseFormat>
-        <status>Draft</status>
+        <status>Published</status>
         <versionIdentifier>tJBtsqr2jauiFny75bA2QBUlv7DLfIqEHneaRelq24M=_3</versionIdentifier>
     </templateVersions>
     <type>einstein_gpt__flex</type>
