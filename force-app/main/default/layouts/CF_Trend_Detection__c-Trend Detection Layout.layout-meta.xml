@@ -20,6 +20,10 @@
                 <behavior>Edit</behavior>
                 <field>CF_Criterion__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>CF_Record_Count__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

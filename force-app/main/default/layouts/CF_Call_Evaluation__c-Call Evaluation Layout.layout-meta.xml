@@ -36,7 +36,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>CF_Overall_Score__c</field>
+                <field>CF_Score__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
