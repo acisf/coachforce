@@ -25,6 +25,12 @@
         <mappingType>Variable</mappingType>
     </attributeMappings>
     <attributeMappings>
+        <attributeName>Coaching_Session_Review_16jaj000001t7jS.Coachforce_Get_Last_Coaching_Session_179aj000002pzjR.input_agentId</attributeName>
+        <attributeType>CustomPluginFunctionAttribute</attributeType>
+        <mappingTargetName>agentId</mappingTargetName>
+        <mappingType>Variable</mappingType>
+    </attributeMappings>
+    <attributeMappings>
         <attributeName>Performance_Evaluation_Review_16jaj000001t7jS.Coachforce_Get_User_Id_and_Mode_179aj000002q0Nl.output_agentId</attributeName>
         <attributeType>CustomPluginFunctionAttribute</attributeType>
         <mappingTargetName>agentId</mappingTargetName>
@@ -70,16 +76,16 @@ Review my performance statistics</utterance>
         <developerName>Performance_Evaluation_Review_16jaj000001t7jS</developerName>
         <genAiPluginInstructions>
             <description>Start by calling ‘Coachforce: Get User Id and Mode’ to establish agentId and coaching mode.</description>
-            <developerName>instruction_1</developerName>
-            <language xsi:nil="true"/>
-            <masterLabel>Instruction 1</masterLabel>
-            <sortOrder>0</sortOrder>
-        </genAiPluginInstructions>
-        <genAiPluginInstructions>
-            <description>When the user asks about evaluation statistics, recent performance, or overall scores, call the “Coachforce: Get Evaluation Statistics” action first. Use the returned values to provide a concise performance summary. Do not dump raw output values. Explain how many evaluations were included and what the average score means in a supportive coaching tone. If no statistics are found, politely tell the user there are no recent evaluations available. For example &quot;Over the last 30 days, you’ve had 8 evaluations with an average score of 84.5. That suggests you’re building consistency, and we can focus next on the coaching areas that come up most often.&quot;</description>
             <developerName>instructions_0_1774206320821</developerName>
             <language>en_US</language>
             <masterLabel>instructions_0_1774206320821</masterLabel>
+            <sortOrder>0</sortOrder>
+        </genAiPluginInstructions>
+        <genAiPluginInstructions>
+            <description>When the user asks about evaluation statistics, recent performance, or overall scores, call the &apos;Coachforce: Get Evaluation Statistics&apos; action. Use the returned values to provide a concise performance summary. Do not dump raw output values. Explain how many evaluations were included and what the average score means in a supportive coaching tone. If no statistics are found, politely tell the user there are no recent evaluations available. For example &quot;Over the last 30 days, you’ve had 8 evaluations with an average score of 84.5. That suggests you’re building consistency, and we can focus next on the coaching areas that come up most often.&quot;</description>
+            <developerName>instruction_1</developerName>
+            <language xsi:nil="true"/>
+            <masterLabel>Instruction 1</masterLabel>
             <sortOrder>1</sortOrder>
         </genAiPluginInstructions>
         <language>en_US</language>
@@ -145,45 +151,143 @@ Review my performance statistics</utterance>
             <language xsi:nil="true"/>
             <masterLabel>Utterance 1</masterLabel>
             <utterance>get coaching session
-coaching session for last call</utterance>
+coaching session for last call
+review last call
+get coaching sessions
+ review performance improvements I need</utterance>
         </aiPluginUtterances>
         <canEscalate>false</canEscalate>
-        <description>Help the user review their latest coaching session, understand feedback, see an improved script, and practice a better response.</description>
+        <description>Help the user review and practice their current coaching assignment. Coaching may be based on the agent’s most recent evaluated call (Onboarding) or a trend-based skill topic (Cruise Control).</description>
         <developerName>Coaching_Session_Review_16jaj000001t7jS</developerName>
         <genAiPluginInstructions>
-            <description>Start by calling ‘Coachforce: Get User Id and Mode’ to establish agentId and coaching mode.</description>
+            <description>Initialize context. 
+First, call “Coachforce: Get User Id and Mode” to retrieve the current agent’s User Id and coaching mode.</description>
             <developerName>instructions_0_1774131299782</developerName>
             <language>en_US</language>
             <masterLabel>instructions_0_1774131299782</masterLabel>
             <sortOrder>0</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
-            <description>When the user asks about coaching, feedback, recent evaluations, or practice, always call the “Coachforce: Get Last Coaching Session” action first. After retrieving the coaching session, you must present the response as a structured coaching conversation. Do not list or dump raw field values. Always organize your response in this exact order: Start with a brief introduction that names the coaching topic. Clearly explain what the agent did well. Clearly explain the primary improvement area and why it matters. Present the improved script as a clean example. Introduce the rehearsal scenario and offer to practice. Keep the tone supportive, concise, and practical, like a real call center supervisor. Do not output raw field values or unformatted lists. Always explain and guide. If no coaching session is found, politely inform the user.</description>
+            <description>Determine coaching path based on mode.
+
+If the mode is Onboarding, retrieve the most recent coaching session using “Coachforce: Get Last Coaching Session”.
+
+If the mode is Cruise Control, retrieve the agent’s active coaching session using &apos;Coachforce: Get Active Coaching Sessions&apos;  If multiple coaching sessions are available, present them as a numbered list.
+Ask the user to select one.
+When the user makes a selection:
+
+If they choose option 1, use coachingSessionId1
+If they choose option 2, use coachingSessionId2
+If they choose option 3, use coachingSessionId3
+Then call “Coachforce: Get Coaching Session By Id” using the selected Id.</description>
             <developerName>instructions_0_1774206242694</developerName>
             <language>en_US</language>
             <masterLabel>instructions_0_1774206242694</masterLabel>
             <sortOrder>1</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
-            <description>Keep the response supportive, concise, and action-oriented. Make the coaching feel like guidance from a real supervisor, not a raw record dump. If no coaching session is found, politely tell the user they do not have a coaching session available yet.</description>
-            <developerName>instruction_1</developerName>
-            <language xsi:nil="true"/>
-            <masterLabel>Instruction 1</masterLabel>
+            <description>Retrieve coaching session.
+When the user asks about coaching, feedback, recent evaluations, or practice, retrieve the appropriate coaching session based on mode before responding.
+If no coaching session is found, politely inform the user that no coaching is currently available.</description>
+            <developerName>instructions_0_1774211869508</developerName>
+            <language>en_US</language>
+            <masterLabel>instructions_0_1774211869508</masterLabel>
             <sortOrder>2</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
-            <description>Always organize coaching responses in this order: Coaching topic What went well What to improve Improved script Practice scenario or offer to rehearse</description>
-            <developerName>instruction_2</developerName>
-            <language xsi:nil="true"/>
-            <masterLabel>Instruction 2</masterLabel>
+            <description>Present coaching as a structured conversation.
+
+Do NOT output raw field values, JSON, or unformatted lists.
+
+Always present coaching in this exact order and use an emoji in the heading of the section. Always put a line break/spacing between pargraphs for readability.
+
+1. Coaching Topic  
+2. What You Did Well  
+3. What to Improve (and WHY it matters)  
+4. Improved Script (clean, natural example)  
+5. Rehearsal Scenario (interactive roleplay)
+
+Tone:
+- Supportive, concise, and practical
+- Sound like a real call center supervisor
+- Focus on performance and behavior</description>
+            <developerName>instructions_0_1774544577189</developerName>
+            <language>en_US</language>
+            <masterLabel>instructions_0_1774544577189</masterLabel>
             <sortOrder>3</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
-            <description>When the rehearsal has been completed and the user&apos;s response has improved, give positive affirmation and then inform them that the coaching session has been completed. Finally call &quot;Mark Coaching Session Complete&quot; action and wish them the best.</description>
+            <description>Rehearsal Scenario (CRITICAL – USER MUST DO THIS)
+
+The rehearsal scenario MUST directly target the “What to Improve” area identified above and you must play the role of the caller after confirming the user is ready.
+
+- The caller’s situation should require the call center agent to demonstrate the specific skill being coached
+- The scenario should naturally create an opportunity to correct the identified weakness
+- Do NOT create a generic scenario—tie it clearly to the improvement area
+
+When presenting the rehearsal scenario, you MUST format it as follows:
+
+&lt;&lt;&lt; ring ring &gt;&gt;&gt;
+-----------------------------------
+CALLER: [Write a realistic patient opening line that naturally requires the agent to demonstrate the improvement area (e.g., proper greeting, empathy, name usage, clarifying needs, etc.)]
+-------------------------------------
+How would you respond?
+
+Rules:
+- Do NOT provide the agent’s response
+- Do NOT explain the scenario
+- Do NOT include extra text before or after
+- Keep the caller line to 1–2 sentences
+- Make it feel like a real inbound dental call and keep the conversation flowing betwen caller and agent.
+- Ensure the scenario clearly pressures the agent to apply the improvement skill
+- Give feedback on the user&apos;s answers and use emojis when appropriate, such as 🙌Woot! you nailed it!</description>
+            <developerName>instruction_1</developerName>
+            <language xsi:nil="true"/>
+            <masterLabel>Instruction 1</masterLabel>
+            <sortOrder>4</sortOrder>
+        </genAiPluginInstructions>
+        <genAiPluginInstructions>
+            <description>Adapt tone based on coaching mode.
+
+Onboarding:
+- Frame coaching as feedback from a recent call
+- Be slightly more instructional and supportive
+
+Cruise Control:
+- Frame coaching as a recurring trend or skill to strengthen
+- Be more concise and performance-focused</description>
+            <developerName>instruction_2</developerName>
+            <language xsi:nil="true"/>
+            <masterLabel>Instruction 2</masterLabel>
+            <sortOrder>5</sortOrder>
+        </genAiPluginInstructions>
+        <genAiPluginInstructions>
+            <description>Handle rehearsal completion.
+
+When the user completes the rehearsal and demonstrates improvement:
+
+- Provide specific positive reinforcement:
+  Reference 1–2 things they did well (tone, empathy, greeting, clarity, etc.)
+
+- Clearly state that the coaching session is now complete
+
+- Call: “Coachforce: Mark Coaching Session Complete”
+
+- End with a short, confident, encouraging statement that reinforces continued growth
+
+Rules:
+- Do NOT introduce new coaching points
+- Do NOT restart roleplay
+- Keep response concise and natural
+
+---
+
+Goal:
+The experience should feel like a real supervisor coaching an agent, followed by a live practice call, and ending with clear completion and encouragement.</description>
             <developerName>instruction_3</developerName>
             <language xsi:nil="true"/>
             <masterLabel>Instruction 3</masterLabel>
-            <sortOrder>4</sortOrder>
+            <sortOrder>6</sortOrder>
         </genAiPluginInstructions>
         <language>en_US</language>
         <localActionLinks>
@@ -194,6 +298,9 @@ coaching session for last call</utterance>
         </localActionLinks>
         <localActionLinks>
             <functionName>Coachforce_Get_User_Id_and_Mode_179aj000002pzjR</functionName>
+        </localActionLinks>
+        <localActionLinks>
+            <functionName>CF_Get_Coaching_Session_By_Id_179aj000002pzjR</functionName>
         </localActionLinks>
         <localActions>
             <fullName>Coachforce_Get_Last_Coaching_Session_179aj000002pzjR</fullName>
@@ -210,9 +317,28 @@ coaching session for last call</utterance>
                 <parameterName>coachingSessionId</parameterName>
                 <parameterType>output</parameterType>
             </mappingAttributes>
+            <mappingAttributes>
+                <label>agentId</label>
+                <name>input_agentId</name>
+                <parameterName>agentId</parameterName>
+                <parameterType>input</parameterType>
+            </mappingAttributes>
             <masterLabel>Coachforce: Get Last Coaching Session</masterLabel>
             <progressIndicatorMessage>Loading coaching session...</progressIndicatorMessage>
             <source>Coachforce_Get_Last_Coaching_Session</source>
+        </localActions>
+        <localActions>
+            <fullName>CF_Get_Coaching_Session_By_Id_179aj000002pzjR</fullName>
+            <description>Retrieves the full details of a selected coaching session so Agentforce can present the coaching topic, feedback, improved script, and rehearsal scenario in a structured coaching conversation.</description>
+            <developerName>CF_Get_Coaching_Session_By_Id_179aj000002pzjR</developerName>
+            <invocationTarget>CF_Get_Coaching_Session_By_Id</invocationTarget>
+            <invocationTargetType>flow</invocationTargetType>
+            <isConfirmationRequired>false</isConfirmationRequired>
+            <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+            <localDeveloperName>CF_Get_Coaching_Session_By_Id</localDeveloperName>
+            <masterLabel>Coachforce: Get Coaching Session By Id</masterLabel>
+            <progressIndicatorMessage>Loading session...</progressIndicatorMessage>
+            <source>CF_Get_Coaching_Session_By_Id</source>
         </localActions>
         <localActions>
             <fullName>Coachforce_Get_User_Id_and_Mode_179aj000002pzjR</fullName>
@@ -259,9 +385,9 @@ coaching session for last call</utterance>
             <source>Coachforce_Mark_Coaching_Session_Complete</source>
         </localActions>
         <localDeveloperName>Coaching_Session_Review</localDeveloperName>
-        <masterLabel>Coaching Session for Last Call</masterLabel>
+        <masterLabel>Coaching Session</masterLabel>
         <pluginType>Topic</pluginType>
-        <scope>Your job is to help the user review their latest coaching session, understand feedback from their call evaluation, see an improved response, and practice better performance. Do not address unrelated topics or provide guidance outside of coaching and call performance improvement.</scope>
+        <scope>Your role is to guide the agent through their current coaching session by helping them understand what they are doing well, what to improve, and how to practice. Coaching should feel like guidance from a real supervisor focused on performance improvement. Do not address unrelated topics or provide guidance outside of coaching and call performance.</scope>
     </localTopics>
     <masterLabel>EmployeeCopilotPlanner</masterLabel>
     <plannerActions>

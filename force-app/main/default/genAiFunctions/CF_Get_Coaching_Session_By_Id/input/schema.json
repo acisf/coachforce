@@ -1,10 +1,10 @@
 {
-  "required" : [ "agentId" ],
+  "required" : [ "coachingSessionId" ],
   "unevaluatedProperties" : false,
   "properties" : {
-    "agentId" : {
-      "title" : "agentId",
-      "description" : "Salesforce user id",
+    "coachingSessionId" : {
+      "title" : "coachingSessionId",
+      "description" : "The Salesforce record Id of the selected coaching session.",
       "lightning:type" : "lightning__textType",
       "lightning:isPII" : false,
       "copilotAction:isUserInput" : false

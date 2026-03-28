@@ -3,25 +3,16 @@
   "properties" : {
     "coachingSessionId" : {
       "title" : "coachingSessionId",
-      "description" : "Unique id of the coaching session returned by Salesforce",
+      "description" : "The Salesforce record Id of the selected coaching session.",
       "lightning:type" : "lightning__textType",
       "lightning:isPII" : false,
       "copilotAction:isDisplayable" : false,
       "copilotAction:isUsedByPlanner" : true,
       "copilotAction:useHydratedPrompt" : false
     },
-    "coachingTopic" : {
-      "title" : "coachingTopic",
-      "description" : "The main focus of the coaching session. Use this to introduce the coaching conversation and name the skill or behavior the agent is improving.\n",
-      "lightning:type" : "lightning__textType",
-      "lightning:isPII" : false,
-      "copilotAction:isDisplayable" : false,
-      "copilotAction:isUsedByPlanner" : true,
-      "copilotAction:useHydratedPrompt" : false
-    },
-    "hasCoaching" : {
-      "title" : "hasCoaching",
-      "description" : "Indicates whether a coaching session exists. If false, inform the agent they have no coaching sessions available.\n",
+    "foundSession" : {
+      "title" : "foundSession",
+      "description" : "Indicates whether the selected coaching session was found.",
       "lightning:type" : "lightning__booleanType",
       "lightning:isPII" : false,
       "copilotAction:isDisplayable" : false,
@@ -30,7 +21,7 @@
     },
     "improvedScript" : {
       "title" : "improvedScript",
-      "description" : "The recommended way the agent should respond in similar situations. Present this as a clear example the agent can follow.\n",
+      "description" : "An example of a stronger or improved response the agent can study and practice.",
       "lightning:type" : "lightning__textType",
       "lightning:isPII" : false,
       "copilotAction:isDisplayable" : false,
@@ -39,7 +30,25 @@
     },
     "improvementArea" : {
       "title" : "improvementArea",
-      "description" : "The recommended response the agent should use in a similar situation. Present it clearly as a model script, separated from the rest of the summary.\n",
+      "description" : "The primary area the agent should improve and focus on during coaching.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "mode" : {
+      "title" : "mode",
+      "description" : "The coaching mode associated with the selected coaching session, such as Onboarding or Cruise Control.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "rehearsalCompleted" : {
+      "title" : "rehearsalCompleted",
+      "description" : "Indicates whether the rehearsal for the coaching session has already been completed.",
       "lightning:type" : "lightning__textType",
       "lightning:isPII" : false,
       "copilotAction:isDisplayable" : false,
@@ -48,7 +57,7 @@
     },
     "rehearsalScenario" : {
       "title" : "rehearsalScenario",
-      "description" : "A practice scenario based on the coaching session. Use it to invite the agent into a short rehearsal or roleplay exercise.\n",
+      "description" : "The practice scenario the agent should use to rehearse the improved behavior.",
       "lightning:type" : "lightning__textType",
       "lightning:isPII" : false,
       "copilotAction:isDisplayable" : false,
@@ -57,7 +66,16 @@
     },
     "status" : {
       "title" : "status",
-      "description" : "The current status of the coaching session. Use this to determine whether the agent has already completed or still needs to review the coaching.\n",
+      "description" : "The current status of the coaching session.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "topic" : {
+      "title" : "topic",
+      "description" : "The coaching topic for the selected coaching session.",
       "lightning:type" : "lightning__textType",
       "lightning:isPII" : false,
       "copilotAction:isDisplayable" : false,
@@ -66,7 +84,7 @@
     },
     "whatWentWell" : {
       "title" : "whatWentWell",
-      "description" : "Positive feedback from the call. Present this first to reinforce strengths before discussing improvement areas.\n",
+      "description" : "Guidance describing what the agent did well.",
       "lightning:type" : "lightning__textType",
       "lightning:isPII" : false,
       "copilotAction:isDisplayable" : false,

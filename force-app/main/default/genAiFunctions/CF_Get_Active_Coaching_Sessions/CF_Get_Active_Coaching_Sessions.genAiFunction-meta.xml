@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Retrieves the current agent’s active Cruise Control coaching sessions so Agentforce can present the agent with their current trend-based coaching topics and allow them to select one for review or practice.</description>
+    <developerName>CF_Get_Active_Coaching_Sessions</developerName>
+    <invocationTarget>Coachforce_Get_Active_Coaching_Sessions</invocationTarget>
+    <invocationTargetType>flow</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+    <localDeveloperName>CF_Get_Active_Coaching_Sessions</localDeveloperName>
+    <masterLabel>Coachforce: Get Active Coaching Sessions</masterLabel>
+    <progressIndicatorMessage>Loading coaching sessions...</progressIndicatorMessage>
+</GenAiFunction>

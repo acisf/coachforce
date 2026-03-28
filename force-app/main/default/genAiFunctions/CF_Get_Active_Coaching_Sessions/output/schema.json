@@ -1,0 +1,105 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "coachingCount" : {
+      "title" : "coachingCount",
+      "description" : "Use this to determine whether to present zero, one, or multiple coaching session options.",
+      "lightning:type" : "lightning__numberType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "coachingSessionId1" : {
+      "title" : "coachingSessionId1",
+      "description" : "Use this Id when the user selects the first coaching session.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "coachingSessionId2" : {
+      "title" : "coachingSessionId2",
+      "description" : "Use this Id when the user selects the second coaching session.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "coachingSessionId3" : {
+      "title" : "coachingSessionId3",
+      "description" : "Use this Id when the user selects the third coaching session.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "coachingSummary1" : {
+      "title" : "coachingSummary1",
+      "description" : "Display this as a brief description of the first coaching session option.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "coachingSummary2" : {
+      "title" : "coachingSummary2",
+      "description" : "Display this as a brief description of the second coaching session option.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "coachingSummary3" : {
+      "title" : "coachingSummary3",
+      "description" : "Display this as a brief description of the third coaching session option.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "coachingTopic1" : {
+      "title" : "coachingTopic1",
+      "description" : "Display this as a brief description of the first coaching session option.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "coachingTopic2" : {
+      "title" : "coachingTopic2",
+      "description" : "Display this as a brief description of the second coaching session option.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "coachingTopic3" : {
+      "title" : "coachingTopic3",
+      "description" : "Display this as a brief description of the third coaching session option.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "hasCoaching" : {
+      "title" : "hasCoaching",
+      "description" : "Use this to determine whether any active Cruise Control coaching sessions are available for the agent.",
+      "lightning:type" : "lightning__booleanType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

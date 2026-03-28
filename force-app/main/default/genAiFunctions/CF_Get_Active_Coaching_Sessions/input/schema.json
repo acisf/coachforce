@@ -4,7 +4,7 @@
   "properties" : {
     "agentId" : {
       "title" : "agentId",
-      "description" : "Salesforce user id",
+      "description" : "Salesforce User Id",
       "lightning:type" : "lightning__textType",
       "lightning:isPII" : false,
       "copilotAction:isUserInput" : false
