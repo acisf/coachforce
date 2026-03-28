@@ -1,0 +1,3166 @@
+CF_Voice_Call__c,CF_Evaluation_Status__c,CF_Transcript_Text__c
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Olivia. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Robert Carter.
+Agent: Thank you. If your last name is pronounced correctly as Carter, may I call you Ms. Carter?
+Caller: Yes, that's fine.
+Agent: Wonderful, Ms. Carter. What can I help you with today?
+Caller: I would like to schedule a new patient exam. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Ms. Carter. Just so I understand, you are looking for a new patient exam at our Greensboro Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Ms. Carter. You are looking to be seen soon at the Greensboro Practice for discomfort and a new patient exam.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1001.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: robert.carter1@examplemail.com.
+Agent: Let me repeat that back for accuracy: Robert Carter, callback number (919) 555-1001, email robert.carter1@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 101 Oak Ridge Drive, Greensboro, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 101 Oak Ridge Drive, Greensboro, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through Google.
+Agent: Perfect. I have openings on Thursday at 3:30 PM or Thursday at 9:15 AM. Which works better for you, Ms. Carter?
+Caller: Thursday at 3:30 PM would be good.
+Agent: I am glad you called us today. The practice is currently offering a free implant consultation, so this is a good time to get you scheduled.
+Agent: Will you be using insurance, Ms. Carter?
+Caller: No, I will be self-pay.
+Agent: Thank you for letting me know.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Ms. Carter, I have requested a new patient exam at the Greensboro Practice for Thursday at 3:30 PM. The office will use (919) 555-1001 and send confirmation to robert.carter1@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Ms. Carter. Have a great day."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Jordan. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Thomas Mitchell.
+Agent: Thank you. If your last name is pronounced correctly as Mitchell, may I call you Thomas?
+Caller: Yes, that's fine.
+Agent: Wonderful, Thomas. What can I help you with today?
+Caller: I would like to schedule a new patient exam. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Thomas. Just so I understand, you are looking for a new patient exam at our Winston-Salem Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Thomas. You are looking to be seen soon at the Winston-Salem Practice for discomfort and a new patient exam.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1002.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: thomas.mitchell2@examplemail.com.
+Agent: Let me repeat that back for accuracy: Thomas Mitchell, callback number (919) 555-1002, email thomas.mitchell2@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 102 Oak Ridge Drive, Winston-Salem, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 102 Oak Ridge Drive, Winston-Salem, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through Facebook.
+Agent: Perfect. I have openings on Tuesday at 1:00 PM or Thursday at 9:15 AM. Which works better for you, Thomas?
+Caller: Tuesday at 1:00 PM would be good.
+Agent: I am glad you called today. The office has a promotional consultation available this month, and I will make sure your request is noted.
+Agent: Will you be using insurance, Thomas?
+Caller: Yes, I have Delta Dental through my employer.
+Agent: Thank you. I will note Delta Dental and the member information can be verified when the office calls or at check-in.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Thomas, I have requested a new patient exam at the Winston-Salem Practice for Tuesday at 1:00 PM. The office will use (919) 555-1002 and send confirmation to thomas.mitchell2@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Thomas. Have a great day."
+,Not Evaluated,"Agent: Hello, this is Erica.
+Caller: Hi, I need an appointment.
+Agent: For what?
+Caller: I think I need a limited exam for pain. My mouth has been hurting for a few days.
+Agent: Okay. Which location?
+Caller: Durham Practice.
+Agent: All right.
+Caller: Can I come in this week?
+Agent: Maybe. I see something on Friday morning.
+Caller: Okay, put me down for that.
+Agent: Name?
+Caller: Joseph Reed.
+Agent: Phone number?
+Caller: (919) 555-1003.
+Agent: All right, you are set.
+Caller: Do you need anything else from me?
+Agent: No, the office will figure it out when you get there.
+Caller: Okay.
+Agent: Bye."
+,Not Evaluated,"Agent: Hello, this is Jordan.
+Caller: Hi, I need an appointment.
+Agent: For what?
+Caller: I think I need a reline consultation. My mouth has been hurting for a few days.
+Agent: Okay. Which location?
+Caller: Greensboro Practice.
+Agent: All right.
+Caller: Can I come in this week?
+Agent: Maybe. I see something on Friday morning.
+Caller: Okay, put me down for that.
+Agent: Name?
+Caller: Betty Jackson.
+Agent: Phone number?
+Caller: (919) 555-1004.
+Agent: All right, you are set.
+Caller: Do you need anything else from me?
+Agent: No, the office will figure it out when you get there.
+Caller: Okay.
+Agent: Bye."
+,Not Evaluated,"Agent: Agent: Affordable Smiles, this is Tanya.
+Caller: Hi, my name is Nancy Mitchell. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a denture consultation. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Durham Practice.
+Agent: Got it. So you want the Durham Practice and you are calling about chewing pain and a possible denture consultation, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1005.
+Agent: And your email?
+Caller: nancy.mitchell5@examplemail.com.
+Agent: Let me make sure I heard you right: Nancy Mitchell, (919) 555-1005, and nancy.mitchell5@examplemail.com.
+Caller: Yes.
+Agent: I have Tuesday at 2:30 PM available.
+Caller: Do you have anything else?
+Caller: I was hoping for something earlier because I work afternoons.
+Agent: The morning slots are limited, but I can note your preference and place you with the earliest available time.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Durham Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Hello, this is Mia.
+Caller: Hi, I need an appointment.
+Agent: For what?
+Caller: I think I need a reline consultation. My mouth has been hurting for a few days.
+Agent: Okay. Which location?
+Caller: Greensboro Practice.
+Agent: All right.
+Caller: Can I come in this week?
+Agent: Maybe. I see something on Thursday afternoon.
+Caller: Okay, put me down for that.
+Agent: Name?
+Caller: Jennifer Hughes.
+Agent: Phone number?
+Caller: (919) 555-1006.
+Agent: All right, you are set.
+Caller: Do you need anything else from me?
+Agent: No, the office will figure it out when you get there.
+Caller: Okay.
+Agent: Bye."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Mia. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is David Kim.
+Agent: Thank you. If your last name is pronounced correctly as Kim, may I call you Ms. Kim?
+Caller: Yes, that's fine.
+Agent: Wonderful, Ms. Kim. What can I help you with today?
+Caller: I would like to schedule a limited exam for pain. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Ms. Kim. Just so I understand, you are looking for a limited exam for pain at our Durham Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Ms. Kim. You are looking to be seen soon at the Durham Practice for discomfort and a limited exam for pain.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1007.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: david.kim7@examplemail.com.
+Agent: Let me repeat that back for accuracy: David Kim, callback number (919) 555-1007, email david.kim7@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 107 Oak Ridge Drive, Durham, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 107 Oak Ridge Drive, Durham, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a mailed flyer.
+Agent: Perfect. I have openings on Monday at 9:00 AM or Wednesday at 2:00 PM. Which works better for you, Ms. Kim?
+Caller: Monday at 9:00 AM would be good.
+Agent: I am glad you called today. The office has a promotional consultation available this month, and I will make sure your request is noted.
+Agent: Will you be using insurance, Ms. Kim?
+Caller: No, I will be self-pay.
+Agent: Thank you for letting me know.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Ms. Kim, I have requested a limited exam for pain at the Durham Practice for Monday at 9:00 AM. The office will use (919) 555-1007 and send confirmation to david.kim7@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Ms. Kim. Have a great day."
+,Not Evaluated,"Agent: Hello, this is Tanya.
+Caller: Hi, I need an appointment.
+Agent: For what?
+Caller: I think I need a limited exam for pain. My mouth has been hurting for a few days.
+Agent: Okay. Which location?
+Caller: Raleigh Practice.
+Agent: All right.
+Caller: Can I come in this week?
+Agent: Maybe. I see something on next Monday.
+Caller: Okay, put me down for that.
+Agent: Name?
+Caller: Joseph Nelson.
+Agent: Phone number?
+Caller: (919) 555-1008.
+Agent: All right, you are set.
+Caller: Do you need anything else from me?
+Agent: No, the office will figure it out when you get there.
+Caller: Okay.
+Agent: Bye."
+,Not Evaluated,"Agent: Hello, this is Sofia.
+Caller: Hi, I need an appointment.
+Agent: For what?
+Caller: I think I need a denture consultation. My mouth has been hurting for a few days.
+Agent: Okay. Which location?
+Caller: Raleigh Practice.
+Agent: All right.
+Caller: Can I come in this week?
+Agent: Maybe. I see something on Friday morning.
+Caller: Okay, put me down for that.
+Agent: Name?
+Caller: Joseph Bennett.
+Agent: Phone number?
+Caller: (919) 555-1009.
+Agent: All right, you are set.
+Caller: Do you need anything else from me?
+Agent: No, the office will figure it out when you get there.
+Caller: Okay.
+Agent: Bye."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Rachel. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Barbara Diaz.
+Agent: Thank you. If your last name is pronounced correctly as Diaz, may I call you Barbara?
+Caller: Yes, that's fine.
+Agent: Wonderful, Barbara. What can I help you with today?
+Caller: I would like to schedule a new patient exam. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Barbara. Just so I understand, you are looking for a new patient exam at our Winston-Salem Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Barbara. You are looking to be seen soon at the Winston-Salem Practice for discomfort and a new patient exam.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1010.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: barbara.diaz10@examplemail.com.
+Agent: Let me repeat that back for accuracy: Barbara Diaz, callback number (919) 555-1010, email barbara.diaz10@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 110 Oak Ridge Drive, Winston-Salem, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 110 Oak Ridge Drive, Winston-Salem, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through Google.
+Agent: Perfect. I have openings on Wednesday at 11:15 AM or Tuesday at 10:30 AM. Which works better for you, Barbara?
+Caller: Wednesday at 11:15 AM would be good.
+Agent: I am glad you called us today. The practice is currently offering a free implant consultation, so this is a good time to get you scheduled.
+Agent: Will you be using insurance, Barbara?
+Caller: Yes, I have Delta Dental through my employer.
+Agent: Thank you. I will note Delta Dental and the member information can be verified when the office calls or at check-in.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Barbara, I have requested a new patient exam at the Winston-Salem Practice for Wednesday at 11:15 AM. The office will use (919) 555-1010 and send confirmation to barbara.diaz10@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Barbara. Have a great day."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Tanya. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is James Young.
+Agent: Thank you. If your last name is pronounced correctly as Young, may I call you Ms. Young?
+Caller: Yes, that's fine.
+Agent: Wonderful, Ms. Young. What can I help you with today?
+Caller: I would like to schedule a implant consultation. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Ms. Young. Just so I understand, you are looking for a implant consultation at our Durham Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Ms. Young. You are looking to be seen soon at the Durham Practice for discomfort and a implant consultation.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1011.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: james.young11@examplemail.com.
+Agent: Let me repeat that back for accuracy: James Young, callback number (919) 555-1011, email james.young11@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 111 Oak Ridge Drive, Durham, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 111 Oak Ridge Drive, Durham, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a friend.
+Agent: Perfect. I have openings on Monday at 9:00 AM or Tuesday at 10:30 AM. Which works better for you, Ms. Young?
+Caller: Monday at 9:00 AM would be good.
+Agent: I am glad you called today. The office has a promotional consultation available this month, and I will make sure your request is noted.
+Agent: Will you be using insurance, Ms. Young?
+Caller: No, I will be self-pay.
+Agent: Thank you for letting me know.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Ms. Young, I have requested a implant consultation at the Durham Practice for Monday at 9:00 AM. The office will use (919) 555-1011 and send confirmation to james.young11@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Ms. Young. Have a great day."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Olivia. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Lisa Reed.
+Agent: Thank you. If your last name is pronounced correctly as Reed, may I call you Ms. Reed?
+Caller: Yes, that's fine.
+Agent: Wonderful, Ms. Reed. What can I help you with today?
+Caller: I would like to schedule a denture consultation. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Ms. Reed. Just so I understand, you are looking for a denture consultation at our Raleigh Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Ms. Reed. You are looking to be seen soon at the Raleigh Practice for discomfort and a denture consultation.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1012.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: lisa.reed12@examplemail.com.
+Agent: Let me repeat that back for accuracy: Lisa Reed, callback number (919) 555-1012, email lisa.reed12@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 112 Oak Ridge Drive, Raleigh, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 112 Oak Ridge Drive, Raleigh, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through Google.
+Agent: Perfect. I have openings on Tuesday at 1:00 PM or Friday at 1:45 PM. Which works better for you, Ms. Reed?
+Caller: Tuesday at 1:00 PM would be good.
+Agent: I am glad you called us today. The practice is currently offering a free implant consultation, so this is a good time to get you scheduled.
+Agent: Will you be using insurance, Ms. Reed?
+Caller: Yes, I have Delta Dental through my employer.
+Agent: Thank you. I will note Delta Dental and the member information can be verified when the office calls or at check-in.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Ms. Reed, I have requested a denture consultation at the Raleigh Practice for Tuesday at 1:00 PM. The office will use (919) 555-1012 and send confirmation to lisa.reed12@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Ms. Reed. Have a great day."
+,Not Evaluated,"Agent: Agent: Affordable Smiles scheduling, Jordan speaking.
+Caller: Hi, my name is Charles Mitchell. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a new patient exam. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Winston-Salem Practice.
+Agent: Got it. So you want the Winston-Salem Practice and you are calling about chewing pain and a possible new patient exam, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1013.
+Agent: And your email?
+Caller: charles.mitchell13@examplemail.com.
+Agent: Let me make sure I heard you right: Charles Mitchell, (919) 555-1013, and charles.mitchell13@examplemail.com.
+Caller: Yes.
+Agent: I have Thursday at 10:00 AM available.
+Caller: Do you have anything else?
+Caller: I am nervous about cost.
+Agent: I understand. The office can review treatment and fees with you in detail, and I will note that concern.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Winston-Salem Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Agent: Affordable Smiles, this is Rachel.
+Caller: Hi, my name is Robert Jackson. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a implant consultation. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Durham Practice.
+Agent: Got it. So you want the Durham Practice and you are calling about chewing pain and a possible implant consultation, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1014.
+Agent: And your email?
+Caller: robert.jackson14@examplemail.com.
+Agent: Let me make sure I heard you right: Robert Jackson, (919) 555-1014, and robert.jackson14@examplemail.com.
+Caller: Yes.
+Agent: I have Thursday at 10:00 AM available.
+Caller: Do you have anything else?
+Caller: I am nervous about cost.
+Agent: I understand. The office can review treatment and fees with you in detail, and I will note that concern.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Durham Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Sofia. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Jennifer Young.
+Agent: Thank you. If your last name is pronounced correctly as Young, may I call you Jennifer?
+Caller: Yes, that's fine.
+Agent: Wonderful, Jennifer. What can I help you with today?
+Caller: I would like to schedule a limited exam for pain. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Jennifer. Just so I understand, you are looking for a limited exam for pain at our Durham Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Jennifer. You are looking to be seen soon at the Durham Practice for discomfort and a limited exam for pain.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1015.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: jennifer.young15@examplemail.com.
+Agent: Let me repeat that back for accuracy: Jennifer Young, callback number (919) 555-1015, email jennifer.young15@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 115 Oak Ridge Drive, Durham, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 115 Oak Ridge Drive, Durham, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a roadside sign.
+Agent: Perfect. I have openings on Wednesday at 11:15 AM or Friday at 1:45 PM. Which works better for you, Jennifer?
+Caller: Wednesday at 11:15 AM would be good.
+Agent: I am glad you called us today. The practice is currently offering a free implant consultation, so this is a good time to get you scheduled.
+Agent: Will you be using insurance, Jennifer?
+Caller: Yes, I have Delta Dental through my employer.
+Agent: Thank you. I will note Delta Dental and the member information can be verified when the office calls or at check-in.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Jennifer, I have requested a limited exam for pain at the Durham Practice for Wednesday at 11:15 AM. The office will use (919) 555-1015 and send confirmation to jennifer.young15@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Jennifer. Have a great day."
+,Not Evaluated,"Agent: Agent: Thanks for calling, this is Olivia. How can I help?
+Caller: Hi, my name is David Reed. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a reline consultation. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Durham Practice.
+Agent: Got it. So you want the Durham Practice and you are calling about chewing pain and a possible reline consultation, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1016.
+Agent: And your email?
+Caller: david.reed16@examplemail.com.
+Agent: Let me make sure I heard you right: David Reed, (919) 555-1016, and david.reed16@examplemail.com.
+Caller: Yes.
+Agent: I have Thursday at 10:00 AM available.
+Caller: Do you have anything else?
+Caller: I am nervous about cost.
+Agent: I understand. The office can review treatment and fees with you in detail, and I will note that concern.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Durham Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Erica. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Karen Mitchell.
+Agent: Thank you. If your last name is pronounced correctly as Mitchell, may I call you Mr. Mitchell?
+Caller: Yes, that's fine.
+Agent: Wonderful, Mr. Mitchell. What can I help you with today?
+Caller: I would like to schedule a new patient exam. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Mr. Mitchell. Just so I understand, you are looking for a new patient exam at our Durham Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Mr. Mitchell. You are looking to be seen soon at the Durham Practice for discomfort and a new patient exam.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1017.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: karen.mitchell17@examplemail.com.
+Agent: Let me repeat that back for accuracy: Karen Mitchell, callback number (919) 555-1017, email karen.mitchell17@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 117 Oak Ridge Drive, Durham, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 117 Oak Ridge Drive, Durham, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a TV ad.
+Agent: Perfect. I have openings on Tuesday at 1:00 PM or Thursday at 9:15 AM. Which works better for you, Mr. Mitchell?
+Caller: Tuesday at 1:00 PM would be good.
+Agent: I am glad you called us today. The practice is currently offering a free implant consultation, so this is a good time to get you scheduled.
+Agent: Will you be using insurance, Mr. Mitchell?
+Caller: No, I will be self-pay.
+Agent: Thank you for letting me know.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Mr. Mitchell, I have requested a new patient exam at the Durham Practice for Tuesday at 1:00 PM. The office will use (919) 555-1017 and send confirmation to karen.mitchell17@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Mr. Mitchell. Have a great day."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Erica. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Lisa Mitchell.
+Agent: Thank you. If your last name is pronounced correctly as Mitchell, may I call you Lisa?
+Caller: Yes, that's fine.
+Agent: Wonderful, Lisa. What can I help you with today?
+Caller: I would like to schedule a limited exam for pain. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Lisa. Just so I understand, you are looking for a limited exam for pain at our Raleigh Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Lisa. You are looking to be seen soon at the Raleigh Practice for discomfort and a limited exam for pain.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1018.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: lisa.mitchell18@examplemail.com.
+Agent: Let me repeat that back for accuracy: Lisa Mitchell, callback number (919) 555-1018, email lisa.mitchell18@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 118 Oak Ridge Drive, Raleigh, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 118 Oak Ridge Drive, Raleigh, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a roadside sign.
+Agent: Perfect. I have openings on Thursday at 3:30 PM or Wednesday at 2:00 PM. Which works better for you, Lisa?
+Caller: Thursday at 3:30 PM would be good.
+Agent: I am glad you called us today. The practice is currently offering a free implant consultation, so this is a good time to get you scheduled.
+Agent: Will you be using insurance, Lisa?
+Caller: No, I will be self-pay.
+Agent: Thank you for letting me know.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Lisa, I have requested a limited exam for pain at the Raleigh Practice for Thursday at 3:30 PM. The office will use (919) 555-1018 and send confirmation to lisa.mitchell18@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Lisa. Have a great day."
+,Not Evaluated,"Agent: Agent: Affordable Smiles, this is Tanya.
+Caller: Hi, my name is Joseph Parker. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a denture consultation. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Raleigh Practice.
+Agent: Got it. So you want the Raleigh Practice and you are calling about chewing pain and a possible denture consultation, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1019.
+Agent: And your email?
+Caller: joseph.parker19@examplemail.com.
+Agent: Let me make sure I heard you right: Joseph Parker, (919) 555-1019, and joseph.parker19@examplemail.com.
+Caller: Yes.
+Agent: I have Tuesday at 2:30 PM available.
+Caller: Do you have anything else?
+Caller: I was hoping for something earlier because I work afternoons.
+Agent: The morning slots are limited, but I can note your preference and place you with the earliest available time.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Raleigh Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Agent: Affordable Smiles scheduling, Brianna speaking.
+Caller: Hi, my name is Michael Watkins. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a reline consultation. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Durham Practice.
+Agent: Got it. So you want the Durham Practice and you are calling about chewing pain and a possible reline consultation, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1020.
+Agent: And your email?
+Caller: michael.watkins20@examplemail.com.
+Agent: Let me make sure I heard you right: Michael Watkins, (919) 555-1020, and michael.watkins20@examplemail.com.
+Caller: Yes.
+Agent: I have Thursday at 10:00 AM available.
+Caller: Do you have anything else?
+Caller: I am nervous about cost.
+Agent: I understand. The office can review treatment and fees with you in detail, and I will note that concern.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Durham Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Agent: Affordable Smiles scheduling, Jordan speaking.
+Caller: Hi, my name is Karen Edwards. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a new patient exam. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Raleigh Practice.
+Agent: Got it. So you want the Raleigh Practice and you are calling about chewing pain and a possible new patient exam, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1021.
+Agent: And your email?
+Caller: karen.edwards21@examplemail.com.
+Agent: Let me make sure I heard you right: Karen Edwards, (919) 555-1021, and karen.edwards21@examplemail.com.
+Caller: Yes.
+Agent: I have Thursday at 10:00 AM available.
+Caller: Do you have anything else?
+Caller: I was hoping for something earlier because I work afternoons.
+Agent: The morning slots are limited, but I can note your preference and place you with the earliest available time.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Raleigh Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Sofia. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Michael Owens.
+Agent: Thank you. If your last name is pronounced correctly as Owens, may I call you Michael?
+Caller: Yes, that's fine.
+Agent: Wonderful, Michael. What can I help you with today?
+Caller: I would like to schedule a new patient exam. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Michael. Just so I understand, you are looking for a new patient exam at our Durham Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Michael. You are looking to be seen soon at the Durham Practice for discomfort and a new patient exam.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1022.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: michael.owens22@examplemail.com.
+Agent: Let me repeat that back for accuracy: Michael Owens, callback number (919) 555-1022, email michael.owens22@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 122 Oak Ridge Drive, Durham, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 122 Oak Ridge Drive, Durham, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a friend.
+Agent: Perfect. I have openings on Wednesday at 11:15 AM or Wednesday at 2:00 PM. Which works better for you, Michael?
+Caller: Wednesday at 11:15 AM would be good.
+Agent: I am glad you called today. The office has a promotional consultation available this month, and I will make sure your request is noted.
+Agent: Will you be using insurance, Michael?
+Caller: No, I will be self-pay.
+Agent: Thank you for letting me know.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Michael, I have requested a new patient exam at the Durham Practice for Wednesday at 11:15 AM. The office will use (919) 555-1022 and send confirmation to michael.owens22@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Michael. Have a great day."
+,Not Evaluated,"Agent: Agent: Affordable Smiles scheduling, Rachel speaking.
+Caller: Hi, my name is Michael Bennett. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a reline consultation. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Greensboro Practice.
+Agent: Got it. So you want the Greensboro Practice and you are calling about chewing pain and a possible reline consultation, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1023.
+Agent: And your email?
+Caller: michael.bennett23@examplemail.com.
+Agent: Let me make sure I heard you right: Michael Bennett, (919) 555-1023, and michael.bennett23@examplemail.com.
+Caller: Yes.
+Agent: I have Thursday at 10:00 AM available.
+Caller: Do you have anything else?
+Caller: I am nervous about cost.
+Agent: I understand. The office can review treatment and fees with you in detail, and I will note that concern.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Greensboro Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Jordan. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Michael Turner.
+Agent: Thank you. If your last name is pronounced correctly as Turner, may I call you Mr. Turner?
+Caller: Yes, that's fine.
+Agent: Wonderful, Mr. Turner. What can I help you with today?
+Caller: I would like to schedule a reline consultation. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Mr. Turner. Just so I understand, you are looking for a reline consultation at our Winston-Salem Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Mr. Turner. You are looking to be seen soon at the Winston-Salem Practice for discomfort and a reline consultation.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1024.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: michael.turner24@examplemail.com.
+Agent: Let me repeat that back for accuracy: Michael Turner, callback number (919) 555-1024, email michael.turner24@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 124 Oak Ridge Drive, Winston-Salem, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 124 Oak Ridge Drive, Winston-Salem, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through Google.
+Agent: Perfect. I have openings on Tuesday at 1:00 PM or Tuesday at 10:30 AM. Which works better for you, Mr. Turner?
+Caller: Tuesday at 1:00 PM would be good.
+Agent: I am glad you called us today. The practice is currently offering a free implant consultation, so this is a good time to get you scheduled.
+Agent: Will you be using insurance, Mr. Turner?
+Caller: Yes, I have Delta Dental through my employer.
+Agent: Thank you. I will note Delta Dental and the member information can be verified when the office calls or at check-in.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Mr. Turner, I have requested a reline consultation at the Winston-Salem Practice for Tuesday at 1:00 PM. The office will use (919) 555-1024 and send confirmation to michael.turner24@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Mr. Turner. Have a great day."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Erica. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Lisa Young.
+Agent: Thank you. If your last name is pronounced correctly as Young, may I call you Mr. Young?
+Caller: Yes, that's fine.
+Agent: Wonderful, Mr. Young. What can I help you with today?
+Caller: I would like to schedule a new patient exam. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Mr. Young. Just so I understand, you are looking for a new patient exam at our Winston-Salem Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Mr. Young. You are looking to be seen soon at the Winston-Salem Practice for discomfort and a new patient exam.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1025.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: lisa.young25@examplemail.com.
+Agent: Let me repeat that back for accuracy: Lisa Young, callback number (919) 555-1025, email lisa.young25@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 125 Oak Ridge Drive, Winston-Salem, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 125 Oak Ridge Drive, Winston-Salem, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a friend.
+Agent: Perfect. I have openings on Tuesday at 1:00 PM or Tuesday at 10:30 AM. Which works better for you, Mr. Young?
+Caller: Tuesday at 1:00 PM would be good.
+Agent: I am glad you called today. The office has a promotional consultation available this month, and I will make sure your request is noted.
+Agent: Will you be using insurance, Mr. Young?
+Caller: Yes, I have Delta Dental through my employer.
+Agent: Thank you. I will note Delta Dental and the member information can be verified when the office calls or at check-in.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Mr. Young, I have requested a new patient exam at the Winston-Salem Practice for Tuesday at 1:00 PM. The office will use (919) 555-1025 and send confirmation to lisa.young25@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Mr. Young. Have a great day."
+,Not Evaluated,"Agent: Agent: Affordable Smiles, this is Brianna.
+Caller: Hi, my name is Patricia Diaz. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a new patient exam. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Winston-Salem Practice.
+Agent: Got it. So you want the Winston-Salem Practice and you are calling about chewing pain and a possible new patient exam, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1026.
+Agent: And your email?
+Caller: patricia.diaz26@examplemail.com.
+Agent: Let me make sure I heard you right: Patricia Diaz, (919) 555-1026, and patricia.diaz26@examplemail.com.
+Caller: Yes.
+Agent: I have Wednesday at 4:00 PM available.
+Caller: Do you have anything else?
+Caller: I am nervous about cost.
+Agent: I understand. The office can review treatment and fees with you in detail, and I will note that concern.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Winston-Salem Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Sofia. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Sandra Simmons.
+Agent: Thank you. If your last name is pronounced correctly as Simmons, may I call you Mr. Simmons?
+Caller: Yes, that's fine.
+Agent: Wonderful, Mr. Simmons. What can I help you with today?
+Caller: I would like to schedule a limited exam for pain. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Mr. Simmons. Just so I understand, you are looking for a limited exam for pain at our Cary Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Mr. Simmons. You are looking to be seen soon at the Cary Practice for discomfort and a limited exam for pain.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1027.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: sandra.simmons27@examplemail.com.
+Agent: Let me repeat that back for accuracy: Sandra Simmons, callback number (919) 555-1027, email sandra.simmons27@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 127 Oak Ridge Drive, Cary, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 127 Oak Ridge Drive, Cary, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a mailed flyer.
+Agent: Perfect. I have openings on Tuesday at 1:00 PM or Thursday at 9:15 AM. Which works better for you, Mr. Simmons?
+Caller: Tuesday at 1:00 PM would be good.
+Agent: I am glad you called us today. The practice is currently offering a free implant consultation, so this is a good time to get you scheduled.
+Agent: Will you be using insurance, Mr. Simmons?
+Caller: No, I will be self-pay.
+Agent: Thank you for letting me know.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Mr. Simmons, I have requested a limited exam for pain at the Cary Practice for Tuesday at 1:00 PM. The office will use (919) 555-1027 and send confirmation to sandra.simmons27@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Mr. Simmons. Have a great day."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Tanya. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Nancy Diaz.
+Agent: Thank you. If your last name is pronounced correctly as Diaz, may I call you Nancy?
+Caller: Yes, that's fine.
+Agent: Wonderful, Nancy. What can I help you with today?
+Caller: I would like to schedule a implant consultation. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Nancy. Just so I understand, you are looking for a implant consultation at our Greensboro Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Nancy. You are looking to be seen soon at the Greensboro Practice for discomfort and a implant consultation.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1028.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: nancy.diaz28@examplemail.com.
+Agent: Let me repeat that back for accuracy: Nancy Diaz, callback number (919) 555-1028, email nancy.diaz28@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 128 Oak Ridge Drive, Greensboro, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 128 Oak Ridge Drive, Greensboro, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through Google.
+Agent: Perfect. I have openings on Tuesday at 1:00 PM or Tuesday at 10:30 AM. Which works better for you, Nancy?
+Caller: Tuesday at 1:00 PM would be good.
+Agent: I am glad you called us today. The practice is currently offering a free implant consultation, so this is a good time to get you scheduled.
+Agent: Will you be using insurance, Nancy?
+Caller: No, I will be self-pay.
+Agent: Thank you for letting me know.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Nancy, I have requested a implant consultation at the Greensboro Practice for Tuesday at 1:00 PM. The office will use (919) 555-1028 and send confirmation to nancy.diaz28@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Nancy. Have a great day."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Jordan. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Michael Mitchell.
+Agent: Thank you. If your last name is pronounced correctly as Mitchell, may I call you Michael?
+Caller: Yes, that's fine.
+Agent: Wonderful, Michael. What can I help you with today?
+Caller: I would like to schedule a denture consultation. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Michael. Just so I understand, you are looking for a denture consultation at our Cary Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Michael. You are looking to be seen soon at the Cary Practice for discomfort and a denture consultation.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1029.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: michael.mitchell29@examplemail.com.
+Agent: Let me repeat that back for accuracy: Michael Mitchell, callback number (919) 555-1029, email michael.mitchell29@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 129 Oak Ridge Drive, Cary, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 129 Oak Ridge Drive, Cary, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through Facebook.
+Agent: Perfect. I have openings on Thursday at 3:30 PM or Friday at 1:45 PM. Which works better for you, Michael?
+Caller: Thursday at 3:30 PM would be good.
+Agent: I am glad you called us today. The practice is currently offering a free implant consultation, so this is a good time to get you scheduled.
+Agent: Will you be using insurance, Michael?
+Caller: Yes, I have Delta Dental through my employer.
+Agent: Thank you. I will note Delta Dental and the member information can be verified when the office calls or at check-in.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Michael, I have requested a denture consultation at the Cary Practice for Thursday at 3:30 PM. The office will use (919) 555-1029 and send confirmation to michael.mitchell29@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Michael. Have a great day."
+,Not Evaluated,"Agent: Hello, this is Tanya.
+Caller: Hi, I need an appointment.
+Agent: For what?
+Caller: I think I need a limited exam for pain. My mouth has been hurting for a few days.
+Agent: Okay. Which location?
+Caller: Cary Practice.
+Agent: All right.
+Caller: Can I come in this week?
+Agent: Maybe. I see something on Thursday afternoon.
+Caller: Okay, put me down for that.
+Agent: Name?
+Caller: Barbara Owens.
+Agent: Phone number?
+Caller: (919) 555-1030.
+Agent: All right, you are set.
+Caller: Do you need anything else from me?
+Agent: No, the office will figure it out when you get there.
+Caller: Okay.
+Agent: Bye."
+,Not Evaluated,"Agent: Agent: Thanks for calling, this is Erica. How can I help?
+Caller: Hi, my name is Karen Lopez. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a new patient exam. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Cary Practice.
+Agent: Got it. So you want the Cary Practice and you are calling about chewing pain and a possible new patient exam, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1031.
+Agent: And your email?
+Caller: karen.lopez31@examplemail.com.
+Agent: Let me make sure I heard you right: Karen Lopez, (919) 555-1031, and karen.lopez31@examplemail.com.
+Caller: Yes.
+Agent: I have Wednesday at 4:00 PM available.
+Caller: Do you have anything else?
+Caller: I am nervous about cost.
+Agent: I understand. The office can review treatment and fees with you in detail, and I will note that concern.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Cary Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Agent: Thanks for calling, this is Rachel. How can I help?
+Caller: Hi, my name is William Nelson. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a reline consultation. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Winston-Salem Practice.
+Agent: Got it. So you want the Winston-Salem Practice and you are calling about chewing pain and a possible reline consultation, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1032.
+Agent: And your email?
+Caller: william.nelson32@examplemail.com.
+Agent: Let me make sure I heard you right: William Nelson, (919) 555-1032, and william.nelson32@examplemail.com.
+Caller: Yes.
+Agent: I have Tuesday at 2:30 PM available.
+Caller: Do you have anything else?
+Caller: I was hoping for something earlier because I work afternoons.
+Agent: The morning slots are limited, but I can note your preference and place you with the earliest available time.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Winston-Salem Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Erica. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Jennifer Diaz.
+Agent: Thank you. If your last name is pronounced correctly as Diaz, may I call you Jennifer?
+Caller: Yes, that's fine.
+Agent: Wonderful, Jennifer. What can I help you with today?
+Caller: I would like to schedule a implant consultation. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Jennifer. Just so I understand, you are looking for a implant consultation at our Cary Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Jennifer. You are looking to be seen soon at the Cary Practice for discomfort and a implant consultation.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1033.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: jennifer.diaz33@examplemail.com.
+Agent: Let me repeat that back for accuracy: Jennifer Diaz, callback number (919) 555-1033, email jennifer.diaz33@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 133 Oak Ridge Drive, Cary, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 133 Oak Ridge Drive, Cary, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through Google.
+Agent: Perfect. I have openings on Thursday at 3:30 PM or Wednesday at 2:00 PM. Which works better for you, Jennifer?
+Caller: Thursday at 3:30 PM would be good.
+Agent: I am glad you called today. The office has a promotional consultation available this month, and I will make sure your request is noted.
+Agent: Will you be using insurance, Jennifer?
+Caller: No, I will be self-pay.
+Agent: Thank you for letting me know.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Jennifer, I have requested a implant consultation at the Cary Practice for Thursday at 3:30 PM. The office will use (919) 555-1033 and send confirmation to jennifer.diaz33@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Jennifer. Have a great day."
+,Not Evaluated,"Agent: Agent: Thanks for calling, this is Brianna. How can I help?
+Caller: Hi, my name is Michael Turner. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a new patient exam. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Cary Practice.
+Agent: Got it. So you want the Cary Practice and you are calling about chewing pain and a possible new patient exam, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1034.
+Agent: And your email?
+Caller: michael.turner34@examplemail.com.
+Agent: Let me make sure I heard you right: Michael Turner, (919) 555-1034, and michael.turner34@examplemail.com.
+Caller: Yes.
+Agent: I have Thursday at 10:00 AM available.
+Caller: Do you have anything else?
+Caller: I was hoping for something earlier because I work afternoons.
+Agent: The morning slots are limited, but I can note your preference and place you with the earliest available time.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Cary Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Hello, this is Erica.
+Caller: Hi, I need an appointment.
+Agent: For what?
+Caller: I think I need a new patient exam. My mouth has been hurting for a few days.
+Agent: Okay. Which location?
+Caller: Cary Practice.
+Agent: All right.
+Caller: Can I come in this week?
+Agent: Maybe. I see something on next Monday.
+Caller: Okay, put me down for that.
+Agent: Name?
+Caller: Barbara Owens.
+Agent: Phone number?
+Caller: (919) 555-1035.
+Agent: All right, you are set.
+Caller: Do you need anything else from me?
+Agent: No, the office will figure it out when you get there.
+Caller: Okay.
+Agent: Bye."
+,Not Evaluated,"Agent: Hello, this is Erica.
+Caller: Hi, I need an appointment.
+Agent: For what?
+Caller: I think I need a denture consultation. My mouth has been hurting for a few days.
+Agent: Okay. Which location?
+Caller: Winston-Salem Practice.
+Agent: All right.
+Caller: Can I come in this week?
+Agent: Maybe. I see something on Thursday afternoon.
+Caller: Okay, put me down for that.
+Agent: Name?
+Caller: Robert Jackson.
+Agent: Phone number?
+Caller: (919) 555-1036.
+Agent: All right, you are set.
+Caller: Do you need anything else from me?
+Agent: No, the office will figure it out when you get there.
+Caller: Okay.
+Agent: Bye."
+,Not Evaluated,"Agent: Agent: Affordable Smiles scheduling, Brianna speaking.
+Caller: Hi, my name is David Diaz. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a implant consultation. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Raleigh Practice.
+Agent: Got it. So you want the Raleigh Practice and you are calling about chewing pain and a possible implant consultation, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1037.
+Agent: And your email?
+Caller: david.diaz37@examplemail.com.
+Agent: Let me make sure I heard you right: David Diaz, (919) 555-1037, and david.diaz37@examplemail.com.
+Caller: Yes.
+Agent: I have Wednesday at 4:00 PM available.
+Caller: Do you have anything else?
+Caller: I am nervous about cost.
+Agent: I understand. The office can review treatment and fees with you in detail, and I will note that concern.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Raleigh Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Hello, this is Mia.
+Caller: Hi, I need an appointment.
+Agent: For what?
+Caller: I think I need a denture consultation. My mouth has been hurting for a few days.
+Agent: Okay. Which location?
+Caller: Winston-Salem Practice.
+Agent: All right.
+Caller: Can I come in this week?
+Agent: Maybe. I see something on Thursday afternoon.
+Caller: Okay, put me down for that.
+Agent: Name?
+Caller: Sandra Edwards.
+Agent: Phone number?
+Caller: (919) 555-1038.
+Agent: All right, you are set.
+Caller: Do you need anything else from me?
+Agent: No, the office will figure it out when you get there.
+Caller: Okay.
+Agent: Bye."
+,Not Evaluated,"Agent: Agent: Thanks for calling, this is Mia. How can I help?
+Caller: Hi, my name is Barbara Jackson. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a denture consultation. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Durham Practice.
+Agent: Got it. So you want the Durham Practice and you are calling about chewing pain and a possible denture consultation, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1039.
+Agent: And your email?
+Caller: barbara.jackson39@examplemail.com.
+Agent: Let me make sure I heard you right: Barbara Jackson, (919) 555-1039, and barbara.jackson39@examplemail.com.
+Caller: Yes.
+Agent: I have Thursday at 10:00 AM available.
+Caller: Do you have anything else?
+Caller: I am nervous about cost.
+Agent: I understand. The office can review treatment and fees with you in detail, and I will note that concern.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Durham Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Brianna. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is James Kim.
+Agent: Thank you. If your last name is pronounced correctly as Kim, may I call you Mr. Kim?
+Caller: Yes, that's fine.
+Agent: Wonderful, Mr. Kim. What can I help you with today?
+Caller: I would like to schedule a denture consultation. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Mr. Kim. Just so I understand, you are looking for a denture consultation at our Winston-Salem Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Mr. Kim. You are looking to be seen soon at the Winston-Salem Practice for discomfort and a denture consultation.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1040.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: james.kim40@examplemail.com.
+Agent: Let me repeat that back for accuracy: James Kim, callback number (919) 555-1040, email james.kim40@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 140 Oak Ridge Drive, Winston-Salem, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 140 Oak Ridge Drive, Winston-Salem, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a friend.
+Agent: Perfect. I have openings on Monday at 9:00 AM or Thursday at 9:15 AM. Which works better for you, Mr. Kim?
+Caller: Monday at 9:00 AM would be good.
+Agent: I am glad you called us today. The practice is currently offering a free implant consultation, so this is a good time to get you scheduled.
+Agent: Will you be using insurance, Mr. Kim?
+Caller: Yes, I have Delta Dental through my employer.
+Agent: Thank you. I will note Delta Dental and the member information can be verified when the office calls or at check-in.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Mr. Kim, I have requested a denture consultation at the Winston-Salem Practice for Monday at 9:00 AM. The office will use (919) 555-1040 and send confirmation to james.kim40@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Mr. Kim. Have a great day."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Sofia. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Charles Turner.
+Agent: Thank you. If your last name is pronounced correctly as Turner, may I call you Mr. Turner?
+Caller: Yes, that's fine.
+Agent: Wonderful, Mr. Turner. What can I help you with today?
+Caller: I would like to schedule a limited exam for pain. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Mr. Turner. Just so I understand, you are looking for a limited exam for pain at our Winston-Salem Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Mr. Turner. You are looking to be seen soon at the Winston-Salem Practice for discomfort and a limited exam for pain.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1041.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: charles.turner41@examplemail.com.
+Agent: Let me repeat that back for accuracy: Charles Turner, callback number (919) 555-1041, email charles.turner41@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 141 Oak Ridge Drive, Winston-Salem, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 141 Oak Ridge Drive, Winston-Salem, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a TV ad.
+Agent: Perfect. I have openings on Thursday at 3:30 PM or Friday at 1:45 PM. Which works better for you, Mr. Turner?
+Caller: Thursday at 3:30 PM would be good.
+Agent: I am glad you called today. The office has a promotional consultation available this month, and I will make sure your request is noted.
+Agent: Will you be using insurance, Mr. Turner?
+Caller: No, I will be self-pay.
+Agent: Thank you for letting me know.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Mr. Turner, I have requested a limited exam for pain at the Winston-Salem Practice for Thursday at 3:30 PM. The office will use (919) 555-1041 and send confirmation to charles.turner41@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Mr. Turner. Have a great day."
+,Not Evaluated,"Agent: Hello, this is Rachel.
+Caller: Hi, I need an appointment.
+Agent: For what?
+Caller: I think I need a denture consultation. My mouth has been hurting for a few days.
+Agent: Okay. Which location?
+Caller: Durham Practice.
+Agent: All right.
+Caller: Can I come in this week?
+Agent: Maybe. I see something on Friday morning.
+Caller: Okay, put me down for that.
+Agent: Name?
+Caller: James Hughes.
+Agent: Phone number?
+Caller: (919) 555-1042.
+Agent: All right, you are set.
+Caller: Do you need anything else from me?
+Agent: No, the office will figure it out when you get there.
+Caller: Okay.
+Agent: Bye."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Jordan. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Karen Bennett.
+Agent: Thank you. If your last name is pronounced correctly as Bennett, may I call you Ms. Bennett?
+Caller: Yes, that's fine.
+Agent: Wonderful, Ms. Bennett. What can I help you with today?
+Caller: I would like to schedule a new patient exam. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Ms. Bennett. Just so I understand, you are looking for a new patient exam at our Raleigh Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Ms. Bennett. You are looking to be seen soon at the Raleigh Practice for discomfort and a new patient exam.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1043.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: karen.bennett43@examplemail.com.
+Agent: Let me repeat that back for accuracy: Karen Bennett, callback number (919) 555-1043, email karen.bennett43@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 143 Oak Ridge Drive, Raleigh, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 143 Oak Ridge Drive, Raleigh, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a roadside sign.
+Agent: Perfect. I have openings on Monday at 9:00 AM or Wednesday at 2:00 PM. Which works better for you, Ms. Bennett?
+Caller: Monday at 9:00 AM would be good.
+Agent: I am glad you called today. The office has a promotional consultation available this month, and I will make sure your request is noted.
+Agent: Will you be using insurance, Ms. Bennett?
+Caller: Yes, I have Delta Dental through my employer.
+Agent: Thank you. I will note Delta Dental and the member information can be verified when the office calls or at check-in.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Ms. Bennett, I have requested a new patient exam at the Raleigh Practice for Monday at 9:00 AM. The office will use (919) 555-1043 and send confirmation to karen.bennett43@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Ms. Bennett. Have a great day."
+,Not Evaluated,"Agent: Agent: Thanks for calling, this is Sofia. How can I help?
+Caller: Hi, my name is Charles Kim. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a new patient exam. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Cary Practice.
+Agent: Got it. So you want the Cary Practice and you are calling about chewing pain and a possible new patient exam, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1044.
+Agent: And your email?
+Caller: charles.kim44@examplemail.com.
+Agent: Let me make sure I heard you right: Charles Kim, (919) 555-1044, and charles.kim44@examplemail.com.
+Caller: Yes.
+Agent: I have Tuesday at 2:30 PM available.
+Caller: Do you have anything else?
+Caller: I was hoping for something earlier because I work afternoons.
+Agent: The morning slots are limited, but I can note your preference and place you with the earliest available time.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Cary Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Mia. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is David Parker.
+Agent: Thank you. If your last name is pronounced correctly as Parker, may I call you Mr. Parker?
+Caller: Yes, that's fine.
+Agent: Wonderful, Mr. Parker. What can I help you with today?
+Caller: I would like to schedule a implant consultation. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Mr. Parker. Just so I understand, you are looking for a implant consultation at our Cary Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Mr. Parker. You are looking to be seen soon at the Cary Practice for discomfort and a implant consultation.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1045.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: david.parker45@examplemail.com.
+Agent: Let me repeat that back for accuracy: David Parker, callback number (919) 555-1045, email david.parker45@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 145 Oak Ridge Drive, Cary, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 145 Oak Ridge Drive, Cary, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a friend.
+Agent: Perfect. I have openings on Wednesday at 11:15 AM or Tuesday at 10:30 AM. Which works better for you, Mr. Parker?
+Caller: Wednesday at 11:15 AM would be good.
+Agent: I am glad you called today. The office has a promotional consultation available this month, and I will make sure your request is noted.
+Agent: Will you be using insurance, Mr. Parker?
+Caller: Yes, I have Delta Dental through my employer.
+Agent: Thank you. I will note Delta Dental and the member information can be verified when the office calls or at check-in.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Mr. Parker, I have requested a implant consultation at the Cary Practice for Wednesday at 11:15 AM. The office will use (919) 555-1045 and send confirmation to david.parker45@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Mr. Parker. Have a great day."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Rachel. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Barbara Adams.
+Agent: Thank you. If your last name is pronounced correctly as Adams, may I call you Mr. Adams?
+Caller: Yes, that's fine.
+Agent: Wonderful, Mr. Adams. What can I help you with today?
+Caller: I would like to schedule a new patient exam. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Mr. Adams. Just so I understand, you are looking for a new patient exam at our Greensboro Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Mr. Adams. You are looking to be seen soon at the Greensboro Practice for discomfort and a new patient exam.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1046.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: barbara.adams46@examplemail.com.
+Agent: Let me repeat that back for accuracy: Barbara Adams, callback number (919) 555-1046, email barbara.adams46@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 146 Oak Ridge Drive, Greensboro, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 146 Oak Ridge Drive, Greensboro, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through Facebook.
+Agent: Perfect. I have openings on Monday at 9:00 AM or Wednesday at 2:00 PM. Which works better for you, Mr. Adams?
+Caller: Monday at 9:00 AM would be good.
+Agent: I am glad you called today. The office has a promotional consultation available this month, and I will make sure your request is noted.
+Agent: Will you be using insurance, Mr. Adams?
+Caller: Yes, I have Delta Dental through my employer.
+Agent: Thank you. I will note Delta Dental and the member information can be verified when the office calls or at check-in.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Mr. Adams, I have requested a new patient exam at the Greensboro Practice for Monday at 9:00 AM. The office will use (919) 555-1046 and send confirmation to barbara.adams46@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Mr. Adams. Have a great day."
+,Not Evaluated,"Agent: Agent: Thanks for calling, this is Tanya. How can I help?
+Caller: Hi, my name is Robert Edwards. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a new patient exam. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Winston-Salem Practice.
+Agent: Got it. So you want the Winston-Salem Practice and you are calling about chewing pain and a possible new patient exam, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1047.
+Agent: And your email?
+Caller: robert.edwards47@examplemail.com.
+Agent: Let me make sure I heard you right: Robert Edwards, (919) 555-1047, and robert.edwards47@examplemail.com.
+Caller: Yes.
+Agent: I have Wednesday at 4:00 PM available.
+Caller: Do you have anything else?
+Caller: I was hoping for something earlier because I work afternoons.
+Agent: The morning slots are limited, but I can note your preference and place you with the earliest available time.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Winston-Salem Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Erica. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Susan Hughes.
+Agent: Thank you. If your last name is pronounced correctly as Hughes, may I call you Ms. Hughes?
+Caller: Yes, that's fine.
+Agent: Wonderful, Ms. Hughes. What can I help you with today?
+Caller: I would like to schedule a reline consultation. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Ms. Hughes. Just so I understand, you are looking for a reline consultation at our Winston-Salem Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Ms. Hughes. You are looking to be seen soon at the Winston-Salem Practice for discomfort and a reline consultation.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1048.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: susan.hughes48@examplemail.com.
+Agent: Let me repeat that back for accuracy: Susan Hughes, callback number (919) 555-1048, email susan.hughes48@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 148 Oak Ridge Drive, Winston-Salem, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 148 Oak Ridge Drive, Winston-Salem, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a TV ad.
+Agent: Perfect. I have openings on Tuesday at 1:00 PM or Friday at 1:45 PM. Which works better for you, Ms. Hughes?
+Caller: Tuesday at 1:00 PM would be good.
+Agent: I am glad you called us today. The practice is currently offering a free implant consultation, so this is a good time to get you scheduled.
+Agent: Will you be using insurance, Ms. Hughes?
+Caller: No, I will be self-pay.
+Agent: Thank you for letting me know.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Ms. Hughes, I have requested a reline consultation at the Winston-Salem Practice for Tuesday at 1:00 PM. The office will use (919) 555-1048 and send confirmation to susan.hughes48@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Ms. Hughes. Have a great day."
+,Not Evaluated,"Agent: Agent: Affordable Smiles scheduling, Tanya speaking.
+Caller: Hi, my name is Patricia Simmons. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a denture consultation. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Winston-Salem Practice.
+Agent: Got it. So you want the Winston-Salem Practice and you are calling about chewing pain and a possible denture consultation, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1049.
+Agent: And your email?
+Caller: patricia.simmons49@examplemail.com.
+Agent: Let me make sure I heard you right: Patricia Simmons, (919) 555-1049, and patricia.simmons49@examplemail.com.
+Caller: Yes.
+Agent: I have Thursday at 10:00 AM available.
+Caller: Do you have anything else?
+Caller: I was hoping for something earlier because I work afternoons.
+Agent: The morning slots are limited, but I can note your preference and place you with the earliest available time.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Winston-Salem Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Hello, this is Erica.
+Caller: Hi, I need an appointment.
+Agent: For what?
+Caller: I think I need a new patient exam. My mouth has been hurting for a few days.
+Agent: Okay. Which location?
+Caller: Raleigh Practice.
+Agent: All right.
+Caller: Can I come in this week?
+Agent: Maybe. I see something on Thursday afternoon.
+Caller: Okay, put me down for that.
+Agent: Name?
+Caller: Daniel Hughes.
+Agent: Phone number?
+Caller: (919) 555-1050.
+Agent: All right, you are set.
+Caller: Do you need anything else from me?
+Agent: No, the office will figure it out when you get there.
+Caller: Okay.
+Agent: Bye."
+,Not Evaluated,"Agent: Agent: Affordable Smiles, this is Tanya.
+Caller: Hi, my name is Karen Diaz. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a reline consultation. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Greensboro Practice.
+Agent: Got it. So you want the Greensboro Practice and you are calling about chewing pain and a possible reline consultation, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1051.
+Agent: And your email?
+Caller: karen.diaz51@examplemail.com.
+Agent: Let me make sure I heard you right: Karen Diaz, (919) 555-1051, and karen.diaz51@examplemail.com.
+Caller: Yes.
+Agent: I have Thursday at 10:00 AM available.
+Caller: Do you have anything else?
+Caller: I was hoping for something earlier because I work afternoons.
+Agent: The morning slots are limited, but I can note your preference and place you with the earliest available time.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Greensboro Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Agent: Thanks for calling, this is Brianna. How can I help?
+Caller: Hi, my name is Betty Hughes. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a new patient exam. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Cary Practice.
+Agent: Got it. So you want the Cary Practice and you are calling about chewing pain and a possible new patient exam, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1052.
+Agent: And your email?
+Caller: betty.hughes52@examplemail.com.
+Agent: Let me make sure I heard you right: Betty Hughes, (919) 555-1052, and betty.hughes52@examplemail.com.
+Caller: Yes.
+Agent: I have Thursday at 10:00 AM available.
+Caller: Do you have anything else?
+Caller: I was hoping for something earlier because I work afternoons.
+Agent: The morning slots are limited, but I can note your preference and place you with the earliest available time.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Cary Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Agent: Affordable Smiles scheduling, Erica speaking.
+Caller: Hi, my name is Charles Turner. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a new patient exam. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Winston-Salem Practice.
+Agent: Got it. So you want the Winston-Salem Practice and you are calling about chewing pain and a possible new patient exam, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1053.
+Agent: And your email?
+Caller: charles.turner53@examplemail.com.
+Agent: Let me make sure I heard you right: Charles Turner, (919) 555-1053, and charles.turner53@examplemail.com.
+Caller: Yes.
+Agent: I have Wednesday at 4:00 PM available.
+Caller: Do you have anything else?
+Caller: I am nervous about cost.
+Agent: I understand. The office can review treatment and fees with you in detail, and I will note that concern.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Winston-Salem Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Sofia. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Robert Jackson.
+Agent: Thank you. If your last name is pronounced correctly as Jackson, may I call you Ms. Jackson?
+Caller: Yes, that's fine.
+Agent: Wonderful, Ms. Jackson. What can I help you with today?
+Caller: I would like to schedule a denture consultation. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Ms. Jackson. Just so I understand, you are looking for a denture consultation at our Durham Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Ms. Jackson. You are looking to be seen soon at the Durham Practice for discomfort and a denture consultation.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1054.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: robert.jackson54@examplemail.com.
+Agent: Let me repeat that back for accuracy: Robert Jackson, callback number (919) 555-1054, email robert.jackson54@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 154 Oak Ridge Drive, Durham, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 154 Oak Ridge Drive, Durham, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a roadside sign.
+Agent: Perfect. I have openings on Monday at 9:00 AM or Friday at 1:45 PM. Which works better for you, Ms. Jackson?
+Caller: Monday at 9:00 AM would be good.
+Agent: I am glad you called today. The office has a promotional consultation available this month, and I will make sure your request is noted.
+Agent: Will you be using insurance, Ms. Jackson?
+Caller: No, I will be self-pay.
+Agent: Thank you for letting me know.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Ms. Jackson, I have requested a denture consultation at the Durham Practice for Monday at 9:00 AM. The office will use (919) 555-1054 and send confirmation to robert.jackson54@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Ms. Jackson. Have a great day."
+,Not Evaluated,"Agent: Hello, this is Sofia.
+Caller: Hi, I need an appointment.
+Agent: For what?
+Caller: I think I need a reline consultation. My mouth has been hurting for a few days.
+Agent: Okay. Which location?
+Caller: Raleigh Practice.
+Agent: All right.
+Caller: Can I come in this week?
+Agent: Maybe. I see something on Thursday afternoon.
+Caller: Okay, put me down for that.
+Agent: Name?
+Caller: Patricia Young.
+Agent: Phone number?
+Caller: (919) 555-1055.
+Agent: All right, you are set.
+Caller: Do you need anything else from me?
+Agent: No, the office will figure it out when you get there.
+Caller: Okay.
+Agent: Bye."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Olivia. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Richard Jackson.
+Agent: Thank you. If your last name is pronounced correctly as Jackson, may I call you Richard?
+Caller: Yes, that's fine.
+Agent: Wonderful, Richard. What can I help you with today?
+Caller: I would like to schedule a reline consultation. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Richard. Just so I understand, you are looking for a reline consultation at our Winston-Salem Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Richard. You are looking to be seen soon at the Winston-Salem Practice for discomfort and a reline consultation.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1056.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: richard.jackson56@examplemail.com.
+Agent: Let me repeat that back for accuracy: Richard Jackson, callback number (919) 555-1056, email richard.jackson56@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 156 Oak Ridge Drive, Winston-Salem, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 156 Oak Ridge Drive, Winston-Salem, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a TV ad.
+Agent: Perfect. I have openings on Thursday at 3:30 PM or Tuesday at 10:30 AM. Which works better for you, Richard?
+Caller: Thursday at 3:30 PM would be good.
+Agent: I am glad you called us today. The practice is currently offering a free implant consultation, so this is a good time to get you scheduled.
+Agent: Will you be using insurance, Richard?
+Caller: No, I will be self-pay.
+Agent: Thank you for letting me know.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Richard, I have requested a reline consultation at the Winston-Salem Practice for Thursday at 3:30 PM. The office will use (919) 555-1056 and send confirmation to richard.jackson56@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Richard. Have a great day."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Olivia. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is James Reed.
+Agent: Thank you. If your last name is pronounced correctly as Reed, may I call you Ms. Reed?
+Caller: Yes, that's fine.
+Agent: Wonderful, Ms. Reed. What can I help you with today?
+Caller: I would like to schedule a implant consultation. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Ms. Reed. Just so I understand, you are looking for a implant consultation at our Winston-Salem Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Ms. Reed. You are looking to be seen soon at the Winston-Salem Practice for discomfort and a implant consultation.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1057.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: james.reed57@examplemail.com.
+Agent: Let me repeat that back for accuracy: James Reed, callback number (919) 555-1057, email james.reed57@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 157 Oak Ridge Drive, Winston-Salem, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 157 Oak Ridge Drive, Winston-Salem, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through Facebook.
+Agent: Perfect. I have openings on Tuesday at 1:00 PM or Tuesday at 10:30 AM. Which works better for you, Ms. Reed?
+Caller: Tuesday at 1:00 PM would be good.
+Agent: I am glad you called us today. The practice is currently offering a free implant consultation, so this is a good time to get you scheduled.
+Agent: Will you be using insurance, Ms. Reed?
+Caller: No, I will be self-pay.
+Agent: Thank you for letting me know.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Ms. Reed, I have requested a implant consultation at the Winston-Salem Practice for Tuesday at 1:00 PM. The office will use (919) 555-1057 and send confirmation to james.reed57@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Ms. Reed. Have a great day."
+,Not Evaluated,"Agent: Agent: Affordable Smiles scheduling, Olivia speaking.
+Caller: Hi, my name is Lisa Adams. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a new patient exam. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Greensboro Practice.
+Agent: Got it. So you want the Greensboro Practice and you are calling about chewing pain and a possible new patient exam, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1058.
+Agent: And your email?
+Caller: lisa.adams58@examplemail.com.
+Agent: Let me make sure I heard you right: Lisa Adams, (919) 555-1058, and lisa.adams58@examplemail.com.
+Caller: Yes.
+Agent: I have Wednesday at 4:00 PM available.
+Caller: Do you have anything else?
+Caller: I am nervous about cost.
+Agent: I understand. The office can review treatment and fees with you in detail, and I will note that concern.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Greensboro Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Agent: Affordable Smiles, this is Sofia.
+Caller: Hi, my name is Joseph Garcia. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a reline consultation. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Raleigh Practice.
+Agent: Got it. So you want the Raleigh Practice and you are calling about chewing pain and a possible reline consultation, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1059.
+Agent: And your email?
+Caller: joseph.garcia59@examplemail.com.
+Agent: Let me make sure I heard you right: Joseph Garcia, (919) 555-1059, and joseph.garcia59@examplemail.com.
+Caller: Yes.
+Agent: I have Thursday at 10:00 AM available.
+Caller: Do you have anything else?
+Caller: I was hoping for something earlier because I work afternoons.
+Agent: The morning slots are limited, but I can note your preference and place you with the earliest available time.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Raleigh Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Hello, this is Rachel.
+Caller: Hi, I need an appointment.
+Agent: For what?
+Caller: I think I need a reline consultation. My mouth has been hurting for a few days.
+Agent: Okay. Which location?
+Caller: Durham Practice.
+Agent: All right.
+Caller: Can I come in this week?
+Agent: Maybe. I see something on next Monday.
+Caller: Okay, put me down for that.
+Agent: Name?
+Caller: Charles Jackson.
+Agent: Phone number?
+Caller: (919) 555-1060.
+Agent: All right, you are set.
+Caller: Do you need anything else from me?
+Agent: No, the office will figure it out when you get there.
+Caller: Okay.
+Agent: Bye."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Erica. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Charles Jackson.
+Agent: Thank you. If your last name is pronounced correctly as Jackson, may I call you Ms. Jackson?
+Caller: Yes, that's fine.
+Agent: Wonderful, Ms. Jackson. What can I help you with today?
+Caller: I would like to schedule a denture consultation. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Ms. Jackson. Just so I understand, you are looking for a denture consultation at our Cary Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Ms. Jackson. You are looking to be seen soon at the Cary Practice for discomfort and a denture consultation.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1061.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: charles.jackson61@examplemail.com.
+Agent: Let me repeat that back for accuracy: Charles Jackson, callback number (919) 555-1061, email charles.jackson61@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 161 Oak Ridge Drive, Cary, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 161 Oak Ridge Drive, Cary, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through Facebook.
+Agent: Perfect. I have openings on Tuesday at 1:00 PM or Tuesday at 10:30 AM. Which works better for you, Ms. Jackson?
+Caller: Tuesday at 1:00 PM would be good.
+Agent: I am glad you called today. The office has a promotional consultation available this month, and I will make sure your request is noted.
+Agent: Will you be using insurance, Ms. Jackson?
+Caller: Yes, I have Delta Dental through my employer.
+Agent: Thank you. I will note Delta Dental and the member information can be verified when the office calls or at check-in.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Ms. Jackson, I have requested a denture consultation at the Cary Practice for Tuesday at 1:00 PM. The office will use (919) 555-1061 and send confirmation to charles.jackson61@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Ms. Jackson. Have a great day."
+,Not Evaluated,"Agent: Agent: Thanks for calling, this is Olivia. How can I help?
+Caller: Hi, my name is Thomas Nelson. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a limited exam for pain. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Durham Practice.
+Agent: Got it. So you want the Durham Practice and you are calling about chewing pain and a possible limited exam for pain, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1062.
+Agent: And your email?
+Caller: thomas.nelson62@examplemail.com.
+Agent: Let me make sure I heard you right: Thomas Nelson, (919) 555-1062, and thomas.nelson62@examplemail.com.
+Caller: Yes.
+Agent: I have Wednesday at 4:00 PM available.
+Caller: Do you have anything else?
+Caller: I am nervous about cost.
+Agent: I understand. The office can review treatment and fees with you in detail, and I will note that concern.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Durham Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Mia. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Linda Lopez.
+Agent: Thank you. If your last name is pronounced correctly as Lopez, may I call you Linda?
+Caller: Yes, that's fine.
+Agent: Wonderful, Linda. What can I help you with today?
+Caller: I would like to schedule a implant consultation. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Linda. Just so I understand, you are looking for a implant consultation at our Cary Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Linda. You are looking to be seen soon at the Cary Practice for discomfort and a implant consultation.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1063.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: linda.lopez63@examplemail.com.
+Agent: Let me repeat that back for accuracy: Linda Lopez, callback number (919) 555-1063, email linda.lopez63@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 163 Oak Ridge Drive, Cary, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 163 Oak Ridge Drive, Cary, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through Facebook.
+Agent: Perfect. I have openings on Wednesday at 11:15 AM or Tuesday at 10:30 AM. Which works better for you, Linda?
+Caller: Wednesday at 11:15 AM would be good.
+Agent: I am glad you called today. The office has a promotional consultation available this month, and I will make sure your request is noted.
+Agent: Will you be using insurance, Linda?
+Caller: No, I will be self-pay.
+Agent: Thank you for letting me know.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Linda, I have requested a implant consultation at the Cary Practice for Wednesday at 11:15 AM. The office will use (919) 555-1063 and send confirmation to linda.lopez63@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Linda. Have a great day."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Tanya. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Robert Nelson.
+Agent: Thank you. If your last name is pronounced correctly as Nelson, may I call you Ms. Nelson?
+Caller: Yes, that's fine.
+Agent: Wonderful, Ms. Nelson. What can I help you with today?
+Caller: I would like to schedule a new patient exam. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Ms. Nelson. Just so I understand, you are looking for a new patient exam at our Winston-Salem Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Ms. Nelson. You are looking to be seen soon at the Winston-Salem Practice for discomfort and a new patient exam.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1064.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: robert.nelson64@examplemail.com.
+Agent: Let me repeat that back for accuracy: Robert Nelson, callback number (919) 555-1064, email robert.nelson64@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 164 Oak Ridge Drive, Winston-Salem, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 164 Oak Ridge Drive, Winston-Salem, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a friend.
+Agent: Perfect. I have openings on Wednesday at 11:15 AM or Tuesday at 10:30 AM. Which works better for you, Ms. Nelson?
+Caller: Wednesday at 11:15 AM would be good.
+Agent: I am glad you called us today. The practice is currently offering a free implant consultation, so this is a good time to get you scheduled.
+Agent: Will you be using insurance, Ms. Nelson?
+Caller: Yes, I have Delta Dental through my employer.
+Agent: Thank you. I will note Delta Dental and the member information can be verified when the office calls or at check-in.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Ms. Nelson, I have requested a new patient exam at the Winston-Salem Practice for Wednesday at 11:15 AM. The office will use (919) 555-1064 and send confirmation to robert.nelson64@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Ms. Nelson. Have a great day."
+,Not Evaluated,"Agent: Agent: Affordable Smiles scheduling, Sofia speaking.
+Caller: Hi, my name is Susan Edwards. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a limited exam for pain. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Cary Practice.
+Agent: Got it. So you want the Cary Practice and you are calling about chewing pain and a possible limited exam for pain, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1065.
+Agent: And your email?
+Caller: susan.edwards65@examplemail.com.
+Agent: Let me make sure I heard you right: Susan Edwards, (919) 555-1065, and susan.edwards65@examplemail.com.
+Caller: Yes.
+Agent: I have Tuesday at 2:30 PM available.
+Caller: Do you have anything else?
+Caller: I am nervous about cost.
+Agent: I understand. The office can review treatment and fees with you in detail, and I will note that concern.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Cary Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Mia. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Karen Owens.
+Agent: Thank you. If your last name is pronounced correctly as Owens, may I call you Karen?
+Caller: Yes, that's fine.
+Agent: Wonderful, Karen. What can I help you with today?
+Caller: I would like to schedule a reline consultation. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Karen. Just so I understand, you are looking for a reline consultation at our Greensboro Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Karen. You are looking to be seen soon at the Greensboro Practice for discomfort and a reline consultation.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1066.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: karen.owens66@examplemail.com.
+Agent: Let me repeat that back for accuracy: Karen Owens, callback number (919) 555-1066, email karen.owens66@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 166 Oak Ridge Drive, Greensboro, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 166 Oak Ridge Drive, Greensboro, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a mailed flyer.
+Agent: Perfect. I have openings on Thursday at 3:30 PM or Tuesday at 10:30 AM. Which works better for you, Karen?
+Caller: Thursday at 3:30 PM would be good.
+Agent: I am glad you called us today. The practice is currently offering a free implant consultation, so this is a good time to get you scheduled.
+Agent: Will you be using insurance, Karen?
+Caller: No, I will be self-pay.
+Agent: Thank you for letting me know.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Karen, I have requested a reline consultation at the Greensboro Practice for Thursday at 3:30 PM. The office will use (919) 555-1066 and send confirmation to karen.owens66@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Karen. Have a great day."
+,Not Evaluated,"Agent: Hello, this is Mia.
+Caller: Hi, I need an appointment.
+Agent: For what?
+Caller: I think I need a denture consultation. My mouth has been hurting for a few days.
+Agent: Okay. Which location?
+Caller: Winston-Salem Practice.
+Agent: All right.
+Caller: Can I come in this week?
+Agent: Maybe. I see something on Thursday afternoon.
+Caller: Okay, put me down for that.
+Agent: Name?
+Caller: Susan Reed.
+Agent: Phone number?
+Caller: (919) 555-1067.
+Agent: All right, you are set.
+Caller: Do you need anything else from me?
+Agent: No, the office will figure it out when you get there.
+Caller: Okay.
+Agent: Bye."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Rachel. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Lisa Owens.
+Agent: Thank you. If your last name is pronounced correctly as Owens, may I call you Ms. Owens?
+Caller: Yes, that's fine.
+Agent: Wonderful, Ms. Owens. What can I help you with today?
+Caller: I would like to schedule a implant consultation. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Ms. Owens. Just so I understand, you are looking for a implant consultation at our Cary Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Ms. Owens. You are looking to be seen soon at the Cary Practice for discomfort and a implant consultation.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1068.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: lisa.owens68@examplemail.com.
+Agent: Let me repeat that back for accuracy: Lisa Owens, callback number (919) 555-1068, email lisa.owens68@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 168 Oak Ridge Drive, Cary, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 168 Oak Ridge Drive, Cary, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a friend.
+Agent: Perfect. I have openings on Wednesday at 11:15 AM or Wednesday at 2:00 PM. Which works better for you, Ms. Owens?
+Caller: Wednesday at 11:15 AM would be good.
+Agent: I am glad you called today. The office has a promotional consultation available this month, and I will make sure your request is noted.
+Agent: Will you be using insurance, Ms. Owens?
+Caller: No, I will be self-pay.
+Agent: Thank you for letting me know.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Ms. Owens, I have requested a implant consultation at the Cary Practice for Wednesday at 11:15 AM. The office will use (919) 555-1068 and send confirmation to lisa.owens68@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Ms. Owens. Have a great day."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Jordan. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Linda Flores.
+Agent: Thank you. If your last name is pronounced correctly as Flores, may I call you Mr. Flores?
+Caller: Yes, that's fine.
+Agent: Wonderful, Mr. Flores. What can I help you with today?
+Caller: I would like to schedule a denture consultation. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Mr. Flores. Just so I understand, you are looking for a denture consultation at our Raleigh Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Mr. Flores. You are looking to be seen soon at the Raleigh Practice for discomfort and a denture consultation.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1069.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: linda.flores69@examplemail.com.
+Agent: Let me repeat that back for accuracy: Linda Flores, callback number (919) 555-1069, email linda.flores69@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 169 Oak Ridge Drive, Raleigh, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 169 Oak Ridge Drive, Raleigh, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a mailed flyer.
+Agent: Perfect. I have openings on Wednesday at 11:15 AM or Friday at 1:45 PM. Which works better for you, Mr. Flores?
+Caller: Wednesday at 11:15 AM would be good.
+Agent: I am glad you called today. The office has a promotional consultation available this month, and I will make sure your request is noted.
+Agent: Will you be using insurance, Mr. Flores?
+Caller: No, I will be self-pay.
+Agent: Thank you for letting me know.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Mr. Flores, I have requested a denture consultation at the Raleigh Practice for Wednesday at 11:15 AM. The office will use (919) 555-1069 and send confirmation to linda.flores69@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Mr. Flores. Have a great day."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Sofia. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Michael Turner.
+Agent: Thank you. If your last name is pronounced correctly as Turner, may I call you Mr. Turner?
+Caller: Yes, that's fine.
+Agent: Wonderful, Mr. Turner. What can I help you with today?
+Caller: I would like to schedule a new patient exam. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Mr. Turner. Just so I understand, you are looking for a new patient exam at our Durham Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Mr. Turner. You are looking to be seen soon at the Durham Practice for discomfort and a new patient exam.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1070.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: michael.turner70@examplemail.com.
+Agent: Let me repeat that back for accuracy: Michael Turner, callback number (919) 555-1070, email michael.turner70@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 170 Oak Ridge Drive, Durham, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 170 Oak Ridge Drive, Durham, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a TV ad.
+Agent: Perfect. I have openings on Tuesday at 1:00 PM or Thursday at 9:15 AM. Which works better for you, Mr. Turner?
+Caller: Tuesday at 1:00 PM would be good.
+Agent: I am glad you called today. The office has a promotional consultation available this month, and I will make sure your request is noted.
+Agent: Will you be using insurance, Mr. Turner?
+Caller: No, I will be self-pay.
+Agent: Thank you for letting me know.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Mr. Turner, I have requested a new patient exam at the Durham Practice for Tuesday at 1:00 PM. The office will use (919) 555-1070 and send confirmation to michael.turner70@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Mr. Turner. Have a great day."
+,Not Evaluated,"Agent: Hello, this is Mia.
+Caller: Hi, I need an appointment.
+Agent: For what?
+Caller: I think I need a limited exam for pain. My mouth has been hurting for a few days.
+Agent: Okay. Which location?
+Caller: Greensboro Practice.
+Agent: All right.
+Caller: Can I come in this week?
+Agent: Maybe. I see something on Friday morning.
+Caller: Okay, put me down for that.
+Agent: Name?
+Caller: Daniel Garcia.
+Agent: Phone number?
+Caller: (919) 555-1071.
+Agent: All right, you are set.
+Caller: Do you need anything else from me?
+Agent: No, the office will figure it out when you get there.
+Caller: Okay.
+Agent: Bye."
+,Not Evaluated,"Agent: Hello, this is Tanya.
+Caller: Hi, I need an appointment.
+Agent: For what?
+Caller: I think I need a implant consultation. My mouth has been hurting for a few days.
+Agent: Okay. Which location?
+Caller: Cary Practice.
+Agent: All right.
+Caller: Can I come in this week?
+Agent: Maybe. I see something on Thursday afternoon.
+Caller: Okay, put me down for that.
+Agent: Name?
+Caller: Charles Garcia.
+Agent: Phone number?
+Caller: (919) 555-1072.
+Agent: All right, you are set.
+Caller: Do you need anything else from me?
+Agent: No, the office will figure it out when you get there.
+Caller: Okay.
+Agent: Bye."
+,Not Evaluated,"Agent: Hello, this is Rachel.
+Caller: Hi, I need an appointment.
+Agent: For what?
+Caller: I think I need a reline consultation. My mouth has been hurting for a few days.
+Agent: Okay. Which location?
+Caller: Durham Practice.
+Agent: All right.
+Caller: Can I come in this week?
+Agent: Maybe. I see something on next Monday.
+Caller: Okay, put me down for that.
+Agent: Name?
+Caller: Lisa Jackson.
+Agent: Phone number?
+Caller: (919) 555-1073.
+Agent: All right, you are set.
+Caller: Do you need anything else from me?
+Agent: No, the office will figure it out when you get there.
+Caller: Okay.
+Agent: Bye."
+,Not Evaluated,"Agent: Agent: Thanks for calling, this is Olivia. How can I help?
+Caller: Hi, my name is James Carter. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a limited exam for pain. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Durham Practice.
+Agent: Got it. So you want the Durham Practice and you are calling about chewing pain and a possible limited exam for pain, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1074.
+Agent: And your email?
+Caller: james.carter74@examplemail.com.
+Agent: Let me make sure I heard you right: James Carter, (919) 555-1074, and james.carter74@examplemail.com.
+Caller: Yes.
+Agent: I have Wednesday at 4:00 PM available.
+Caller: Do you have anything else?
+Caller: I am nervous about cost.
+Agent: I understand. The office can review treatment and fees with you in detail, and I will note that concern.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Durham Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Jordan. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Susan Adams.
+Agent: Thank you. If your last name is pronounced correctly as Adams, may I call you Ms. Adams?
+Caller: Yes, that's fine.
+Agent: Wonderful, Ms. Adams. What can I help you with today?
+Caller: I would like to schedule a limited exam for pain. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Ms. Adams. Just so I understand, you are looking for a limited exam for pain at our Raleigh Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Ms. Adams. You are looking to be seen soon at the Raleigh Practice for discomfort and a limited exam for pain.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1075.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: susan.adams75@examplemail.com.
+Agent: Let me repeat that back for accuracy: Susan Adams, callback number (919) 555-1075, email susan.adams75@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 175 Oak Ridge Drive, Raleigh, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 175 Oak Ridge Drive, Raleigh, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a roadside sign.
+Agent: Perfect. I have openings on Monday at 9:00 AM or Tuesday at 10:30 AM. Which works better for you, Ms. Adams?
+Caller: Monday at 9:00 AM would be good.
+Agent: I am glad you called today. The office has a promotional consultation available this month, and I will make sure your request is noted.
+Agent: Will you be using insurance, Ms. Adams?
+Caller: No, I will be self-pay.
+Agent: Thank you for letting me know.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Ms. Adams, I have requested a limited exam for pain at the Raleigh Practice for Monday at 9:00 AM. The office will use (919) 555-1075 and send confirmation to susan.adams75@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Ms. Adams. Have a great day."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Erica. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Thomas Hughes.
+Agent: Thank you. If your last name is pronounced correctly as Hughes, may I call you Thomas?
+Caller: Yes, that's fine.
+Agent: Wonderful, Thomas. What can I help you with today?
+Caller: I would like to schedule a denture consultation. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Thomas. Just so I understand, you are looking for a denture consultation at our Durham Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Thomas. You are looking to be seen soon at the Durham Practice for discomfort and a denture consultation.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1076.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: thomas.hughes76@examplemail.com.
+Agent: Let me repeat that back for accuracy: Thomas Hughes, callback number (919) 555-1076, email thomas.hughes76@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 176 Oak Ridge Drive, Durham, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 176 Oak Ridge Drive, Durham, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a TV ad.
+Agent: Perfect. I have openings on Monday at 9:00 AM or Tuesday at 10:30 AM. Which works better for you, Thomas?
+Caller: Monday at 9:00 AM would be good.
+Agent: I am glad you called us today. The practice is currently offering a free implant consultation, so this is a good time to get you scheduled.
+Agent: Will you be using insurance, Thomas?
+Caller: Yes, I have Delta Dental through my employer.
+Agent: Thank you. I will note Delta Dental and the member information can be verified when the office calls or at check-in.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Thomas, I have requested a denture consultation at the Durham Practice for Monday at 9:00 AM. The office will use (919) 555-1076 and send confirmation to thomas.hughes76@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Thomas. Have a great day."
+,Not Evaluated,"Agent: Agent: Affordable Smiles scheduling, Mia speaking.
+Caller: Hi, my name is Jennifer Watkins. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a denture consultation. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Cary Practice.
+Agent: Got it. So you want the Cary Practice and you are calling about chewing pain and a possible denture consultation, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1077.
+Agent: And your email?
+Caller: jennifer.watkins77@examplemail.com.
+Agent: Let me make sure I heard you right: Jennifer Watkins, (919) 555-1077, and jennifer.watkins77@examplemail.com.
+Caller: Yes.
+Agent: I have Thursday at 10:00 AM available.
+Caller: Do you have anything else?
+Caller: I am nervous about cost.
+Agent: I understand. The office can review treatment and fees with you in detail, and I will note that concern.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Cary Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Hello, this is Erica.
+Caller: Hi, I need an appointment.
+Agent: For what?
+Caller: I think I need a implant consultation. My mouth has been hurting for a few days.
+Agent: Okay. Which location?
+Caller: Raleigh Practice.
+Agent: All right.
+Caller: Can I come in this week?
+Agent: Maybe. I see something on next Monday.
+Caller: Okay, put me down for that.
+Agent: Name?
+Caller: Nancy Diaz.
+Agent: Phone number?
+Caller: (919) 555-1078.
+Agent: All right, you are set.
+Caller: Do you need anything else from me?
+Agent: No, the office will figure it out when you get there.
+Caller: Okay.
+Agent: Bye."
+,Not Evaluated,"Agent: Agent: Affordable Smiles scheduling, Tanya speaking.
+Caller: Hi, my name is Daniel Garcia. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a denture consultation. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Cary Practice.
+Agent: Got it. So you want the Cary Practice and you are calling about chewing pain and a possible denture consultation, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1079.
+Agent: And your email?
+Caller: daniel.garcia79@examplemail.com.
+Agent: Let me make sure I heard you right: Daniel Garcia, (919) 555-1079, and daniel.garcia79@examplemail.com.
+Caller: Yes.
+Agent: I have Tuesday at 2:30 PM available.
+Caller: Do you have anything else?
+Caller: I was hoping for something earlier because I work afternoons.
+Agent: The morning slots are limited, but I can note your preference and place you with the earliest available time.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Cary Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Agent: Affordable Smiles scheduling, Brianna speaking.
+Caller: Hi, my name is Betty Kim. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a implant consultation. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Cary Practice.
+Agent: Got it. So you want the Cary Practice and you are calling about chewing pain and a possible implant consultation, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1080.
+Agent: And your email?
+Caller: betty.kim80@examplemail.com.
+Agent: Let me make sure I heard you right: Betty Kim, (919) 555-1080, and betty.kim80@examplemail.com.
+Caller: Yes.
+Agent: I have Wednesday at 4:00 PM available.
+Caller: Do you have anything else?
+Caller: I was hoping for something earlier because I work afternoons.
+Agent: The morning slots are limited, but I can note your preference and place you with the earliest available time.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Cary Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Hello, this is Sofia.
+Caller: Hi, I need an appointment.
+Agent: For what?
+Caller: I think I need a limited exam for pain. My mouth has been hurting for a few days.
+Agent: Okay. Which location?
+Caller: Raleigh Practice.
+Agent: All right.
+Caller: Can I come in this week?
+Agent: Maybe. I see something on next Monday.
+Caller: Okay, put me down for that.
+Agent: Name?
+Caller: Charles Hughes.
+Agent: Phone number?
+Caller: (919) 555-1081.
+Agent: All right, you are set.
+Caller: Do you need anything else from me?
+Agent: No, the office will figure it out when you get there.
+Caller: Okay.
+Agent: Bye."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Mia. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Susan Bennett.
+Agent: Thank you. If your last name is pronounced correctly as Bennett, may I call you Mr. Bennett?
+Caller: Yes, that's fine.
+Agent: Wonderful, Mr. Bennett. What can I help you with today?
+Caller: I would like to schedule a limited exam for pain. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Mr. Bennett. Just so I understand, you are looking for a limited exam for pain at our Durham Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Mr. Bennett. You are looking to be seen soon at the Durham Practice for discomfort and a limited exam for pain.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1082.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: susan.bennett82@examplemail.com.
+Agent: Let me repeat that back for accuracy: Susan Bennett, callback number (919) 555-1082, email susan.bennett82@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 182 Oak Ridge Drive, Durham, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 182 Oak Ridge Drive, Durham, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a roadside sign.
+Agent: Perfect. I have openings on Tuesday at 1:00 PM or Thursday at 9:15 AM. Which works better for you, Mr. Bennett?
+Caller: Tuesday at 1:00 PM would be good.
+Agent: I am glad you called today. The office has a promotional consultation available this month, and I will make sure your request is noted.
+Agent: Will you be using insurance, Mr. Bennett?
+Caller: No, I will be self-pay.
+Agent: Thank you for letting me know.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Mr. Bennett, I have requested a limited exam for pain at the Durham Practice for Tuesday at 1:00 PM. The office will use (919) 555-1082 and send confirmation to susan.bennett82@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Mr. Bennett. Have a great day."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Mia. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Jennifer Reed.
+Agent: Thank you. If your last name is pronounced correctly as Reed, may I call you Mr. Reed?
+Caller: Yes, that's fine.
+Agent: Wonderful, Mr. Reed. What can I help you with today?
+Caller: I would like to schedule a limited exam for pain. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Mr. Reed. Just so I understand, you are looking for a limited exam for pain at our Cary Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Mr. Reed. You are looking to be seen soon at the Cary Practice for discomfort and a limited exam for pain.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1083.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: jennifer.reed83@examplemail.com.
+Agent: Let me repeat that back for accuracy: Jennifer Reed, callback number (919) 555-1083, email jennifer.reed83@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 183 Oak Ridge Drive, Cary, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 183 Oak Ridge Drive, Cary, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a friend.
+Agent: Perfect. I have openings on Wednesday at 11:15 AM or Tuesday at 10:30 AM. Which works better for you, Mr. Reed?
+Caller: Wednesday at 11:15 AM would be good.
+Agent: I am glad you called us today. The practice is currently offering a free implant consultation, so this is a good time to get you scheduled.
+Agent: Will you be using insurance, Mr. Reed?
+Caller: Yes, I have Delta Dental through my employer.
+Agent: Thank you. I will note Delta Dental and the member information can be verified when the office calls or at check-in.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Mr. Reed, I have requested a limited exam for pain at the Cary Practice for Wednesday at 11:15 AM. The office will use (919) 555-1083 and send confirmation to jennifer.reed83@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Mr. Reed. Have a great day."
+,Not Evaluated,"Agent: Agent: Thanks for calling, this is Olivia. How can I help?
+Caller: Hi, my name is Lisa Garcia. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a denture consultation. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Durham Practice.
+Agent: Got it. So you want the Durham Practice and you are calling about chewing pain and a possible denture consultation, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1084.
+Agent: And your email?
+Caller: lisa.garcia84@examplemail.com.
+Agent: Let me make sure I heard you right: Lisa Garcia, (919) 555-1084, and lisa.garcia84@examplemail.com.
+Caller: Yes.
+Agent: I have Wednesday at 4:00 PM available.
+Caller: Do you have anything else?
+Caller: I was hoping for something earlier because I work afternoons.
+Agent: The morning slots are limited, but I can note your preference and place you with the earliest available time.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Durham Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Agent: Affordable Smiles, this is Brianna.
+Caller: Hi, my name is Susan Diaz. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a denture consultation. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Winston-Salem Practice.
+Agent: Got it. So you want the Winston-Salem Practice and you are calling about chewing pain and a possible denture consultation, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1085.
+Agent: And your email?
+Caller: susan.diaz85@examplemail.com.
+Agent: Let me make sure I heard you right: Susan Diaz, (919) 555-1085, and susan.diaz85@examplemail.com.
+Caller: Yes.
+Agent: I have Wednesday at 4:00 PM available.
+Caller: Do you have anything else?
+Caller: I am nervous about cost.
+Agent: I understand. The office can review treatment and fees with you in detail, and I will note that concern.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Winston-Salem Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Jordan. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Patricia Young.
+Agent: Thank you. If your last name is pronounced correctly as Young, may I call you Patricia?
+Caller: Yes, that's fine.
+Agent: Wonderful, Patricia. What can I help you with today?
+Caller: I would like to schedule a new patient exam. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Patricia. Just so I understand, you are looking for a new patient exam at our Greensboro Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Patricia. You are looking to be seen soon at the Greensboro Practice for discomfort and a new patient exam.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1086.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: patricia.young86@examplemail.com.
+Agent: Let me repeat that back for accuracy: Patricia Young, callback number (919) 555-1086, email patricia.young86@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 186 Oak Ridge Drive, Greensboro, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 186 Oak Ridge Drive, Greensboro, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a TV ad.
+Agent: Perfect. I have openings on Monday at 9:00 AM or Friday at 1:45 PM. Which works better for you, Patricia?
+Caller: Monday at 9:00 AM would be good.
+Agent: I am glad you called us today. The practice is currently offering a free implant consultation, so this is a good time to get you scheduled.
+Agent: Will you be using insurance, Patricia?
+Caller: Yes, I have Delta Dental through my employer.
+Agent: Thank you. I will note Delta Dental and the member information can be verified when the office calls or at check-in.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Patricia, I have requested a new patient exam at the Greensboro Practice for Monday at 9:00 AM. The office will use (919) 555-1086 and send confirmation to patricia.young86@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Patricia. Have a great day."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Rachel. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Joseph Parker.
+Agent: Thank you. If your last name is pronounced correctly as Parker, may I call you Mr. Parker?
+Caller: Yes, that's fine.
+Agent: Wonderful, Mr. Parker. What can I help you with today?
+Caller: I would like to schedule a new patient exam. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Mr. Parker. Just so I understand, you are looking for a new patient exam at our Raleigh Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Mr. Parker. You are looking to be seen soon at the Raleigh Practice for discomfort and a new patient exam.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1087.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: joseph.parker87@examplemail.com.
+Agent: Let me repeat that back for accuracy: Joseph Parker, callback number (919) 555-1087, email joseph.parker87@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 187 Oak Ridge Drive, Raleigh, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 187 Oak Ridge Drive, Raleigh, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a TV ad.
+Agent: Perfect. I have openings on Thursday at 3:30 PM or Wednesday at 2:00 PM. Which works better for you, Mr. Parker?
+Caller: Thursday at 3:30 PM would be good.
+Agent: I am glad you called today. The office has a promotional consultation available this month, and I will make sure your request is noted.
+Agent: Will you be using insurance, Mr. Parker?
+Caller: Yes, I have Delta Dental through my employer.
+Agent: Thank you. I will note Delta Dental and the member information can be verified when the office calls or at check-in.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Mr. Parker, I have requested a new patient exam at the Raleigh Practice for Thursday at 3:30 PM. The office will use (919) 555-1087 and send confirmation to joseph.parker87@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Mr. Parker. Have a great day."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Rachel. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Joseph Mitchell.
+Agent: Thank you. If your last name is pronounced correctly as Mitchell, may I call you Joseph?
+Caller: Yes, that's fine.
+Agent: Wonderful, Joseph. What can I help you with today?
+Caller: I would like to schedule a denture consultation. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Joseph. Just so I understand, you are looking for a denture consultation at our Greensboro Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Joseph. You are looking to be seen soon at the Greensboro Practice for discomfort and a denture consultation.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1088.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: joseph.mitchell88@examplemail.com.
+Agent: Let me repeat that back for accuracy: Joseph Mitchell, callback number (919) 555-1088, email joseph.mitchell88@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 188 Oak Ridge Drive, Greensboro, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 188 Oak Ridge Drive, Greensboro, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through Google.
+Agent: Perfect. I have openings on Monday at 9:00 AM or Thursday at 9:15 AM. Which works better for you, Joseph?
+Caller: Monday at 9:00 AM would be good.
+Agent: I am glad you called today. The office has a promotional consultation available this month, and I will make sure your request is noted.
+Agent: Will you be using insurance, Joseph?
+Caller: No, I will be self-pay.
+Agent: Thank you for letting me know.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Joseph, I have requested a denture consultation at the Greensboro Practice for Monday at 9:00 AM. The office will use (919) 555-1088 and send confirmation to joseph.mitchell88@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Joseph. Have a great day."
+,Not Evaluated,"Agent: Agent: Thanks for calling, this is Sofia. How can I help?
+Caller: Hi, my name is Linda Turner. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a implant consultation. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Greensboro Practice.
+Agent: Got it. So you want the Greensboro Practice and you are calling about chewing pain and a possible implant consultation, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1089.
+Agent: And your email?
+Caller: linda.turner89@examplemail.com.
+Agent: Let me make sure I heard you right: Linda Turner, (919) 555-1089, and linda.turner89@examplemail.com.
+Caller: Yes.
+Agent: I have Tuesday at 2:30 PM available.
+Caller: Do you have anything else?
+Caller: I am nervous about cost.
+Agent: I understand. The office can review treatment and fees with you in detail, and I will note that concern.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Greensboro Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Sofia. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Patricia Reed.
+Agent: Thank you. If your last name is pronounced correctly as Reed, may I call you Patricia?
+Caller: Yes, that's fine.
+Agent: Wonderful, Patricia. What can I help you with today?
+Caller: I would like to schedule a reline consultation. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Patricia. Just so I understand, you are looking for a reline consultation at our Cary Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Patricia. You are looking to be seen soon at the Cary Practice for discomfort and a reline consultation.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1090.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: patricia.reed90@examplemail.com.
+Agent: Let me repeat that back for accuracy: Patricia Reed, callback number (919) 555-1090, email patricia.reed90@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 190 Oak Ridge Drive, Cary, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 190 Oak Ridge Drive, Cary, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through Facebook.
+Agent: Perfect. I have openings on Thursday at 3:30 PM or Thursday at 9:15 AM. Which works better for you, Patricia?
+Caller: Thursday at 3:30 PM would be good.
+Agent: I am glad you called today. The office has a promotional consultation available this month, and I will make sure your request is noted.
+Agent: Will you be using insurance, Patricia?
+Caller: Yes, I have Delta Dental through my employer.
+Agent: Thank you. I will note Delta Dental and the member information can be verified when the office calls or at check-in.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Patricia, I have requested a reline consultation at the Cary Practice for Thursday at 3:30 PM. The office will use (919) 555-1090 and send confirmation to patricia.reed90@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Patricia. Have a great day."
+,Not Evaluated,"Agent: Agent: Thanks for calling, this is Mia. How can I help?
+Caller: Hi, my name is Jennifer Nelson. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a new patient exam. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Greensboro Practice.
+Agent: Got it. So you want the Greensboro Practice and you are calling about chewing pain and a possible new patient exam, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1091.
+Agent: And your email?
+Caller: jennifer.nelson91@examplemail.com.
+Agent: Let me make sure I heard you right: Jennifer Nelson, (919) 555-1091, and jennifer.nelson91@examplemail.com.
+Caller: Yes.
+Agent: I have Tuesday at 2:30 PM available.
+Caller: Do you have anything else?
+Caller: I was hoping for something earlier because I work afternoons.
+Agent: The morning slots are limited, but I can note your preference and place you with the earliest available time.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Greensboro Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Agent: Thanks for calling, this is Erica. How can I help?
+Caller: Hi, my name is David Garcia. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a implant consultation. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Winston-Salem Practice.
+Agent: Got it. So you want the Winston-Salem Practice and you are calling about chewing pain and a possible implant consultation, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1092.
+Agent: And your email?
+Caller: david.garcia92@examplemail.com.
+Agent: Let me make sure I heard you right: David Garcia, (919) 555-1092, and david.garcia92@examplemail.com.
+Caller: Yes.
+Agent: I have Wednesday at 4:00 PM available.
+Caller: Do you have anything else?
+Caller: I am nervous about cost.
+Agent: I understand. The office can review treatment and fees with you in detail, and I will note that concern.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Winston-Salem Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Olivia. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Sandra Bennett.
+Agent: Thank you. If your last name is pronounced correctly as Bennett, may I call you Sandra?
+Caller: Yes, that's fine.
+Agent: Wonderful, Sandra. What can I help you with today?
+Caller: I would like to schedule a implant consultation. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Sandra. Just so I understand, you are looking for a implant consultation at our Cary Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Sandra. You are looking to be seen soon at the Cary Practice for discomfort and a implant consultation.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1093.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: sandra.bennett93@examplemail.com.
+Agent: Let me repeat that back for accuracy: Sandra Bennett, callback number (919) 555-1093, email sandra.bennett93@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 193 Oak Ridge Drive, Cary, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 193 Oak Ridge Drive, Cary, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a friend.
+Agent: Perfect. I have openings on Tuesday at 1:00 PM or Tuesday at 10:30 AM. Which works better for you, Sandra?
+Caller: Tuesday at 1:00 PM would be good.
+Agent: I am glad you called today. The office has a promotional consultation available this month, and I will make sure your request is noted.
+Agent: Will you be using insurance, Sandra?
+Caller: Yes, I have Delta Dental through my employer.
+Agent: Thank you. I will note Delta Dental and the member information can be verified when the office calls or at check-in.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Sandra, I have requested a implant consultation at the Cary Practice for Tuesday at 1:00 PM. The office will use (919) 555-1093 and send confirmation to sandra.bennett93@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Sandra. Have a great day."
+,Not Evaluated,"Agent: Agent: Affordable Smiles, this is Olivia.
+Caller: Hi, my name is Thomas Nelson. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a limited exam for pain. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Greensboro Practice.
+Agent: Got it. So you want the Greensboro Practice and you are calling about chewing pain and a possible limited exam for pain, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1094.
+Agent: And your email?
+Caller: thomas.nelson94@examplemail.com.
+Agent: Let me make sure I heard you right: Thomas Nelson, (919) 555-1094, and thomas.nelson94@examplemail.com.
+Caller: Yes.
+Agent: I have Tuesday at 2:30 PM available.
+Caller: Do you have anything else?
+Caller: I am nervous about cost.
+Agent: I understand. The office can review treatment and fees with you in detail, and I will note that concern.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Greensboro Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Jordan. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is William Kim.
+Agent: Thank you. If your last name is pronounced correctly as Kim, may I call you Ms. Kim?
+Caller: Yes, that's fine.
+Agent: Wonderful, Ms. Kim. What can I help you with today?
+Caller: I would like to schedule a denture consultation. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Ms. Kim. Just so I understand, you are looking for a denture consultation at our Winston-Salem Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Ms. Kim. You are looking to be seen soon at the Winston-Salem Practice for discomfort and a denture consultation.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1095.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: william.kim95@examplemail.com.
+Agent: Let me repeat that back for accuracy: William Kim, callback number (919) 555-1095, email william.kim95@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 195 Oak Ridge Drive, Winston-Salem, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 195 Oak Ridge Drive, Winston-Salem, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a friend.
+Agent: Perfect. I have openings on Monday at 9:00 AM or Thursday at 9:15 AM. Which works better for you, Ms. Kim?
+Caller: Monday at 9:00 AM would be good.
+Agent: I am glad you called today. The office has a promotional consultation available this month, and I will make sure your request is noted.
+Agent: Will you be using insurance, Ms. Kim?
+Caller: Yes, I have Delta Dental through my employer.
+Agent: Thank you. I will note Delta Dental and the member information can be verified when the office calls or at check-in.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Ms. Kim, I have requested a denture consultation at the Winston-Salem Practice for Monday at 9:00 AM. The office will use (919) 555-1095 and send confirmation to william.kim95@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Ms. Kim. Have a great day."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Tanya. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Barbara Hughes.
+Agent: Thank you. If your last name is pronounced correctly as Hughes, may I call you Mr. Hughes?
+Caller: Yes, that's fine.
+Agent: Wonderful, Mr. Hughes. What can I help you with today?
+Caller: I would like to schedule a new patient exam. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Mr. Hughes. Just so I understand, you are looking for a new patient exam at our Raleigh Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Mr. Hughes. You are looking to be seen soon at the Raleigh Practice for discomfort and a new patient exam.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1096.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: barbara.hughes96@examplemail.com.
+Agent: Let me repeat that back for accuracy: Barbara Hughes, callback number (919) 555-1096, email barbara.hughes96@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 196 Oak Ridge Drive, Raleigh, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 196 Oak Ridge Drive, Raleigh, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through Facebook.
+Agent: Perfect. I have openings on Monday at 9:00 AM or Friday at 1:45 PM. Which works better for you, Mr. Hughes?
+Caller: Monday at 9:00 AM would be good.
+Agent: I am glad you called today. The office has a promotional consultation available this month, and I will make sure your request is noted.
+Agent: Will you be using insurance, Mr. Hughes?
+Caller: Yes, I have Delta Dental through my employer.
+Agent: Thank you. I will note Delta Dental and the member information can be verified when the office calls or at check-in.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Mr. Hughes, I have requested a new patient exam at the Raleigh Practice for Monday at 9:00 AM. The office will use (919) 555-1096 and send confirmation to barbara.hughes96@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Mr. Hughes. Have a great day."
+,Not Evaluated,"Agent: Hello, this is Sofia.
+Caller: Hi, I need an appointment.
+Agent: For what?
+Caller: I think I need a limited exam for pain. My mouth has been hurting for a few days.
+Agent: Okay. Which location?
+Caller: Raleigh Practice.
+Agent: All right.
+Caller: Can I come in this week?
+Agent: Maybe. I see something on Friday morning.
+Caller: Okay, put me down for that.
+Agent: Name?
+Caller: Sandra Carter.
+Agent: Phone number?
+Caller: (919) 555-1097.
+Agent: All right, you are set.
+Caller: Do you need anything else from me?
+Agent: No, the office will figure it out when you get there.
+Caller: Okay.
+Agent: Bye."
+,Not Evaluated,"Agent: Agent: Thanks for calling, this is Sofia. How can I help?
+Caller: Hi, my name is Thomas Flores. I need to make an appointment.
+Agent: Okay, what kind of appointment are you looking for?
+Caller: I think I need a limited exam for pain. I am having trouble chewing on one side.
+Agent: All right. Which office are you trying to go to?
+Caller: The Durham Practice.
+Agent: Got it. So you want the Durham Practice and you are calling about chewing pain and a possible limited exam for pain, right?
+Caller: Yes.
+Agent: I can help with that.
+Agent: Are you a new patient or have you been here before?
+Caller: New patient.
+Agent: What is the best number for a callback?
+Caller: (919) 555-1098.
+Agent: And your email?
+Caller: thomas.flores98@examplemail.com.
+Agent: Let me make sure I heard you right: Thomas Flores, (919) 555-1098, and thomas.flores98@examplemail.com.
+Caller: Yes.
+Agent: I have Thursday at 10:00 AM available.
+Caller: Do you have anything else?
+Caller: I was hoping for something earlier because I work afternoons.
+Agent: The morning slots are limited, but I can note your preference and place you with the earliest available time.
+Caller: Okay, that should work.
+Agent: Will you be using insurance?
+Caller: Yes, Blue Cross.
+Agent: Okay, I will note that.
+Agent: You may need to pay any office fee at the time of service.
+Caller: Fine.
+Agent: Your appointment request is set for the Durham Practice. Please come a little early.
+Caller: Okay.
+Agent: Anything else?
+Caller: No.
+Agent: Thanks for calling Affordable Smiles."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Olivia. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Betty Diaz.
+Agent: Thank you. If your last name is pronounced correctly as Diaz, may I call you Ms. Diaz?
+Caller: Yes, that's fine.
+Agent: Wonderful, Ms. Diaz. What can I help you with today?
+Caller: I would like to schedule a implant consultation. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Ms. Diaz. Just so I understand, you are looking for a implant consultation at our Cary Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Ms. Diaz. You are looking to be seen soon at the Cary Practice for discomfort and a implant consultation.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1099.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: betty.diaz99@examplemail.com.
+Agent: Let me repeat that back for accuracy: Betty Diaz, callback number (919) 555-1099, email betty.diaz99@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 199 Oak Ridge Drive, Cary, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 199 Oak Ridge Drive, Cary, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a mailed flyer.
+Agent: Perfect. I have openings on Wednesday at 11:15 AM or Thursday at 9:15 AM. Which works better for you, Ms. Diaz?
+Caller: Wednesday at 11:15 AM would be good.
+Agent: I am glad you called today. The office has a promotional consultation available this month, and I will make sure your request is noted.
+Agent: Will you be using insurance, Ms. Diaz?
+Caller: Yes, I have Delta Dental through my employer.
+Agent: Thank you. I will note Delta Dental and the member information can be verified when the office calls or at check-in.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Ms. Diaz, I have requested a implant consultation at the Cary Practice for Wednesday at 11:15 AM. The office will use (919) 555-1099 and send confirmation to betty.diaz99@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Ms. Diaz. Have a great day."
+,Not Evaluated,"Agent: Thank you for calling Affordable Smiles, this is Sofia. How may I assist you? May I have your first and last name please?
+Caller: Yes, this is Jennifer Flores.
+Agent: Thank you. If your last name is pronounced correctly as Flores, may I call you Jennifer?
+Caller: Yes, that's fine.
+Agent: Wonderful, Jennifer. What can I help you with today?
+Caller: I would like to schedule a denture consultation. I am a new patient and I have been having some discomfort.
+Agent: I can help you with that, Jennifer. Just so I understand, you are looking for a denture consultation at our Durham Practice, correct?
+Caller: Yes, that's right.
+Agent: Thank you. Are you having active pain, swelling, or is this more of a consultation visit?
+Caller: It is mostly discomfort and I want to be seen soon.
+Agent: Understood. I can help you with that, Jennifer. You are looking to be seen soon at the Durham Practice for discomfort and a denture consultation.
+Caller: Yes.
+Agent: Before I offer times, let me verify the best callback number and your email address.
+Caller: My number is (919) 555-1100.
+Agent: Thank you. And to which email address would you like your appointment confirmation sent?
+Caller: jennifer.flores100@examplemail.com.
+Agent: Let me repeat that back for accuracy: Jennifer Flores, callback number (919) 555-1100, email jennifer.flores100@examplemail.com. Is that correct?
+Caller: Yes, that is correct.
+Agent: Thank you. What is your home address?
+Caller: 200 Oak Ridge Drive, Durham, NC.
+Agent: Let me repeat the address to make sure I entered it correctly: 200 Oak Ridge Drive, Durham, NC.
+Caller: Yes.
+Agent: How did you hear about us today?
+Caller: I found you through a friend.
+Agent: Perfect. I have openings on Thursday at 3:30 PM or Tuesday at 10:30 AM. Which works better for you, Jennifer?
+Caller: Thursday at 3:30 PM would be good.
+Agent: I am glad you called us today. The practice is currently offering a free implant consultation, so this is a good time to get you scheduled.
+Agent: Will you be using insurance, Jennifer?
+Caller: No, I will be self-pay.
+Agent: Thank you for letting me know.
+Agent: Please plan to arrive about fifteen minutes early. Any fee due at the time of service will be collected by the practice at check-in.
+Caller: Okay.
+Agent: To recap, Jennifer, I have requested a denture consultation at the Durham Practice for Thursday at 3:30 PM. The office will use (919) 555-1100 and send confirmation to jennifer.flores100@examplemail.com.
+Caller: Great.
+Agent: Is there anything else I can assist you with today?
+Caller: No, that is everything.
+Agent: Thank you for calling Affordable Smiles, Jennifer. Have a great day."

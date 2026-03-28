@@ -12,10 +12,10 @@ Instead of relying on manual QA reviews and delayed feedback loops, Coachforce a
 
 Call centers struggle to scale effective coaching:
 
-- Manual evaluations are time-consuming and inconsistent  
-- Coaching is reactive, often triggered only by issues  
-- Identifying performance trends across agents is difficult  
-- New hires lack consistent, real-time feedback  
+* Manual evaluations are time-consuming and inconsistent
+* Coaching is reactive, often triggered only by issues
+* Identifying performance trends across agents is difficult
+* New hires lack consistent, real-time feedback
 
 Supervisors spend more time reviewing calls than actually developing agents.
 
@@ -27,7 +27,7 @@ Coachforce creates a fully automated, closed-loop system:
 
 **Transcript → Evaluation → Trend Detection → Coaching**
 
-Powered by **Salesforce + Generative AI + Flow + Apex**, the system continuously evaluates performance and delivers targeted coaching without requiring manual intervention.
+Powered by **Salesforce + Agentforce + Generative AI + Flow + Apex**, the system continuously evaluates performance and delivers targeted coaching without requiring manual intervention.
 
 ---
 
@@ -35,199 +35,252 @@ Powered by **Salesforce + Generative AI + Flow + Apex**, the system continuously
 
 ### 1. Call Transcript Ingestion
 
-Call transcripts are captured and stored in Salesforce.
-
-- Object: `CF_Call_Transcript__c`  
-- Related to: `CF_Voice_Call__c`
+* Object: `CF_Call_Transcript__c`
+* Related to: `CF_Voice_Call__c`
 
 ---
 
 ### 2. AI Evaluation (Prompt Builder)
 
-A Prompt Builder template analyzes each transcript and returns structured JSON.
-
 **Template:** `CF_Transcript_Evaluation`
 
-Outputs include:
+Outputs:
 
-- Overall score  
-- AI-generated summary  
-- Primary coaching topic  
-- Detailed evaluation results per criterion  
+* Overall score
+* AI-generated summary
+* Coaching topic
+* Criteria-level scoring
 
 ---
 
 ### 3. Structured Evaluation (Apex)
 
-Custom Apex parses the AI response and creates structured records.
-
 **Class:** `CF_CreateEvaluationResultsAction`
 
 Creates:
 
-- `CF_Call_Evaluation__c`  
-- `CF_Evaluation_Result__c` (per criterion)
+* `CF_Call_Evaluation__c`
+* `CF_Evaluation_Result__c`
 
 ---
 
 ### 4. Trend Detection (Apex + Flow)
 
-The system analyzes recent evaluations to identify meaningful performance gaps.
-
 **Class:** `CF_AgentTrendAnalysisAction`
 
 Detects:
 
-- Repeated failures in specific criteria  
-- Underperforming categories  
-- Trends across multiple calls  
+* Repeated failures
+* Underperforming categories
+* Coaching-worthy trends
 
-Results are stored in:
+Stores results in:
 
-- `CF_Trend_Detection__c`
-
-Smart logic prevents duplicate or redundant coaching within a defined timeframe.
+* `CF_Trend_Detection__c`
 
 ---
 
 ### 5. AI Coaching Generation
 
-When a trend is identified (or during onboarding), a second prompt generates a personalized coaching session.
-
 **Template:** `CF_Coaching_Session`
 
 Outputs:
 
-- What the agent did well  
-- Targeted improvement areas  
-- Improved script example  
-- Guided rehearsal scenario  
+* What went well
+* What to improve
+* Improved script
+* Rehearsal scenario
 
 ---
 
-### 6. Coaching Delivery (Flow)
+### 6. Coaching Delivery
 
-Coaching sessions are automatically created and surfaced to supervisors and agents.
-
-- Object: `CF_Coaching_Session__c`  
-- Orchestrated via Salesforce Flow  
+* Object: `CF_Coaching_Session__c`
+* Delivered via Flow + Agentforce
 
 ---
 
 ## 🧠 Adaptive Coaching Modes
 
-Coachforce intelligently adjusts coaching based on agent experience:
+### 🟢 Onboarding Mode (First 14 Days)
 
-### 🟢 Onboarding Mode (First 2 Weeks)
-
-- Every call is evaluated  
-- Immediate coaching is generated  
-- Focus on rapid skill development  
+* Evaluate every call
+* Immediate coaching
 
 ### 🔵 Cruise Control Mode
 
-- Evaluations continue in the background  
-- Coaching is triggered only when trends emerge  
-- Reduces noise while maximizing impact  
+* Background evaluation
+* Coaching only when trends emerge
 
 ---
 
-## 🧩 Admin Configurability (Key Innovation)
+## 🧩 Admin Configurability
 
-Coachforce includes a **fully configurable admin interface** that allows:
+Admins can:
 
-- Creation of evaluation templates  
-- Definition of categories and criteria  
-- Custom scoring models  
-- Support for any call type (sales, support, scheduling, billing, etc.)
+* Define evaluation templates
+* Customize scoring criteria
+* Support multiple call types
 
-This enables organizations to adapt Coachforce to their business **without code changes**.
+No code changes required.
+
+---
+
+## 🧱 Metadata Overview
+
+Coachforce includes:
+
+### Core Platform
+
+* Custom Objects + Fields
+* Flows + Flow Definitions
+* Apex Classes + Tests
+* Lightning Web Components
+* FlexiPages (Record Pages + Utility Bar)
+* Custom Tabs + Applications
+* Permission Sets
+
+### Agentforce / AI
+
+* GenAI Prompt Templates
+* GenAI Functions
+* GenAI Planner Bundle
+
+### UI Enhancements
+
+* Quick Action: `Review_coaching_session`
+* Call Wrap-Up Panel (LWC)
 
 ---
 
 ## 🔁 End-to-End Pipeline
 
 ```
-Call Transcript
-      ↓
-Prompt Builder (Evaluation)
-      ↓
-Structured JSON Output
-      ↓
-Apex Processing
-      ↓
-Evaluation Records
-      ↓
+Transcript
+   ↓
+AI Evaluation
+   ↓
+Structured Results
+   ↓
 Trend Detection
-      ↓
-Prompt Builder (Coaching)
-      ↓
-Coaching Session Created
+   ↓
+AI Coaching
+   ↓
+Coaching Session
 ```
-
----
-
-## ✨ Key Features
-
-- 🤖 AI-powered call evaluation using Prompt Builder  
-- 📊 Structured, reportable evaluation data in Salesforce  
-- 📈 Automated trend detection across agent performance  
-- 🎯 Personalized, AI-generated coaching sessions  
-- 🔁 Closed-loop learning system  
-- ⚙️ Fully configurable evaluation framework  
-
----
-
-## 🏗️ Architecture
-
-### Salesforce Objects
-
-- `CF_Call_Transcript__c`  
-- `CF_Call_Evaluation__c`  
-- `CF_Evaluation_Result__c`  
-- `CF_Trend_Detection__c`  
-- `CF_Coaching_Session__c`  
-
-### Apex
-
-- `CF_CreateEvaluationResultsAction`  
-- `CF_AgentTrendAnalysisAction`  
-- `CF_CreateCoachingSessionAction`  
-
-### Flow
-
-- Evaluation orchestration  
-- Coaching session automation  
-- Supervisor workflows  
-
-### AI Layer (Prompt Builder)
-
-- `CF_Transcript_Evaluation`  
-- `CF_Coaching_Session`  
-
----
-
-## 🎥 Demo Walkthrough
-
-1. A call transcript is received  
-2. AI evaluates the call automatically  
-3. Evaluation results are stored in Salesforce  
-4. Trend detection identifies coaching opportunities  
-5. AI generates a personalized coaching session  
-6. Supervisor reviews and delivers coaching  
 
 ---
 
 ## 📦 Deployment
 
+### 1. Clone Repo
+
 ```bash
-sf project retrieve start --manifest manifest/package.xml
+git clone <your-repo-url>
+cd coachforce
 ```
 
-Assign permission sets:
+### 2. Authorize Org
 
-- `Coachforce_Admin`  
-- `Coachforce_User`  
+```bash
+sf org login web --set-default
+```
+
+### 3. Deploy Metadata
+
+```bash
+sf project deploy start --manifest manifest/package.xml
+```
+
+### 4. Assign Permission Sets
+
+* `Coachforce_Admin`
+* `Coachforce_User`
+
+---
+
+## ⚠️ Post-Deployment Checklist (IMPORTANT)
+
+After deployment, verify:
+
+* Prompt Templates are visible and active
+* Flows are activated
+* Agentforce planner bundle is available**
+* FlexiPages are assigned to profiles/apps
+* Utility Bar is visible in the app
+
+---
+
+## 🧪 Demo Data Setup (REQUIRED FOR DEMO)
+
+A `demo-data/` folder is included for loading sample records.
+
+⚠️ **Order matters — follow exactly:**
+
+---
+
+### Step 1: Load Contacts
+
+File:
+
+```
+CF_demo_data_contacts_100.csv
+```
+
+Requirements:
+
+* Add a valid `AccountId` before insert
+
+---
+
+### Step 2: Load Voice Calls
+
+File:
+
+```
+CF_demo_data_voice_calls_100.csv
+```
+
+Requirements:
+
+* `CF_Agent__c` → populate with a valid **UserId**
+* `CF_Related_Record__c` → paste Contact IDs from Step 1
+
+---
+
+### Step 3: Load Transcripts
+
+File:
+
+```
+CF_demo_data_cf_transcripts_100.csv
+```
+
+Requirements:
+
+* `CF_Voice_Call__c` → paste Voice Call IDs from Step 2
+
+---
+
+### 💡 Pro Tip
+
+Use Data Loader or Data Import Wizard:
+
+* Export IDs after each step
+* Copy/paste into next CSV
+* Keep everything in order
+
+---
+
+## 🎥 Demo Flow
+
+1. Load demo data
+2. Open a Voice Call
+3. View Transcript
+4. Update "Call Result" field in the Voice Call
+5. Evaluation auto-generates
+6. Coaching session is created
+7. Launch Agentforce for roleplay
 
 ---
 
@@ -235,30 +288,30 @@ Assign permission sets:
 
 Coachforce transforms coaching from:
 
-**Reactive → Proactive**  
-**Manual → Autonomous**  
+**Reactive → Proactive**
+**Manual → Autonomous**
 **Generic → Personalized**
 
-It enables organizations to scale high-quality coaching across hundreds of agents—without increasing management overhead.
+It enables scalable, consistent coaching across large teams.
 
 ---
 
 ## 🔮 Future Enhancements
 
-- Real-time coaching during live calls  
-- Integration with Observe.AI and telephony platforms  
-- Agent performance dashboards  
-- Gamification and coaching scoring  
-
+* Additional Performance dashboards 
+* Evaluation criteria types: add Flow/record lookup type to check if the agent entered data correctly
+* Coaching session approval process
 ---
+
 
 ## 🏆 Built For
 
-Salesforce Hackathon – Agentforce + Service Cloud Innovation  
+**Salesforce TXD 2026 Hackathon – Agentforce for Good**
+All rights reserved.
 
 ---
 
 ## 👤 Author
 
-Douglas Vann  
-Senior Manager, Enterprise Applications (Salesforce)
+Douglas Vann
+Salesforce Admin
