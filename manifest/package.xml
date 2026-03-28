@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 
     <types>
         <members>Coachforce</members>
+        <members>Call Center</members>
         <name>CustomApplication</name>
     </types>
 
@@ -13,6 +14,7 @@
         <members>CF_CreateCoachingSessionActionTest</members>
         <members>CF_CreateEvaluationResultsAction</members>
         <members>CF_CreateEvaluationResultsActionTest</members>
+        <members>CoachforceTranscriptController</members>
         <name>ApexClass</name>
     </types>
 
@@ -41,11 +43,16 @@
     </types>
 
     <types>
+        <members>Call_Center_UtilityBar</members>
         <members>Call_Evaluation_Record_Page</members>
+        <members>Call_Transcript_Record_Page</members>
+        <members>CF_Voice_Call_Call_Center</members>
         <members>Coachforce_Home</members>
         <members>Coachforce_UtilityBar</members>
+        <members>Coaching_Session_Record_Page</members>
         <members>Evaluation_Template_Record_Page</members>
         <members>Trend_Detection_Record_Page</members>
+        <members>Voice_Call_Record_Page</members>
         <name>FlexiPage</name>
     </types>
 
@@ -62,6 +69,13 @@
     </types>
 
     <types>
+        <members>coachforceContactCard</members>
+        <members>coachforceTranscriptPanel</members>
+        <members>coachforceWrapUpPanel</members>
+        <name>LightningComponentBundle</name>
+    </types>
+
+    <types>
         <members>CF_Call_Evaluation__c</members>
         <members>CF_Call_Transcript__c</members>
         <members>CF_Coaching_Session__c</members>
@@ -71,6 +85,12 @@
         <members>CF_Trend_Detection__c</members>
         <members>CF_Voice_Call__c</members>
         <name>CustomObject</name>
+    </types>
+
+    <types>
+        <members>Contact.Patient_Status__c</members>
+        <members>User.CF_Hire_Date__c</members>
+        <name>CustomField</name>
     </types>
 
     <types>
@@ -113,6 +133,11 @@
     </types>
 
     <types>
+        <members>Review_coaching_session</members>
+        <name>QuickAction</name>
+    </types>
+
+    <types>
         <members>CF_Coaching_Session</members>
         <members>CF_Transcript_Evaluation</members>
         <name>GenAiPromptTemplate</name>
@@ -125,6 +150,8 @@
     </types>
 
     <types>
+        <members>CF_Get_Active_Coaching_Sessions</members>
+        <members>CF_Get_Coaching_Session_By_Id</members>
         <members>Coachforce_Get_Evaluation_Statistics</members>
         <members>Coachforce_Get_Last_Coaching_Session</members>
         <members>Coachforce_Get_User_Id_and_Mode</members>
