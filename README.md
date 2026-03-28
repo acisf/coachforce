@@ -278,9 +278,11 @@ Use Data Loader or Data Import Wizard:
 2. Open a Voice Call
 3. View Transcript
 4. Update "Call Result" field in the Voice Call
-5. Evaluation auto-generates
-6. Coaching session is created
-7. Launch Agentforce for roleplay
+5. Evaluation auto-generates > Confirm under 'Evaluations' tab
+6. Coaching session is created > Confirm under 'Coaching Sessions' tab
+7. Launch Agentforce for roleplay > Confirm in 'Coachforce' Agent Builder*
+
+*If you don't see the Coachforce agent, clone your Default Agent and name it Coachforce. Then, re-deploy the GenAI Bundle and Functions. :)
 
 ---
 
@@ -306,7 +308,7 @@ It enables scalable, consistent coaching across large teams.
 
 ## 🏆 Built For
 
-**Salesforce TXD 2026 Hackathon – Agentforce for Good**
+**Salesforce TDX 2026 Hackathon – Agentforce for Good**
 All rights reserved.
 
 ---
