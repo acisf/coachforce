@@ -98,7 +98,12 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>CF_Followup_Date__c</field>
+            <field>CF_Completion_Date__c</field>
+            <table>CF_Coaching_Session__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CF_Record_Count__c</field>
             <table>CF_Coaching_Session__c</table>
         </columns>
         <masterLabel>Coaching Sessions</masterLabel>

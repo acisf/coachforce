@@ -5,7 +5,7 @@
     <deployed>true</deployed>
     <description>Coachforce: Evaluation Templates with Evaluation Criteria</description>
     <join>
-        <outerJoin>true</outerJoin>
+        <outerJoin>false</outerJoin>
         <relationship>Evaluation_Criteria__r</relationship>
     </join>
     <label>Coachforce: Evaluation Templates with Evaluation Criteria</label>
@@ -63,6 +63,11 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>CF_Call_Type__c</field>
+            <table>CF_Evaluation_Template__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CF_Max_Points__c</field>
             <table>CF_Evaluation_Template__c</table>
         </columns>
         <masterLabel>Evaluation Templates</masterLabel>

@@ -1,0 +1,102 @@
+<template>
+    <div class="contact-card-shell">
+        <template if:true={contactLoaded}>
+            <div class="contact-card slds-p-around_large">
+                <div class="slds-grid slds-wrap slds-m-bottom_large">
+                    <div class="slds-col slds-size_1-of-1 slds-align_absolute-center">
+                        <div class="avatar">
+                            <span>{initials}</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slds-text-heading_large slds-text-color_inverse slds-m-bottom_x-small name">
+                    {contactName}
+                </div>
+
+                <template if:true={locationLine}>
+                    <div class="slds-text-body_regular slds-text-color_inverse-weak slds-m-bottom_large location">
+                        {locationLine}
+                    </div>
+                </template>
+
+                <div class="status-row slds-m-bottom_large">
+    <lightning-icon
+        icon-name="utility:user"
+        size="x-small"
+        alternative-text="Status"
+        class="info-icon">
+    </lightning-icon>
+    <span class="label">Status</span>
+    <span class="value status-value">New Patient</span>
+</div>
+
+                <div class="info-list">
+                    <template if:true={email}>
+                        <div class="info-row">
+                            <lightning-icon
+                                icon-name="utility:email"
+                                size="x-small"
+                                alternative-text="Email"
+                                class="info-icon">
+                            </lightning-icon>
+                            <span class="label">Email</span>
+                            <a class="value link-value" href={emailHref}>{email}</a>
+                        </div>
+                    </template>
+
+                    <template if:true={phone}>
+                        <div class="info-row">
+                            <lightning-icon
+                                icon-name="utility:call"
+                                size="x-small"
+                                alternative-text="Phone"
+                                class="info-icon">
+                            </lightning-icon>
+                            <span class="label">Phone</span>
+                            <a class="value link-value" href={phoneHref}>{phone}</a>
+                        </div>
+                    </template>
+
+                    <template if:true={addressLine}>
+                        <div class="info-row">
+                            <lightning-icon
+                                icon-name="utility:checkin"
+                                size="x-small"
+                                alternative-text="Address"
+                                class="info-icon">
+                            </lightning-icon>
+                            <span class="label">Address</span>
+                            <span class="value">{addressLine}</span>
+                        </div>
+                    </template>
+
+                    <template if:true={accountName}>
+                        <div class="info-row">
+                            <lightning-icon
+                                icon-name="utility:company"
+                                size="x-small"
+                                alternative-text="Account"
+                                class="info-icon">
+                            </lightning-icon>
+                            <span class="label">Account</span>
+                            <span class="value">{accountName}</span>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </template>
+
+        <template if:true={errorMessage}>
+            <div class="contact-card slds-p-around_medium error-panel">
+                {errorMessage}
+            </div>
+        </template>
+
+        <template if:true={isLoading}>
+            <div class="contact-card slds-p-around_medium">
+                <lightning-spinner alternative-text="Loading contact card" size="small"></lightning-spinner>
+            </div>
+        </template>
+    </div>
+</template>

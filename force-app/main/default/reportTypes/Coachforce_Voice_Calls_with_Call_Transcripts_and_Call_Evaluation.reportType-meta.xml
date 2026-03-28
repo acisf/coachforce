@@ -6,10 +6,10 @@
     <description>Coachforce: Voice Calls with Call Transcripts and Call Evaluation</description>
     <join>
         <join>
-            <outerJoin>true</outerJoin>
+            <outerJoin>false</outerJoin>
             <relationship>Call_Evaluations__r</relationship>
         </join>
-        <outerJoin>true</outerJoin>
+        <outerJoin>false</outerJoin>
         <relationship>Call_Transcripts__r</relationship>
     </join>
     <label>Coachforce: Voice Calls with Call Transcripts and Call Evaluation</label>
@@ -212,7 +212,7 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>CF_Overall_Score__c</field>
+            <field>CF_Score__c</field>
             <table>CF_Voice_Call__c.Call_Transcripts__r.Call_Evaluations__r</table>
         </columns>
         <columns>

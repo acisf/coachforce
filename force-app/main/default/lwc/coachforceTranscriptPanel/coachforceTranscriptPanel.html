@@ -1,0 +1,50 @@
+<template>
+    <div class="transcript-shell">
+        <div class="transcript-header">
+            <div class="header-left">
+                <lightning-icon
+                    icon-name="utility:voice_call"
+                    size="x-small"
+                    alternative-text="Transcript"
+                    class="header-icon">
+                </lightning-icon>
+                <span class="header-title">Transcript</span>
+            </div>
+
+            <div class="header-right">
+                <span class="live-indicator">Live</span>
+            </div>
+        </div>
+
+        <div class="transcript-body">
+            <template if:true={hasMessages}>
+                <template for:each={messages} for:item="msg">
+                    <div key={msg.id} class={msg.rowClass}>
+                        <div class={msg.bubbleClass}>
+                            <div class="speaker-line">
+                                <span class="speaker-name">{msg.speakerLabel}</span>
+                                <span class="timestamp">{msg.timestamp}</span>
+                            </div>
+                            <div class="message-text">{msg.text}</div>
+                        </div>
+                    </div>
+                </template>
+            </template>
+
+            <template if:true={hasNoMessages}>
+                <div class="empty-state">
+                    <lightning-icon
+                        icon-name="utility:chat"
+                        size="small"
+                        alternative-text="No transcript"
+                        class="empty-icon">
+                    </lightning-icon>
+                    <div class="empty-title">No transcript yet</div>
+                    <div class="empty-subtitle">
+                        Transcript lines will appear here when a call transcript is available.
+                    </div>
+                </div>
+            </template>
+        </div>
+    </div>
+</template>

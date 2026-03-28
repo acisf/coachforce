@@ -1,0 +1,46 @@
+<template>
+    <div class="wrapup-shell">
+        <div class="wrapup-header">
+            <lightning-icon
+                icon-name="utility:edit_form"
+                size="x-small"
+                alternative-text="Call Wrap-Up"
+                class="header-icon">
+            </lightning-icon>
+            <span class="header-title">Call Wrap-Up</span>
+        </div>
+
+        <div class="wrapup-body">
+            <lightning-record-edit-form
+                object-api-name="CF_Voice_Call__c"
+                record-id={recordId}
+                onsuccess={handleSuccess}
+                onsubmit={handleSubmit}
+                onerror={handleError}>
+
+                <div class="form-section">
+                    <lightning-input-field
+                        field-name="CF_Call_Result__c"
+                        variant="label-stacked">
+                    </lightning-input-field>
+                </div>
+
+                <div class="form-section">
+                    <lightning-input-field
+                        field-name="CF_Call_Summary__c"
+                        variant="label-stacked">
+                    </lightning-input-field>
+                </div>
+
+                <div class="button-row">
+                    <lightning-button
+                        type="submit"
+                        variant="brand"
+                        label={saveButtonLabel}
+                        disabled={isSaving}>
+                    </lightning-button>
+                </div>
+            </lightning-record-edit-form>
+        </div>
+    </div>
+</template>

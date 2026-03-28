@@ -1,0 +1,38 @@
+.wrapup-shell {
+    background: #ffffff;
+    border: 1px solid #d8dde6;
+    border-radius: 0.75rem;
+   overflow: visible;
+}
+
+.wrapup-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.9rem 1rem;
+    border-bottom: 1px solid #e5e5e5;
+    background: #f8f9fb;
+}
+
+.header-title {
+    font-weight: 700;
+    color: #16325c;
+}
+
+.header-icon {
+    --slds-c-icon-color-foreground-default: #0176d3;
+}
+
+.wrapup-body {
+    padding: 1rem;
+}
+
+.form-section {
+    margin-bottom: 1rem;
+}
+
+.button-row {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}

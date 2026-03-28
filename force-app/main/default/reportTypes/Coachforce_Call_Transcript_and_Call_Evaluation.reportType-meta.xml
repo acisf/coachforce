@@ -5,7 +5,7 @@
     <deployed>true</deployed>
     <description>Coachforce: Evaluation Templates and Call Evaluation</description>
     <join>
-        <outerJoin>true</outerJoin>
+        <outerJoin>false</outerJoin>
         <relationship>Call_Evaluations__r</relationship>
     </join>
     <label>Coachforce: Call Transcript and Call Evaluation</label>
@@ -125,7 +125,7 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>CF_Overall_Score__c</field>
+            <field>CF_Score__c</field>
             <table>CF_Call_Transcript__c.Call_Evaluations__r</table>
         </columns>
         <columns>

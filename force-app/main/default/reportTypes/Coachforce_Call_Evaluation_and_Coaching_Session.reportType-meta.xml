@@ -5,7 +5,7 @@
     <deployed>true</deployed>
     <description>Coachforce: Call Evaluation and Coaching Session</description>
     <join>
-        <outerJoin>true</outerJoin>
+        <outerJoin>false</outerJoin>
         <relationship>Coaching_Sessions__r</relationship>
     </join>
     <label>Coachforce: Call Evaluation and Coaching Session</label>
@@ -72,7 +72,7 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>CF_Overall_Score__c</field>
+            <field>CF_Score__c</field>
             <table>CF_Call_Evaluation__c</table>
         </columns>
         <columns>
@@ -170,7 +170,12 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>CF_Followup_Date__c</field>
+            <field>CF_Completion_Date__c</field>
+            <table>CF_Call_Evaluation__c.Coaching_Sessions__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CF_Record_Count__c</field>
             <table>CF_Call_Evaluation__c.Coaching_Sessions__r</table>
         </columns>
         <masterLabel>Coaching Sessions</masterLabel>
