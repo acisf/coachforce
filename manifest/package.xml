@@ -14,7 +14,8 @@
         <members>CF_CreateCoachingSessionActionTest</members>
         <members>CF_CreateEvaluationResultsAction</members>
         <members>CF_CreateEvaluationResultsActionTest</members>
-        <members>CoachforceTranscriptController</members>
+        <members>CF_TranscriptController</members>
+        <members>CF_TranscriptControllerTest</members>
         <name>ApexClass</name>
     </types>
 
