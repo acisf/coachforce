@@ -67,6 +67,9 @@
         <locationY>0</locationY>
         <actionName>customNotificationAction</actionName>
         <actionType>customNotificationAction</actionType>
+        <connector>
+            <targetReference>Update_Triggering_Record</targetReference>
+        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>customNotifTypeId</name>
@@ -286,7 +289,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Update_Triggering_Record</targetReference>
+                <targetReference>Assign_Transcript_Status</targetReference>
             </connector>
             <label>Yes</label>
         </rules>
@@ -570,9 +573,6 @@
         <label>Update Triggering Record</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
-        <connector>
-            <targetReference>Assign_Transcript_Status</targetReference>
-        </connector>
         <inputAssignments>
             <field>CF_AI_Evaluated__c</field>
             <value>
@@ -584,6 +584,9 @@
     <start>
         <locationX>0</locationX>
         <locationY>0</locationY>
+        <connector>
+            <targetReference>CF_Get_Agent_Record</targetReference>
+        </connector>
         <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
         <filterLogic>and</filterLogic>
         <filters>
@@ -607,9 +610,6 @@
         <object>CF_Voice_Call__c</object>
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <scheduledPaths>
-            <connector>
-                <targetReference>CF_Get_Agent_Record</targetReference>
-            </connector>
             <pathType>AsyncAfterCommit</pathType>
         </scheduledPaths>
         <triggerType>RecordAfterSave</triggerType>
