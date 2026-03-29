@@ -1,5 +1,5 @@
 import { LightningElement, api, wire } from 'lwc';
-import getTranscriptText from '@salesforce/apex/CoachforceTranscriptController.getTranscriptText';
+import getTranscriptText from '@salesforce/apex/CF_TranscriptController.getTranscriptText';
 
 export default class CoachforceTranscriptPanel extends LightningElement {
     @api recordId;

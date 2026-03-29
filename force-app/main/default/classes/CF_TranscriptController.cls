@@ -1,4 +1,4 @@
-public with sharing class CoachforceTranscriptController {
+public with sharing class CF_TranscriptController {
     @AuraEnabled(cacheable=true)
     public static String getTranscriptText(Id voiceCallId) {
         if (voiceCallId == null) {
