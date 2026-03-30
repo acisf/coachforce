@@ -1,0 +1,15 @@
+{
+  "required" : [ "agentId" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "agentId" : {
+      "title" : "agentId",
+      "description" : "Salesforce User Id",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType",
+  "lightning:textIndexed" : true
+}
