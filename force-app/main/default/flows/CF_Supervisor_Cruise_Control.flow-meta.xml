@@ -107,7 +107,7 @@
         <inputParameters>
             <name>customNotifTypeId</name>
             <value>
-                <stringValue>0MLaj000001mbuLGAQ</stringValue>
+                <elementReference>Get_Notification_Type.Id</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -232,7 +232,7 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Send_Coachforce_Notification</targetReference>
+            <targetReference>Get_Notification_Type</targetReference>
         </connector>
     </assignments>
     <assignments>
@@ -250,6 +250,16 @@
         <connector>
             <targetReference>Update_Call_Transcript_Status</targetReference>
         </connector>
+    </assignments>
+    <assignments>
+        <name>Assignment</name>
+        <label>Assignment</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>recipientIds</assignToReference>
+            <operator>RemoveAll</operator>
+        </assignmentItems>
     </assignments>
     <assignments>
         <name>AssignTrend</name>
@@ -325,10 +335,10 @@
             <name>True</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>CF_Get_Agent_Record.CF_Hire_Date__c</leftValueReference>
-                <operator>LessThan</operator>
+                <leftValueReference>CF_Get_Agent_Record.CF_Coaching_Mode__c</leftValueReference>
+                <operator>EqualTo</operator>
                 <rightValue>
-                    <elementReference>TodayMinusFourteen</elementReference>
+                    <stringValue>Cruise Control</stringValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -440,11 +450,6 @@
         <name>linebreakString</name>
         <dataType>String</dataType>
         <expression>BR()</expression>
-    </formulas>
-    <formulas>
-        <name>TodayMinusFourteen</name>
-        <dataType>Date</dataType>
-        <expression> TODAY() - 14</expression>
     </formulas>
     <interviewLabel>Coachforce: Supervisor - Cruise Control {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Coachforce: Supervisor - Cruise Control</label>
@@ -700,6 +705,9 @@
         </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
         <object>User</object>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>CF_Hire_Date__c</queriedFields>
+        <queriedFields>CF_Coaching_Mode__c</queriedFields>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordLookups>
@@ -749,6 +757,28 @@
         </filters>
         <getFirstRecordOnly>false</getFirstRecordOnly>
         <object>CF_Evaluation_Result__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Notification_Type</name>
+        <label>Get Notification Type</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Send_Coachforce_Notification</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>CF_Coachforce_Notification</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>CustomNotificationType</object>
+        <queriedFields>Id</queriedFields>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordLookups>
@@ -812,6 +842,9 @@
     <start>
         <locationX>0</locationX>
         <locationY>0</locationY>
+        <connector>
+            <targetReference>Assignment</targetReference>
+        </connector>
         <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
         <filterLogic>and</filterLogic>
         <filters>

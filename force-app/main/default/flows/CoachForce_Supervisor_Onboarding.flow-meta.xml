@@ -74,7 +74,7 @@
         <inputParameters>
             <name>customNotifTypeId</name>
             <value>
-                <stringValue>0MLaj000001mbuLGAQ</stringValue>
+                <elementReference>Get_Custom_Notification.Id</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -199,7 +199,7 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Send_Coachforce_Notification</targetReference>
+            <targetReference>Get_Custom_Notification</targetReference>
         </connector>
     </assignments>
     <assignments>
@@ -260,10 +260,10 @@
             <name>True</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>CF_Get_Agent_Record.CF_Hire_Date__c</leftValueReference>
-                <operator>GreaterThanOrEqualTo</operator>
+                <leftValueReference>CF_Get_Agent_Record.CF_Coaching_Mode__c</leftValueReference>
+                <operator>EqualTo</operator>
                 <rightValue>
-                    <elementReference>TodayMinusFourteen</elementReference>
+                    <stringValue>Onboarding</stringValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -300,11 +300,6 @@
         <name>linebreakString</name>
         <dataType>String</dataType>
         <expression>BR()</expression>
-    </formulas>
-    <formulas>
-        <name>TodayMinusFourteen</name>
-        <dataType>Date</dataType>
-        <expression> TODAY() - 14</expression>
     </formulas>
     <interviewLabel>CoachForce - Supervisor - Onboarding {!$Flow.CurrentDateTime}</interviewLabel>
     <label>CoachForce - Supervisor - Onboarding</label>
@@ -507,6 +502,9 @@
         </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
         <object>User</object>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>CF_Hire_Date__c</queriedFields>
+        <queriedFields>CF_Coaching_Mode__c</queriedFields>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordLookups>
@@ -556,6 +554,28 @@
         </filters>
         <getFirstRecordOnly>false</getFirstRecordOnly>
         <object>CF_Evaluation_Result__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Custom_Notification</name>
+        <label>Get Custom Notification</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Send_Coachforce_Notification</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>CF_Coachforce_Notification</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>CustomNotificationType</object>
+        <queriedFields>Id</queriedFields>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordUpdates>
@@ -609,9 +629,6 @@
         </filters>
         <object>CF_Voice_Call__c</object>
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
-        <scheduledPaths>
-            <pathType>AsyncAfterCommit</pathType>
-        </scheduledPaths>
         <triggerType>RecordAfterSave</triggerType>
     </start>
     <status>Active</status>

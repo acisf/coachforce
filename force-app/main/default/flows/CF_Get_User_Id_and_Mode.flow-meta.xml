@@ -18,55 +18,10 @@
             <assignToReference>mode</assignToReference>
             <operator>Assign</operator>
             <value>
-                <stringValue>Onboarding</stringValue>
+                <elementReference>Get_User.CF_Coaching_Mode__c</elementReference>
             </value>
         </assignmentItems>
     </assignments>
-    <assignments>
-        <name>Assign_Tenured</name>
-        <label>Assign Tenured</label>
-        <locationX>0</locationX>
-        <locationY>0</locationY>
-        <assignmentItems>
-            <assignToReference>agentId</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>Get_User.Id</elementReference>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
-            <assignToReference>mode</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <stringValue>Cruise Control</stringValue>
-            </value>
-        </assignmentItems>
-    </assignments>
-    <decisions>
-        <name>Onboarding</name>
-        <label>Onboarding</label>
-        <locationX>0</locationX>
-        <locationY>0</locationY>
-        <defaultConnector>
-            <targetReference>Assign_Tenured</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>No</defaultConnectorLabel>
-        <rules>
-            <name>Yes_Onboarding</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Flow.CurrentDate</leftValueReference>
-                <operator>GreaterThanOrEqualTo</operator>
-                <rightValue>
-                    <elementReference>todayMinusOnboardingDays</elementReference>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Assign_Onboarding</targetReference>
-            </connector>
-            <label>Yes</label>
-        </rules>
-    </decisions>
     <description>Establishes the coaching context for the current user by identifying the logged-in agent and determining whether they are in Onboarding or Cruise Control mode based on tenure. This enables Coachforce to dynamically adapt coaching behavior—providing structured guidance for new agents and trend-based coaching for experienced agents—while simplifying integration with Agentforce actions.</description>
     <environments>Default</environments>
     <formulas>
@@ -102,7 +57,7 @@
         <locationY>0</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Onboarding</targetReference>
+            <targetReference>Assign_Onboarding</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -116,6 +71,7 @@
         <object>User</object>
         <queriedFields>Id</queriedFields>
         <queriedFields>CF_Hire_Date__c</queriedFields>
+        <queriedFields>CF_Coaching_Mode__c</queriedFields>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <start>
@@ -139,5 +95,8 @@
         <isCollection>false</isCollection>
         <isInput>false</isInput>
         <isOutput>true</isOutput>
+        <value>
+            <stringValue>Onboarding</stringValue>
+        </value>
     </variables>
 </Flow>
