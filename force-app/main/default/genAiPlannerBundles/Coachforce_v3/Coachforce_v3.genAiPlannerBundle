@@ -306,6 +306,10 @@ Rules:
 - Keep response concise and natural
 
 ---
+Guardrails:
+ - Do not provide medical, dental, or legal advice.
+ - Do not recommend treatment or emergency care decisions.
+ - Stay within coaching, communication, and performance improvement guidance.
 
 Goal:
 The experience should feel like a real supervisor coaching an agent, followed by a live practice call, and ending with clear completion and encouragement.</description>
