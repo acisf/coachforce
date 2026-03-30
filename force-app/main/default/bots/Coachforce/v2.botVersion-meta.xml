@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BotVersion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>v2</fullName>
+    <articleAnswersGPTEnabled>false</articleAnswersGPTEnabled>
+    <botDialogs>
+        <botSteps>
+            <botMessages>
+                <message>Hi, I’m Coachforce—your personal call coach. I’ll help you review your latest call feedback, improve key skills, and practice better responses in real time.
+
+Just say “get coaching session”</message>
+                <messageIdentifier>8ed1e4ff-ffaa-429e-a52e-39e79fd31b1b</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>dca128b2-f683-4698-bb5c-71cd7e32a6f2</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <stepIdentifier>d142fc7f-d5a4-4b27-95cc-32de02f57abc</stepIdentifier>
+            <type>Wait</type>
+        </botSteps>
+        <developerName>Welcome</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Welcome</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <botMessages>
+                <message>Something went wrong. Try again.</message>
+                <messageIdentifier>e862580a-cfaa-4316-95d7-edd0df8ba25c</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>0ac823e3-ee43-4e8a-bd08-8843e80f1158</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <stepIdentifier>85b58b5f-cbbd-4149-a5ab-a6af45ec75a6</stepIdentifier>
+            <type>Wait</type>
+        </botSteps>
+        <developerName>Rich_Content_Error_Handling</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Error Handler</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <citationsEnabled>false</citationsEnabled>
+    <company>Affordable Smiles</company>
+    <conversationDefinitionPlanners>
+        <genAiPlannerName>Coachforce_v3</genAiPlannerName>
+    </conversationDefinitionPlanners>
+    <conversationSystemDialogs>
+        <dialog>Rich_Content_Error_Handling</dialog>
+        <type>ErrorHandling</type>
+    </conversationSystemDialogs>
+    <conversationVariables>
+        <dataType>Text</dataType>
+        <description>The API name of the Salesforce object (such as Account or Opportunity) associated with the record the user wants to interact with. Do not use this if the user is already talking about another object in the conversation.</description>
+        <developerName>currentObjectApiName</developerName>
+        <includeInPrompt>true</includeInPrompt>
+        <label>Current Object API Name</label>
+        <visibility>External</visibility>
+    </conversationVariables>
+    <conversationVariables>
+        <dataType>Text</dataType>
+        <description>Salesforce Application Name.</description>
+        <developerName>currentAppName</developerName>
+        <includeInPrompt>true</includeInPrompt>
+        <label>Current App Name</label>
+        <visibility>External</visibility>
+    </conversationVariables>
+    <conversationVariables>
+        <dataType>Text</dataType>
+        <description>The ID of the record on the user&apos;s screen. It may not relate to the user&apos;s input. Only use this if the user input mentions &apos;this&apos;, &apos;current&apos;, &apos;the record&apos;, etc. If in doubt, don&apos;t use it.</description>
+        <developerName>currentRecordId</developerName>
+        <includeInPrompt>true</includeInPrompt>
+        <label>Current Record Id</label>
+        <visibility>External</visibility>
+    </conversationVariables>
+    <conversationVariables>
+        <dataType>Text</dataType>
+        <description>Type of Salesforce Page.</description>
+        <developerName>currentPageType</developerName>
+        <includeInPrompt>true</includeInPrompt>
+        <label>Current Page Type</label>
+        <visibility>External</visibility>
+    </conversationVariables>
+    <conversationVariables>
+        <dataType>Text</dataType>
+        <description>Stores the conversation history to provide context for answering questions. If the user says &apos;Continue from the preceding conversation&apos; and this variable has content, inform: &apos;I can answer questions and help you with tasks related to this page.&apos;</description>
+        <developerName>precedingConversation</developerName>
+        <includeInPrompt>true</includeInPrompt>
+        <label>Preceding Conversation</label>
+        <visibility>External</visibility>
+    </conversationVariables>
+    <conversationVariables>
+        <dataType>Text</dataType>
+        <description>This variable may also be referred to as VerifiedCustomerId</description>
+        <developerName>VerifiedCustomerId</developerName>
+        <includeInPrompt>false</includeInPrompt>
+        <label>Verified Customer ID</label>
+        <visibility>Internal</visibility>
+    </conversationVariables>
+    <conversationVariables>
+        <dataType>Text</dataType>
+        <description>Unique Id of the coaching session</description>
+        <developerName>coachingSessionId</developerName>
+        <includeInPrompt>false</includeInPrompt>
+        <label>coachingSessionId</label>
+        <visibility>Internal</visibility>
+    </conversationVariables>
+    <conversationVariables>
+        <dataType>Text</dataType>
+        <description>The Salesforce User Id of the currently logged-in agent.</description>
+        <developerName>agentId</developerName>
+        <includeInPrompt>false</includeInPrompt>
+        <label>agentId</label>
+        <visibility>Internal</visibility>
+    </conversationVariables>
+    <conversationVariables>
+        <dataType>Text</dataType>
+        <description>The coaching mode for the agent based on tenure.  Onboarding: New agents receive coaching after each evaluated call. Cruise Control: Calls are evaluated continuously, but coaching is generated only when recurring trends are detected.</description>
+        <developerName>mode</developerName>
+        <includeInPrompt>false</includeInPrompt>
+        <label>mode</label>
+        <visibility>Internal</visibility>
+    </conversationVariables>
+    <entryDialog>Welcome</entryDialog>
+    <intentDisambiguationEnabled>false</intentDisambiguationEnabled>
+    <intentV3Enabled>false</intentV3Enabled>
+    <knowledgeActionEnabled>false</knowledgeActionEnabled>
+    <knowledgeFallbackEnabled>false</knowledgeFallbackEnabled>
+    <role>Your job is to help the user review their latest coaching session, understand feedback from their call evaluation, see an improved response, and practice better performance.</role>
+    <smallTalkEnabled>false</smallTalkEnabled>
+    <staticPromptsEnabled>true</staticPromptsEnabled>
+    <stopRecPrompts>false</stopRecPrompts>
+    <stopWelcomePrompts>false</stopWelcomePrompts>
+    <surfacesEnabled>false</surfacesEnabled>
+    <toneType>Casual</toneType>
+    <welcomeRecommendations>
+        <staticUtterance>Get coaching session</staticUtterance>
+    </welcomeRecommendations>
+    <welcomeRecommendations>
+        <staticUtterance>Review my last call</staticUtterance>
+    </welcomeRecommendations>
+    <welcomeRecommendations>
+        <staticUtterance>Review my evaluation stats</staticUtterance>
+    </welcomeRecommendations>
+</BotVersion>

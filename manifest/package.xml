@@ -161,6 +161,15 @@
     </types>
 
     <types>
+    <members>*</members>
+    <name>Bot</name>
+</types>
+<types>
+    <members>*</members>
+    <name>BotVersion</name>
+</types>
+
+    <types>
         <members>Coachforce_v3</members>
         <name>GenAiPlannerBundle</name>
     </types>
