@@ -136,24 +136,10 @@
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
-            <field>CF_Agent__c</field>
+            <field>Id</field>
             <operator>EqualTo</operator>
             <value>
                 <elementReference>coachingSessionId</elementReference>
-            </value>
-        </filters>
-        <filters>
-            <field>CF_Mode__c</field>
-            <operator>EqualTo</operator>
-            <value>
-                <stringValue>Cruise Control</stringValue>
-            </value>
-        </filters>
-        <filters>
-            <field>CF_Rehearsal_Completed__c</field>
-            <operator>EqualTo</operator>
-            <value>
-                <booleanValue>false</booleanValue>
             </value>
         </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>

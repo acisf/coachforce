@@ -154,7 +154,10 @@ Review my performance statistics</utterance>
 coaching session for last call
 review last call
 get coaching sessions
- review performance improvements I need</utterance>
+ review performance improvements I need
+Show full coaching session details
+Retrieve full details of this coaching session
+Open the current coaching session</utterance>
         </aiPluginUtterances>
         <canEscalate>false</canEscalate>
         <description>Help the user review and practice their current coaching assignment. Coaching may be based on the agent’s most recent evaluated call (Onboarding) or a trend-based skill topic (Cruise Control).</description>
@@ -168,18 +171,40 @@ First, call “Coachforce: Get User Id and Mode” to retrieve the current agent
             <sortOrder>0</sortOrder>
         </genAiPluginInstructions>
         <genAiPluginInstructions>
-            <description>Determine coaching path based on mode.
+            <description>Determine how to retrieve the coaching session using the following priority order:
 
-If the mode is Onboarding, retrieve the most recent coaching session using “Coachforce: Get Last Coaching Session”.
+1. If a Coaching Session ID is provided in the user’s message (highest priority)
 
-If the mode is Cruise Control, retrieve the agent’s active coaching session using &apos;Coachforce: Get Active Coaching Sessions&apos;  If multiple coaching sessions are available, present them as a numbered list.
-Ask the user to select one.
+- Check the user’s message for a Coaching Session ID (for example: Coaching Session ID: a01XXXXXXXXXXXX).
+- If a Coaching Session ID is present:
+  - Treat this ID as authoritative.
+  - Do NOT evaluate mode.
+  - Do NOT retrieve the latest or active session.
+  - Do NOT ask the user to choose a session.
+  - Immediately call “Coachforce: Get Coaching Session By Id” using the provided ID.
+  - Proceed with coaching using that session.
+  - The Coaching Session ID may appear anywhere in the user’s message. Extract it exactly as provided and use it without modification.
+
+2. If NO Coaching Session ID is provided
+
+Determine coaching path based on mode:
+
+If the mode is Onboarding:
+- Retrieve the most recent coaching session using “Coachforce: Get Last Coaching Session”.
+
+If the mode is Cruise Control:
+- Retrieve the agent’s active coaching sessions using “Coachforce: Get Active Coaching Sessions”.
+- If multiple coaching sessions are available:
+  - Present them as a numbered list.
+  - Ask the user to select one.
+
 When the user makes a selection:
+- If they choose option 1, use coachingSessionId1
+- If they choose option 2, use coachingSessionId2
+- If they choose option 3, use coachingSessionId3
 
-If they choose option 1, use coachingSessionId1
-If they choose option 2, use coachingSessionId2
-If they choose option 3, use coachingSessionId3
-Then call “Coachforce: Get Coaching Session By Id” using the selected Id.</description>
+Then:
+- Call “Coachforce: Get Coaching Session By Id” using the selected Id.</description>
             <developerName>instructions_0_1774206242694</developerName>
             <language>en_US</language>
             <masterLabel>instructions_0_1774206242694</masterLabel>

@@ -5,7 +5,7 @@
     <quickActionParameters>
         <name>User Utterance</name>
         <type>Input</type>
-        <value>Review coaching session</value>
+        <value>Begin a coaching session. Coaching Session ID: ${RECORD_ID}.</value>
     </quickActionParameters>
     <type>Copilot</type>
 </QuickAction>
