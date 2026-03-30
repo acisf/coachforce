@@ -2,7 +2,7 @@
     background: #ffffff;
     border: 1px solid #d8dde6;
     border-radius: 0.75rem;
-   overflow: visible;
+    overflow: visible;
 }
 
 .wrapup-header {
@@ -29,6 +29,27 @@
 
 .form-section {
     margin-bottom: 1rem;
+}
+
+.saving-status {
+    margin-top: 0.75rem;
+    margin-bottom: 1rem;
+    padding: 0.85rem 1rem;
+    border: 1px solid #d8e6f7;
+    border-radius: 0.75rem;
+    background: #f4f8fc;
+}
+
+.saving-status__main {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #16325c;
+    margin-bottom: 0.25rem;
+}
+
+.saving-status__sub {
+    font-size: 0.875rem;
+    color: #5c6f82;
 }
 
 .button-row {

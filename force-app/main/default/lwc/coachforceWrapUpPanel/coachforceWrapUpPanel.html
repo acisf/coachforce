@@ -32,6 +32,17 @@
                     </lightning-input-field>
                 </div>
 
+                <template lwc:if={isSaving}>
+                    <div class="saving-status" aria-live="polite">
+                        <div class="saving-status__main">
+                            {animatedStatusMessage}
+                        </div>
+                        <div class="saving-status__sub">
+                            Coachforce is reviewing your call like a boss.
+                        </div>
+                    </div>
+                </template>
+
                 <div class="button-row">
                     <lightning-button
                         type="submit"
