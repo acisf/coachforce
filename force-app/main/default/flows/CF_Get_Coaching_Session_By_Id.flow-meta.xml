@@ -143,13 +143,6 @@
             </value>
         </filters>
         <filters>
-            <field>CF_Mode__c</field>
-            <operator>EqualTo</operator>
-            <value>
-                <stringValue>Cruise Control</stringValue>
-            </value>
-        </filters>
-        <filters>
             <field>CF_Rehearsal_Completed__c</field>
             <operator>EqualTo</operator>
             <value>
